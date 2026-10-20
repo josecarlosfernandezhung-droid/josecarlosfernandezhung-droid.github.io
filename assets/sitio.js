@@ -118,6 +118,25 @@ function inicializarInterfaz() {
       actualizarPedidoUI();
     });
   }
+
+  // 9. Control del menú hamburguesa en móviles
+  const btnMenu = document.getElementById("btnMenu");
+  const navMenu = document.getElementById("menu");
+
+  if (btnMenu && navMenu) {
+    btnMenu.addEventListener("click", () => {
+      const abierto = btnMenu.getAttribute("aria-expanded") === "true";
+      btnMenu.setAttribute("aria-expanded", !abierto);
+      navMenu.classList.toggle("abierto", !abierto);
+    });
+
+    navMenu.querySelectorAll("a").forEach(enlace => {
+      enlace.addEventListener("click", () => {
+        btnMenu.setAttribute("aria-expanded", "false");
+        navMenu.classList.remove("abierto");
+      });
+    });
+  }
 }
 
 /* ROTATIVA DE PALABRAS */
@@ -201,30 +220,25 @@ function renderizarProductos() {
 
   let prods = [...CATALOGO.productos];
 
-  // Filtro por categoría
   if (CATEGORIA_SELECCIONADA !== "todas") {
     prods = prods.filter(p => p.categoria === CATEGORIA_SELECCIONADA);
   }
 
-  // Filtro Ofertas
   const fOfertas = document.getElementById("fOfertas");
   if (fOfertas && fOfertas.getAttribute("aria-pressed") === "true") {
     prods = prods.filter(p => p.precioOferta !== null && p.precioOferta < p.precio);
   }
 
-  // Filtro Disponibles
   const fDisponibles = document.getElementById("fDisponibles");
   if (fDisponibles && fDisponibles.getAttribute("aria-pressed") === "true") {
     prods = prods.filter(p => !p.agotado);
   }
 
-  // Buscador
   const q = (document.getElementById("buscar")?.value || "").toLowerCase().trim();
   if (q) {
     prods = prods.filter(p => p.nombre.toLowerCase().includes(q) || (p.resumen && p.resumen.toLowerCase().includes(q)));
   }
 
-  // Orden
   const ord = document.getElementById("orden")?.value || "rel";
   if (ord === "asc") prods.sort((a, b) => a.precio - b.precio);
   if (ord === "desc") prods.sort((a, b) => b.precio - a.precio);
@@ -275,7 +289,7 @@ function renderizarProductos() {
   });
 }
 
-/* FICHA COMPLETA DE PRODUCTO (MODAL AL TOCAR LA MINIATURA) */
+/* FICHA COMPLETA DE PRODUCTO (MODAL) */
 window.abrirFichaProducto = function(id) {
   const p = CATALOGO.productos.find(item => item.id === id);
   if (!p) return;
@@ -283,8 +297,6 @@ window.abrirFichaProducto = function(id) {
   const dlg = document.getElementById("ficha");
   const cuerpo = document.getElementById("fichaCuerpo");
   if (!dlg || !cuerpo) return;
-
-  const precioFinal = p.precioOferta ? p.precioOferta : p.precio;
 
   cuerpo.innerHTML = `
     <div class="ficha-foto">
