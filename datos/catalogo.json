@@ -1,49 +1,163 @@
 {
+ "version": 1,
+ "marca": {
+  "nombre": "ToTo Tools",
+  "descripcion": "Ferretería Los Hermanos! (ToTo Tools) — Herramientas eléctricas, manuales, accesorios y artículos de ferretería en Santiago de Cuba."
+ },
+ "contacto": {
   "whatsapp": "5356950485",
-  "monedaPorDefecto": "USD",
-  "monedas": {
-    "USD": {"simbolo": "$", "nombre": "USD", "tasa": 1}
-  },
-  "condiciones": {
-    "pedido": "Los pedidos se confirman por WhatsApp y se coordinan para entrega o recogida rápida en Santiago de Cuba.",
-    "entrega": "Atención directa en Santiago de Cuba."
-  },
-  "categorias": [
-    {"id": "electricas", "nombre": "Herramientas Eléctricas", "icono": "codigo"},
-    {"id": "manuales", "nombre": "Herramientas Manuales", "icono": "caja"},
-    {"id": "accesorios", "nombre": "Discos y Brocas", "icono": "escudo"},
-    {"id": "fontaneria", "nombre": "Fontanería y Gasfitería", "icono": "llave"}
+  "whatsappPedidos": "5356950485",
+  "telefono2": "5358127001",
+  "correo": "tototools.stgo@gmail.com",
+  "direccion": "Santiago de Cuba, Cuba",
+  "coordenadas": [
+   20.026487,
+   -75.821276
   ],
-  "productos": [
-    {
-      "id": "taladro-percutor",
-      "nombre": "Taladro Percutor Profesional",
-      "categoria": "electricas",
-      "precio": 65.00,
-      "precioOferta": 58.00,
-      "resumen": "Taladro de alta potencia con velocidad variable y función percutora.",
-      "descripcion": "Excelente rendimiento para trabajos en concreto, madera y metal. Diseño ergonómico y mandril de alta resistencia.",
-      "foto": "",
-      "agotado": false,
-      "nuevo": true,
-      "destacado": true,
-      "visible": true,
-      "orden": 1
-    },
-    {
-      "id": "juego-llaves",
-      "nombre": "Juego de Llaves Combinadas (12 piezas)",
-      "categoria": "manuales",
-      "precio": 25.00,
-      "precioOferta": null,
-      "resumen": "Juego de llaves mixtas de acero al cromo-vanadio.",
-      "descripcion": "Incluye estuche organizador. Medidas esenciales para mecánica, talleres y mantenimiento general.",
-      "foto": "",
-      "agotado": false,
-      "nuevo": false,
-      "destacado": true,
-      "visible": true,
-      "orden": 2
-    }
+  "telegram": "",
+  "facebook": "",
+  "instagram": "",
+  "youtube": ""
+ },
+ "horario": {
+  "zona": "America/Havana",
+  "modo": "horario",
+  "dias": {
+   "lun": ["08:00", "18:00"],
+   "mar": ["08:00", "18:00"],
+   "mie": ["08:00", "18:00"],
+   "jue": ["08:00", "18:00"],
+   "vie": ["08:00", "18:00"],
+   "sab": ["08:00", "14:00"],
+   "dom": null
+  }
+ },
+ "monedas": {
+  "base": "USD",
+  "porDefecto": "USD",
+  "lista": [
+   {
+    "codigo": "USD",
+    "nombre": "Dólar",
+    "simbolo": "$",
+    "tasa": 1,
+    "activa": true
+   },
+   {
+    "codigo": "CUP",
+    "nombre": "Peso cubano",
+    "simbolo": "$",
+    "tasa": 400,
+    "activa": true
+   }
   ]
+ },
+ "aviso": {
+  "activo": false,
+  "texto": "",
+  "producto": ""
+ },
+ "portada": {
+  "etiqueta": "Herramientas · Ferretería · Santiago de Cuba",
+  "titulo": "Herramientas y ferretería de calidad para tu taller u hogar",
+  "rotativas": [
+   "talleres",
+   "reparaciones",
+   "construcción",
+   "plomería",
+   "carpintería"
+  ],
+  "texto": "Herramientas eléctricas, manuales, discos de corte, accesorios y suministros. Calidad garantizada con atención y entrega en Santiago de Cuba.",
+  "fotos": [],
+  "sello": "Ferretería Los Hermanos! — Calidad y garantía asegurada"
+ },
+ "cifras": [
+  {
+   "valor": "100%",
+   "texto": "productos revisados"
+  },
+  {
+   "valor": "Variedad",
+   "texto": "en herramientas y accesorios"
+  },
+  {
+   "valor": "Santiago",
+   "texto": "entrega rápida y directa"
+  }
+ ],
+ "soluciones": {
+  "titulo": "Especialidades y Artículos de Ferretería",
+  "texto": "Contamos con surtido especializado para trabajos de cerrajería, plomería, electricidad, mecánica y mantenimiento general."
+ },
+ "tienda": {
+  "titulo": "El Catálogo",
+  "texto": "Selecciona los artículos que necesitas, arma tu pedido y envíalo directamente por WhatsApp."
+ },
+ "pasos": [
+  {
+   "titulo": "Eliges tus productos",
+   "texto": "Navega por el catálogo y agrega al pedido las herramientas o materiales que necesitas."
+  },
+  {
+   "titulo": "Nos escribes por WhatsApp",
+   "texto": "Confirmamos disponibilidad inmediata, precios y coordinamos los detalles de la compra."
+  },
+  {
+   "titulo": "Recibes tu pedido",
+   "texto": "Concretamos la entrega o recogida rápidamente en Santiago de Cuba."
+  }
+ ],
+ "preguntas": [
+  {
+   "pregunta": "¿Cómo hago un pedido?",
+   "respuesta": "Agrega los productos al pedido y presiona «Enviar por WhatsApp». El mensaje se enviará automáticamente con la lista de tus artículos."
+  },
+  {
+   "pregunta": "¿Dónde se encuentran ubicados?",
+   "respuesta": "Estamos en Santiago de Cuba. Ofrecemos atención directa y gestión rápida de pedidos."
+  }
+ ],
+ "testimonios": [],
+ "condiciones": {
+  "pedido": "Los pedidos se confirman vía WhatsApp.",
+  "entrega": "Entrega en Santiago de Cuba."
+ },
+ "categorias": [
+  {"id": "electricas", "nombre": "Herramientas Eléctricas", "icono": "codigo"},
+  {"id": "manuales", "nombre": "Herramientas Manuales", "icono": "caja"},
+  {"id": "accesorios", "nombre": "Discos y Brocas", "icono": "escudo"},
+  {"id": "fontaneria", "nombre": "Fontanería y Gasfitería", "icono": "llave"}
+ ],
+ "productos": [
+  {
+   "id": "taladro-percutor",
+   "nombre": "Taladro Percutor Profesional",
+   "categoria": "electricas",
+   "precio": 58,
+   "precioOferta": null,
+   "resumen": "Velocidad variable y función percutora.",
+   "descripcion": "Excelente rendimiento para trabajos en concreto, madera y metal.",
+   "foto": "",
+   "agotado": false,
+   "nuevo": true,
+   "destacado": true,
+   "visible": true,
+   "orden": 0
+  },
+  {
+   "id": "juego-llaves",
+   "nombre": "Juego de Llaves Combinadas",
+   "categoria": "manuales",
+   "precio": 25,
+   "precioOferta": null,
+   "resumen": "12 piezas en acero cromo-vanadio.",
+   "descripcion": "Incluye estuche organizador. Medidas esenciales para taller o casa.",
+   "foto": "",
+   "agotado": false,
+   "nuevo": false,
+   "destacado": true,
+   "visible": true,
+   "orden": 1
+  }
+ ]
 }
