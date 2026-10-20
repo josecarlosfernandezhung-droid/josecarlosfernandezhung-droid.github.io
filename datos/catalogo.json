@@ -2,7 +2,7 @@
  "version": 1,
  "marca": {
   "nombre": "ToTo Tools",
-  "descripcion": "Ferretería Los Hermanos! (ToTo Tools) — Herramientas eléctricas, manuales, accesorios y artículos de ferretería en Santiago de Cuba."
+  "descripcion": "Ferretería Los Hermanos! (ToTo Tools) — Herramientas y artículos de ferretería en Santiago de Cuba."
  },
  "contacto": {
   "whatsapp": "5356950485",
@@ -23,31 +23,31 @@
   "zona": "America/Havana",
   "modo": "horario",
   "dias": {
-   "lun": ["08:00", "18:00"],
-   "mar": ["08:00", "18:00"],
-   "mie": ["08:00", "18:00"],
-   "jue": ["08:00", "18:00"],
-   "vie": ["08:00", "18:00"],
-   "sab": ["08:00", "14:00"],
+   "lun": ["09:00", "17:00"],
+   "mar": ["09:00", "17:00"],
+   "mie": ["09:00", "17:00"],
+   "jue": ["09:00", "17:00"],
+   "vie": ["09:00", "17:00"],
+   "sab": ["09:00", "17:00"],
    "dom": null
   }
  },
  "monedas": {
-  "base": "USD",
-  "porDefecto": "USD",
+  "base": "CUP",
+  "porDefecto": "CUP",
   "lista": [
    {
-    "codigo": "USD",
-    "nombre": "Dólar",
+    "codigo": "CUP",
+    "nombre": "Peso cubano",
     "simbolo": "$",
     "tasa": 1,
     "activa": true
    },
    {
-    "codigo": "CUP",
-    "nombre": "Peso cubano",
+    "codigo": "USD",
+    "nombre": "Dólar",
     "simbolo": "$",
-    "tasa": 400,
+    "tasa": 0.0025,
     "activa": true
    }
   ]
@@ -59,7 +59,7 @@
  },
  "portada": {
   "etiqueta": "Herramientas · Ferretería · Santiago de Cuba",
-  "titulo": "Herramientas y ferretería de calidad para tu taller u hogar",
+  "titulo": "Herramientas y ferretería de calidad en Santiago de Cuba",
   "rotativas": [
    "talleres",
    "reparaciones",
@@ -69,7 +69,7 @@
   ],
   "texto": "Herramientas eléctricas, manuales, discos de corte, accesorios y suministros. Calidad garantizada con atención y entrega en Santiago de Cuba.",
   "fotos": [],
-  "sello": "Ferretería Los Hermanos! — Calidad y garantía asegurada"
+  "sello": "Ferretería Los Hermanos! — ToTo Tools"
  },
  "cifras": [
   {
@@ -100,21 +100,25 @@
   },
   {
    "titulo": "Nos escribes por WhatsApp",
-   "texto": "Confirmamos disponibilidad inmediata, precios y coordinamos los detalles de la compra."
+   "texto": "Confirmamos disponibilidad inmediata, precios y coordinamos los detalles de la entrega."
   },
   {
    "titulo": "Recibes tu pedido",
-   "texto": "Concretamos la entrega o recogida rápidamente en Santiago de Cuba."
+   "texto": "Concretamos la entrega rápida o recogida directamente en Santiago de Cuba."
   }
  ],
  "preguntas": [
   {
    "pregunta": "¿Cómo hago un pedido?",
-   "respuesta": "Agrega los productos al pedido y presiona «Enviar por WhatsApp». El mensaje se enviará automáticamente con la lista de tus artículos."
+   "respuesta": "Agrega los productos al pedido y presiona «Enviar por WhatsApp». El mensaje se enviará automáticamente formateado con la lista de tus artículos."
   },
   {
    "pregunta": "¿Dónde se encuentran ubicados?",
-   "respuesta": "Estamos en Santiago de Cuba. Ofrecemos atención directa y gestión rápida de pedidos."
+   "respuesta": "Estamos ubicados en Santiago de Cuba. Ofrecemos atención directa y gestión rápida de pedidos."
+  },
+  {
+   "pregunta": "¿Cómo realizan las entregas?",
+   "respuesta": "Coordinamos el envío directo en Santiago de Cuba o la recogida en el punto acordado al momento de confirmar el pedido por WhatsApp."
   }
  ],
  "testimonios": [],
@@ -133,7 +137,7 @@
    "id": "taladro-percutor",
    "nombre": "Taladro Percutor Profesional",
    "categoria": "electricas",
-   "precio": 58,
+   "precio": 23200,
    "precioOferta": null,
    "resumen": "Velocidad variable y función percutora.",
    "descripcion": "Excelente rendimiento para trabajos en concreto, madera y metal.",
@@ -148,7 +152,7 @@
    "id": "juego-llaves",
    "nombre": "Juego de Llaves Combinadas",
    "categoria": "manuales",
-   "precio": 25,
+   "precio": 10000,
    "precioOferta": null,
    "resumen": "12 piezas en acero cromo-vanadio.",
    "descripcion": "Incluye estuche organizador. Medidas esenciales para taller o casa.",
