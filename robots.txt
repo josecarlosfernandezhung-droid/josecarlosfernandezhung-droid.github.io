@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /editar/
+Sitemap: https://josecarlosfernandezhung-droid.github.io/sitemap.xml
