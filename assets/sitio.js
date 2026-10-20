@@ -1,6 +1,5 @@
-/* ToTo Tools — Ferretería Los Hermanos!
-   Lógica interactiva completa: catálogo, modal de ficha de producto,
-   carrito de pedido por WhatsApp, cambio de moneda y animaciones. */
+/* ToTo Tools — Ferretería Los Hermanos! (Santiago de Cuba)
+   Lógica interactiva completa, sincronización de precios y carrito WhatsApp. */
 
 let CATALOGO = null;
 let PEDIDO = {};
@@ -9,7 +8,7 @@ let MONEDA_ACTUAL = "CUP";
 document.addEventListener("DOMContentLoaded", async () => {
   await cargarCatalogo();
   inicializarInterfaz();
-  inicializarAnimaciones();
+  inicializarProgreso();
 });
 
 async function cargarCatalogo() {
@@ -22,115 +21,63 @@ async function cargarCatalogo() {
     }
   } catch (err) {
     console.error("Error cargando el catálogo:", err);
-    mostrarErrorCarga();
-  }
-}
-
-function mostrarErrorCarga() {
-  const catEl = document.getElementById("catalogo");
-  if (catEl) {
-    catEl.innerHTML = `
-      <div class="vacio" style="grid-column: 1/-1;">
-        <b>No se pudo cargar el catálogo.</b>
-        <span>Por favor, recarga la página o contáctanos directamente por WhatsApp al <strong>+53 56950485</strong>.</span>
-        <button type="button" class="btn btn-tinta" onclick="location.reload()">Reintentar</button>
-      </div>`;
   }
 }
 
 function inicializarInterfaz() {
   if (!CATALOGO) return;
 
-  // 1. Configurar datos de contacto y WhatsApp
+  // 1. WhatsApp y contactos
   const telWsp = CATALOGO.contacto?.whatsapp || "5356950485";
   document.querySelectorAll("[data-wa]").forEach(el => {
-    el.href = `https://wa.me/${telWsp}?text=${encodeURIComponent("Hola, quisiera información sobre sus productos de ferretería.")}`;
+    el.href = `https://wa.me/${telWsp}?text=${encodeURIComponent("Hola, quisiera información sobre herramientas en ToTo Tools.")}`;
   });
 
-  // 2. Textos dinámicos en la portada
-  const txtEtiqueta = document.querySelector('[data-t="portada.etiqueta"]');
-  if (txtEtiqueta) txtEtiqueta.innerText = CATALOGO.portada?.etiqueta || "Ferretería Los Hermanos!";
-
-  const txtTitulo = document.querySelector('[data-t="portada.titulo"]');
-  if (txtTitulo) txtTitulo.innerText = CATALOGO.portada?.titulo || "Herramientas y ferretería de calidad en Santiago de Cuba";
-
-  const txtTexto = document.querySelector('[data-t="portada.texto"]');
-  if (txtTexto) txtTexto.innerText = CATALOGO.portada?.texto || "Herramientas eléctricas, manuales, accesorios y suministros de ferretería.";
-
-  // 3. Rotador de palabras en la portada
-  iniciarRotativa(CATALOGO.portada?.rotativas || ["talleres", "reparaciones", "construcción", "plomería"]);
-
-  // 4. Renderizar Bento Grid / Especialidades
+  // 2. Elementos visuales dinámicos
+  iniciarRotativa(CATALOGO.portada?.rotativas || ["talleres", "reparaciones", "construcción"]);
+  iniciarFotosPortada(CATALOGO.portada?.fotos || []);
   renderizarBento();
-
-  // 5. Renderizar Filtros y Productos
   renderizarFiltros();
   renderizarProductos();
-
-  // 6. Monedas
   inicializarMonedas();
-
-  // 7. Renderizar secciones de Pasos, Preguntas y Horario
   renderizarPasos();
   renderizarPreguntas();
   renderizarHorario();
 
-  // 8. Eventos de búsqueda y orden
-  const inpBuscar = document.getElementById("buscar");
-  if (inpBuscar) inpBuscar.addEventListener("input", renderizarProductos);
+  // 3. Eventos buscador y filtros
+  document.getElementById("buscar")?.addEventListener("input", renderizarProductos);
+  document.getElementById("orden")?.addEventListener("change", renderizarProductos);
 
-  const selOrden = document.getElementById("orden");
-  if (selOrden) selOrden.addEventListener("change", renderizarProductos);
-
-  const btnOfertas = document.getElementById("fOfertas");
-  if (btnOfertas) {
-    btnOfertas.addEventListener("click", () => {
-      const activo = btnOfertas.getAttribute("aria-pressed") === "true";
-      btnOfertas.setAttribute("aria-pressed", !activo);
-      renderizarProductos();
-    });
-  }
-
-  const btnDisponibles = document.getElementById("fDisponibles");
-  if (btnDisponibles) {
-    btnDisponibles.addEventListener("click", () => {
-      const activo = btnDisponibles.getAttribute("aria-pressed") === "true";
-      btnDisponibles.setAttribute("aria-pressed", !activo);
-      renderizarProductos();
-    });
-  }
-
-  // 9. Eventos de Modal de Pedido
-  const btnAbrirPedido = document.getElementById("abrirPedido");
-  const btnPedidoFlotante = document.getElementById("pedidoFlotante");
-  const dlgPedido = document.getElementById("pedido");
-
-  const abrirPedido = () => { if (dlgPedido) dlgPedido.showModal(); };
-  if (btnAbrirPedido) btnAbrirPedido.addEventListener("click", abrirPedido);
-  if (btnPedidoFlotante) btnPedidoFlotante.addEventListener("click", abrirPedido);
-
-  document.querySelectorAll("[data-cerrar]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const diag = btn.closest("dialog");
-      if (diag) diag.close();
-    });
+  document.getElementById("fOfertas")?.addEventListener("click", (e) => {
+    const activo = e.target.getAttribute("aria-pressed") === "true";
+    e.target.setAttribute("aria-pressed", !activo);
+    renderizarProductos();
   });
 
-  const formPedido = document.getElementById("pedidoForm");
-  if (formPedido) formPedido.addEventListener("submit", enviarPedidoWhatsApp);
+  document.getElementById("fDisponibles")?.addEventListener("click", (e) => {
+    const activo = e.target.getAttribute("aria-pressed") === "true";
+    e.target.setAttribute("aria-pressed", !activo);
+    renderizarProductos();
+  });
 
-  const btnVaciar = document.getElementById("vaciar");
-  if (btnVaciar) {
-    btnVaciar.addEventListener("click", () => {
-      PEDIDO = {};
-      actualizarPedidoUI();
-    });
-  }
+  // 4. Modales de pedido
+  const dlgPedido = document.getElementById("pedido");
+  document.getElementById("abrirPedido")?.addEventListener("click", () => dlgPedido?.showModal());
+  document.getElementById("pedidoFlotante")?.addEventListener("click", () => dlgPedido?.showModal());
 
-  // 10. Control del menú hamburguesa en móviles
+  document.querySelectorAll("[data-cerrar]").forEach(btn => {
+    btn.addEventListener("click", () => btn.closest("dialog")?.close());
+  });
+
+  document.getElementById("pedidoForm")?.addEventListener("submit", enviarPedidoWhatsApp);
+  document.getElementById("vaciar")?.addEventListener("click", () => {
+    PEDIDO = {};
+    actualizarPedidoUI();
+  });
+
+  // 5. Menú hamburguesa móvil
   const btnMenu = document.getElementById("btnMenu");
   const navMenu = document.getElementById("menu");
-
   if (btnMenu && navMenu) {
     btnMenu.addEventListener("click", () => {
       const abierto = btnMenu.getAttribute("aria-expanded") === "true";
@@ -147,13 +94,12 @@ function inicializarInterfaz() {
   }
 }
 
-/* ROTATIVA DE PALABRAS */
+/* ROTATIVA Y FOTOS PORTADA */
 function iniciarRotativa(lista) {
   const el = document.getElementById("rotativa");
   if (!el || !lista.length) return;
   let idx = 0;
   el.innerText = lista[0];
-
   setInterval(() => {
     idx = (idx + 1) % lista.length;
     el.style.opacity = "0";
@@ -164,32 +110,56 @@ function iniciarRotativa(lista) {
   }, 2800);
 }
 
-/* BENTO GRID */
+function iniciarFotosPortada(fotos) {
+  const contenedor = document.getElementById("escenaFotos");
+  if (!contenedor || !fotos.length) return;
+  contenedor.innerHTML = "";
+  fotos.forEach((src, i) => {
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = "ToTo Tools";
+    if (i === 0) img.classList.add("activa");
+    contenedor.appendChild(img);
+  });
+
+  if (fotos.length > 1) {
+    let idx = 0;
+    const imgs = contenedor.querySelectorAll("img");
+    setInterval(() => {
+      imgs[idx].classList.remove("activa");
+      idx = (idx + 1) % imgs.length;
+      imgs[idx].classList.add("activa");
+    }, 4500);
+  }
+}
+
+/* BENTO GRID CON FOTOS REALES */
 function renderizarBento() {
   const container = document.getElementById("bento");
   if (!container) return;
-
   container.innerHTML = `
     <div class="bloque grande">
+      <div class="bloque-foto"><img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=80" alt="Herramientas Eléctricas"></div>
       <div class="bloque-txt">
         <h3>Herramientas Eléctricas</h3>
         <p>Taladros, esmeriladoras y sierras de alta durabilidad para trabajo pesado.</p>
       </div>
     </div>
     <div class="bloque medio">
+      <div class="bloque-foto"><img src="https://images.unsplash.com/photo-1581147036324-c17ac41dfa6c?auto=format&fit=crop&w=600&q=80" alt="Herramientas Manuales"></div>
       <div class="bloque-txt">
         <h3>Herramientas Manuales</h3>
         <p>Juegos de llaves, alicates, destornilladores y martillos profesionales.</p>
       </div>
     </div>
     <div class="bloque">
-      <div class="bloque-txt">
+      <div class="bloque-txt" style="padding-top:24px;">
         <h3>Discos y Brocas</h3>
         <p>Consumibles de corte y perforación para metal, concreto y madera.</p>
       </div>
     </div>
     <div class="bloque">
-      <div class="bloque-txt">
+      <div class="bloque-txt" style="padding-top:24px;">
         <h3>Fontanería y Gasfitería</h3>
         <p>Cintas de teflón, uniones, válvulas y accesorios para tuberías.</p>
       </div>
@@ -220,49 +190,39 @@ window.seleccionarCategoria = function(catId, btn) {
   renderizarProductos();
 };
 
-/* CONVERSIÓN DE PRECIOS SEGÚN MONEDA */
-function formatearPrecio(precioBaseUSD) {
+/* CONVERSIÓN DE PRECIOS */
+function formatearPrecio(precioBase) {
   const infoMoneda = CATALOGO.monedas?.lista?.find(m => m.codigo === MONEDA_ACTUAL);
-  if (!infoMoneda) return `${precioBaseUSD.toFixed(2)} CUP`;
+  if (!infoMoneda) return `${precioBase} CUP`;
 
-  // Si la base en el JSON es CUP y la tasa es respecto a CUP
-  let valorFinal = precioBaseUSD;
+  let valor = precioBase;
   if (CATALOGO.monedas.base === "CUP" && MONEDA_ACTUAL === "USD") {
-    valorFinal = precioBaseUSD * infoMoneda.tasa; // Tasa USD respecto a CUP
-  } else if (CATALOGO.monedas.base === "USD" && MONEDA_ACTUAL === "CUP") {
-    valorFinal = precioBaseUSD * infoMoneda.tasa;
+    valor = precioBase * infoMoneda.tasa;
   }
-
   const simbolo = infoMoneda.simbolo || "$";
-  return `${simbolo}${valorFinal.toLocaleString('es-CU', {minimumFractionDigits: 2, maximumFractionDigits: 2})} ${MONEDA_ACTUAL}`;
+  return `${simbolo}${valor.toLocaleString('es-CU', {minimumFractionDigits: 0, maximumFractionDigits: 2})} ${MONEDA_ACTUAL}`;
 }
 
-/* RENDERIZADO DE PRODUCTOS */
+/* PRODUCTOS */
 function renderizarProductos() {
   const container = document.getElementById("catalogo");
   const vacio = document.getElementById("vacio");
+  const resInfo = document.getElementById("resultadoInfo");
   if (!container || !CATALOGO.productos) return;
 
   let prods = [...CATALOGO.productos];
-
   if (CATEGORIA_SELECCIONADA !== "todas") {
     prods = prods.filter(p => p.categoria === CATEGORIA_SELECCIONADA);
   }
 
-  const fOfertas = document.getElementById("fOfertas");
-  if (fOfertas && fOfertas.getAttribute("aria-pressed") === "true") {
-    prods = prods.filter(p => p.precioOferta !== null && p.precioOferta < p.precio);
-  }
+  const fOfertas = document.getElementById("fOfertas")?.getAttribute("aria-pressed") === "true";
+  if (fOfertas) prods = prods.filter(p => p.precioOferta !== null && p.precioOferta < p.precio);
 
-  const fDisponibles = document.getElementById("fDisponibles");
-  if (fDisponibles && fDisponibles.getAttribute("aria-pressed") === "true") {
-    prods = prods.filter(p => !p.agotado);
-  }
+  const fDisponibles = document.getElementById("fDisponibles")?.getAttribute("aria-pressed") === "true";
+  if (fDisponibles) prods = prods.filter(p => !p.agotado);
 
   const q = (document.getElementById("buscar")?.value || "").toLowerCase().trim();
-  if (q) {
-    prods = prods.filter(p => p.nombre.toLowerCase().includes(q) || (p.resumen && p.resumen.toLowerCase().includes(q)));
-  }
+  if (q) prods = prods.filter(p => p.nombre.toLowerCase().includes(q) || (p.resumen && p.resumen.toLowerCase().includes(q)));
 
   const ord = document.getElementById("orden")?.value || "rel";
   if (ord === "asc") prods.sort((a, b) => a.precio - b.precio);
@@ -270,41 +230,41 @@ function renderizarProductos() {
   if (ord === "az") prods.sort((a, b) => a.nombre.localeCompare(b.nombre));
 
   container.innerHTML = "";
+  if (resInfo) resInfo.innerText = `${prods.length} ${prods.length === 1 ? 'producto encontrado' : 'productos encontrados'}`;
 
   if (prods.length === 0) {
-    if (vacio) vacio.hidden = false;
+    vacio.hidden = false;
     return;
   }
-  if (vacio) vacio.hidden = true;
+  vacio.hidden = true;
 
   prods.forEach(p => {
     const card = document.createElement("article");
-    card.className = `producto rv in ${p.agotado ? "agotado" : ""}`;
+    card.className = `producto ${p.agotado ? "agotado" : ""}`;
 
     const precioHTML = p.precioOferta
       ? `<s>${formatearPrecio(p.precio)}</s> ${formatearPrecio(p.precioOferta)}`
       : `${formatearPrecio(p.precio)}`;
 
     let selloHTML = "";
-    if (p.agotado) selloHTML = `<span class="sello agotado">Agotado</span>`;
-    else if (p.precioOferta) selloHTML = `<span class="sello oferta">Oferta</span>`;
-    else if (p.nuevo) selloHTML = `<span class="sello nuevo">Nuevo</span>`;
+    if (p.agotado) selloHTML = `<span class="sello agotado" style="background:#4c5566; color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700;">Agotado</span>`;
+    else if (p.precioOferta) selloHTML = `<span class="sello oferta" style="background:var(--rojo); color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700;">Oferta</span>`;
 
     card.innerHTML = `
       <button type="button" class="producto-abrir" onclick="abrirFichaProducto('${p.id}')">
         <div class="producto-foto">
-          <div class="sellos">${selloHTML}</div>
-          <img src="${p.foto || 'img/marca/icono.svg'}" alt="${p.nombre}" loading="lazy" onerror="this.onerror=null;this.src='img/marca/icono.svg';">
+          <div class="sellos" style="position:absolute; left:10px; top:10px; z-index:2;">${selloHTML}</div>
+          <img src="${p.foto || 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=500&q=80'}" alt="${p.nombre}" loading="lazy">
         </div>
         <div class="producto-txt">
           <span class="producto-cat">${p.categoria}</span>
           <h3>${p.nombre}</h3>
-          <p>${p.resumen || p.descripcion || ""}</p>
+          <p>${p.resumen || ""}</p>
         </div>
       </button>
       <div class="producto-pie">
         <div class="precio">${precioHTML}</div>
-        <button type="button" class="agregar" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}')" aria-label="Agregar a pedido">
+        <button type="button" class="agregar" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}')" aria-label="Agregar">
           <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
         </button>
       </div>
@@ -313,7 +273,7 @@ function renderizarProductos() {
   });
 }
 
-/* FICHA COMPLETA DE PRODUCTO (MODAL) */
+/* FICHA MODAL */
 window.abrirFichaProducto = function(id) {
   const p = CATALOGO.productos.find(item => item.id === id);
   if (!p) return;
@@ -322,30 +282,26 @@ window.abrirFichaProducto = function(id) {
   const cuerpo = document.getElementById("fichaCuerpo");
   if (!dlg || !cuerpo) return;
 
+  const precioFinal = p.precioOferta ? p.precioOferta : p.precio;
+
   cuerpo.innerHTML = `
     <div class="ficha-foto">
-      <img src="${p.foto || 'img/marca/icono.svg'}" alt="${p.nombre}" onerror="this.onerror=null;this.src='img/marca/icono.svg';">
+      <img src="${p.foto || 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=600&q=80'}" alt="${p.nombre}">
     </div>
     <div class="ficha-info">
-      <h2 id="fichaNombre">${p.nombre}</h2>
-      <div class="ficha-precio">
-        ${p.precioOferta ? `<s>${formatearPrecio(p.precio)}</s> <span>${formatearPrecio(p.precioOferta)}</span> <span class="ahorro">Oferta</span>` : `<span>${formatearPrecio(p.precio)}</span>`}
-      </div>
-      <div class="ficha-desc">
-        <p>${p.descripcion || p.resumen || "Artículo de excelente calidad para ferretería y taller."}</p>
-      </div>
-      <div class="ficha-comprar">
-        <button type="button" class="btn btn-tinta btn-ancho" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}'); document.getElementById('ficha').close();">
-          ${p.agotado ? "Agotado" : "🛒 Agregar al pedido"}
-        </button>
-      </div>
+      <h2>${p.nombre}</h2>
+      <div class="ficha-precio">${formatearPrecio(precioFinal)}</div>
+      <p style="color:var(--tinta-2); font-size:15px;">${p.descripcion || p.resumen || "Herramienta de excelente calidad para taller y hogar."}</p>
+      <button type="button" class="btn btn-tinta btn-ancho" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}'); document.getElementById('ficha').close();">
+        ${p.agotado ? "Agotado" : "🛒 Agregar al pedido"}
+      </button>
     </div>
   `;
 
   dlg.showModal();
 };
 
-/* GESTIÓN DE CARRITO / PEDIDO */
+/* CARRITO */
 window.agregarAlPedido = function(id) {
   const p = CATALOGO.productos.find(item => item.id === id);
   if (!p || p.agotado) return;
@@ -384,7 +340,7 @@ function actualizarPedidoUI() {
 
   if (btnFlotante) {
     btnFlotante.hidden = totalItems === 0;
-    if (pfCantidad) pfCantidad.innerText = `${totalItems} ${totalItems === 1 ? 'producto' : 'productos'}`;
+    if (pfCantidad) pfCantidad.innerText = `${totalItems} ${totalItems === 1 ? 'prod.' : 'prods.'}`;
     if (pfTotal) pfTotal.innerText = formatearPrecio(totalMonto);
   }
 
@@ -393,17 +349,17 @@ function actualizarPedidoUI() {
   if (listaEl) {
     listaEl.innerHTML = "";
     if (totalItems === 0) {
-      listaEl.innerHTML = `<div class="pedido-vacio"><b>Tu pedido está vacío</b><span>Elige productos del catálogo para agregarlos aquí.</span></div>`;
+      listaEl.innerHTML = `<div style="text-align:center; padding:20px; color:var(--tinta-2);"><b>Tu pedido está vacío</b><br>Elige productos del catálogo.</div>`;
     } else {
       Object.entries(PEDIDO).forEach(([id, item]) => {
         const precio = item.producto.precioOferta ? item.producto.precioOferta : item.producto.precio;
         const linea = document.createElement("div");
         linea.className = "linea";
         linea.innerHTML = `
-          <img src="${item.producto.foto || 'img/marca/icono.svg'}" alt="${item.producto.nombre}">
+          <img src="${item.producto.foto || 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=200&q=80'}" alt="${item.producto.nombre}">
           <div>
             <b>${item.producto.nombre}</b>
-            <small>${formatearPrecio(precio)} x ${item.cantidad}</small>
+            <small>${formatearPrecio(precio)}</small>
           </div>
           <div class="cantidad">
             <button type="button" onclick="modificarCantidad('${id}', -1)">-</button>
@@ -420,9 +376,7 @@ function actualizarPedidoUI() {
 window.modificarCantidad = function(id, delta) {
   if (!PEDIDO[id]) return;
   PEDIDO[id].cantidad += delta;
-  if (PEDIDO[id].cantidad <= 0) {
-    delete PEDIDO[id];
-  }
+  if (PEDIDO[id].cantidad <= 0) delete PEDIDO[id];
   actualizarPedidoUI();
 };
 
@@ -451,20 +405,17 @@ function enviarPedidoWhatsApp(e) {
   window.open(`https://wa.me/${tel}?text=${encodeURIComponent(msj)}`, "_blank");
 }
 
-/* SECCIONES SECUNDARIAS */
+/* PASOS Y PREGUNTAS */
 function renderizarPasos() {
-  const container = document.getElementById("pasos");
+  const container = document.getElementById("pasosLista");
   if (!container || !CATALOGO.pasos) return;
-
   container.innerHTML = "";
   CATALOGO.pasos.forEach((p, i) => {
     container.innerHTML += `
-      <li class="paso rv in">
-        <span class="paso-num">0${i + 1}</span>
-        <div>
-          <h3>${p.titulo}</h3>
-          <p>${p.texto}</p>
-        </div>
+      <li style="background:var(--blanco); border:1px solid var(--borde); padding:24px; border-radius:var(--radio-s);">
+        <span style="font:700 13px var(--f-mono); color:var(--azul);">0${i+1}</span>
+        <h3 style="font-size:18px; margin:8px 0 6px;">${p.titulo}</h3>
+        <p style="color:var(--tinta-2); font-size:14px;">${p.texto}</p>
       </li>
     `;
   });
@@ -473,12 +424,14 @@ function renderizarPasos() {
 function renderizarPreguntas() {
   const container = document.getElementById("acordeon");
   if (!container || !CATALOGO.preguntas) return;
-
   container.innerHTML = "";
   CATALOGO.preguntas.forEach((p, i) => {
     container.innerHTML += `
-      <details class="pregunta rv in" ${i === 0 ? "open" : ""}>
-        <summary><b>${p.pregunta}</b><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
+      <details class="pregunta" ${i === 0 ? "open" : ""}>
+        <summary>
+          <span>${p.pregunta}</span>
+          <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </summary>
         <p>${p.respuesta}</p>
       </details>
     `;
@@ -488,34 +441,33 @@ function renderizarPreguntas() {
 function renderizarHorario() {
   const container = document.getElementById("horario");
   if (!container) return;
-
   container.innerHTML = `
     <h3>Horario de atención</h3>
+    <div style="background:#1b263b; color:#22c55e; padding:6px 12px; border-radius:8px; font-size:13px; font-weight:700; display:inline-block; margin-bottom:16px;">Abierto hoy</div>
     <ul class="horario-lista">
-      <li><span>Lunes a Sábados</span><b>9:00 AM – 5:00 PM</b></li>
-      <li><span>Domingos</span><b style="color:var(--luz-3)">Cerrado</b></li>
+      <li><span>Lunes</span><b>09:00 – 17:00</b></li>
+      <li><span>Martes</span><b>09:00 – 17:00</b></li>
+      <li><span>Miércoles</span><b>09:00 – 17:00</b></li>
+      <li><span>Jueves</span><b>09:00 – 17:00</b></li>
+      <li><span>Viernes</span><b>09:00 – 17:00</b></li>
+      <li><span>Sábado</span><b>09:00 – 17:00</b></li>
+      <li><span>Domingo</span><b style="color:var(--luz-3)">Cerrado</b></li>
     </ul>
   `;
 }
 
-/* MONEDAS Y TOSTADAS */
 function inicializarMonedas() {
   const sel = document.getElementById("moneda");
-  const caja = document.getElementById("monedaCaja");
   if (!sel || !CATALOGO.monedas?.lista) return;
-
   sel.innerHTML = "";
   CATALOGO.monedas.lista.forEach(m => {
     sel.innerHTML += `<option value="${m.codigo}" ${m.codigo === MONEDA_ACTUAL ? 'selected' : ''}>${m.codigo}</option>`;
   });
-
   sel.addEventListener("change", (e) => {
     MONEDA_ACTUAL = e.target.value;
     renderizarProductos();
     actualizarPedidoUI();
   });
-
-  if (caja) caja.hidden = false;
 }
 
 function mostrarTostada(txt) {
@@ -526,14 +478,10 @@ function mostrarTostada(txt) {
   setTimeout(() => t.classList.remove("ver"), 2200);
 }
 
-function inicializarAnimaciones() {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("in");
-      }
-    });
-  }, { threshold: 0.1 });
-
-  document.querySelectorAll(".rv").forEach(el => observer.observe(el));
+function inicializarProgreso() {
+  window.addEventListener("scroll", () => {
+    const total = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const progreso = window.scrollY / total;
+    document.getElementById("barraProgreso")?.style.setProperty("--p", progreso);
+  });
 }
