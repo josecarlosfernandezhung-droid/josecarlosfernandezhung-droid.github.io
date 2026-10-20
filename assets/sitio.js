@@ -15,6 +15,7 @@ async function cargarCatalogo() {
     const res = await fetch("datos/catalogo.json?v=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     CATALOGO = await res.json();
+    calcularFotosRepetidas();
     if (CATALOGO.monedas?.porDefecto) {
       MONEDA_ACTUAL = CATALOGO.monedas.porDefecto;
     }
@@ -102,6 +103,21 @@ function iniciarRotativa(lista) {
     }, 300);
   }, 2800);
 }
+
+
+/* Foto de producto: si no tiene (o es una foto repetida en 5+ productos, o sea de relleno) se muestra un ícono de herramienta */
+const ICONO_VACIO = "img/marca/icono.svg";
+let FOTOS_REPETIDAS = new Set();
+function calcularFotosRepetidas() {
+  const n = {};
+  (CATALOGO.productos || []).forEach(p => { if (p.foto) n[p.foto] = (n[p.foto] || 0) + 1; });
+  FOTOS_REPETIDAS = new Set(Object.keys(n).filter(f => n[f] >= 5));
+}
+function fotoDe(p) { return p && p.foto && !FOTOS_REPETIDAS.has(p.foto) ? p.foto : ICONO_VACIO; }
+document.addEventListener("error", e => {
+  const t = e.target;
+  if (t && t.tagName === "IMG" && !t.dataset.fb && !/icono\.svg$/.test(t.src)) { t.dataset.fb = 1; t.src = ICONO_VACIO; }
+}, true);
 
 function iniciarFotosPortada(fotos) {
   const contenedor = document.getElementById("escenaFotos");
@@ -243,7 +259,7 @@ function renderizarProductos() {
       <button type="button" class="producto-abrir" onclick="abrirFichaProducto('${p.id}')">
         <div class="producto-foto">
           <div class="sellos" style="position:absolute; left:10px; top:10px; z-index:2;">${selloHTML}</div>
-          <img src="${p.foto || 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=500&q=80'}" alt="${p.nombre}" loading="lazy">
+          <img src="${fotoDe(p)}" alt="${p.nombre}" loading="lazy">
         </div>
         <div class="producto-txt">
           <span class="producto-cat">${p.categoria}</span>
@@ -274,7 +290,7 @@ window.abrirFichaProducto = function(id) {
 
   cuerpo.innerHTML = `
     <div class="ficha-foto">
-      <img src="${p.foto || 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=600&q=80'}" alt="${p.nombre}">
+      <img src="${fotoDe(p)}" alt="${p.nombre}">
     </div>
     <div class="ficha-info">
       <h2>${p.nombre}</h2>
@@ -343,7 +359,7 @@ function actualizarPedidoUI() {
         const linea = document.createElement("div");
         linea.className = "linea";
         linea.innerHTML = `
-          <img src="${item.producto.foto || 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=200&q=80'}" alt="${item.producto.nombre}">
+          <img src="${fotoDe(item.producto)}" alt="${item.producto.nombre}">
           <div>
             <b>${item.producto.nombre}</b>
             <small>${formatearPrecio(precio)}</small>

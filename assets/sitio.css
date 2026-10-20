@@ -450,3 +450,13 @@ html{overflow-x:clip}
 .aurora{overflow:hidden}
 .btn svg,.btn-pedido svg,.agregar svg{flex:0 0 auto}
 .acciones[style*="column"] .btn{flex:0 0 auto;align-self:stretch}
+
+/* ---------- botón de WhatsApp más sobrio ---------- */
+.btn-wa{min-height:46px;padding:0 22px;font-size:15px;font-weight:700;box-shadow:0 6px 16px -8px rgba(37,211,102,.55);white-space:nowrap}
+.btn-wa .ico-wa{width:22px;height:22px;fill:currentColor;stroke:none}
+.acciones .btn-wa{flex:0 0 auto}
+.acciones[style*="column"] .btn-wa{align-self:flex-start}
+.portada-escena .escena-fotos img{object-fit:cover}
+details.pregunta summary{list-style:none}
+details.pregunta summary::-webkit-details-marker,details.pregunta summary::marker{display:none;content:""}
+details.pregunta summary::after{content:none!important}
