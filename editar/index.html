@@ -3,25 +3,45 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Panel de Edición — Ferretería Los Hermanos</title>
-<link rel="stylesheet" href="../assets/sitio.css">
-<style>
-  body { background: var(--papel); padding: 20px; }
-  .panel-container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: var(--radio); border: 1px solid var(--borde); }
-  h1 { font-size: 24px; margin-bottom: 20px; }
-  .form-group { margin-bottom: 15px; display: grid; gap: 6px; }
-  .form-group input, .form-group textarea { padding: 10px; border-radius: 8px; border: 1px solid var(--borde); }
-</style>
+<title>Editor — Ferretería Los Hermanos (ToTo Tools)</title>
+<link rel="stylesheet" href="../assets/sitio.css?v=5">
+<link rel="stylesheet" href="editar.css?v=5">
 </head>
-<body>
-  <div class="panel-container">
-    <h1>Panel de Administración de Productos</h1>
-    <p>Desde aquí puedes gestionar tu catálogo de herramientas y actualizar la información de la ferretería.</p>
-    <hr style="margin: 20px 0; border:0; border-top:1px solid var(--borde);">
-    <div id="editor-contenido">
-      <p>Conectado al catálogo de ToTo Tools. Teléfonos de atención: <strong>+53 56950485</strong> y <strong>+53 58127001</strong>.</p>
-    </div>
+<body class="papel">
+
+<header class="barra-editor">
+  <div class="contenedor flex-between">
+    <a href="../" class="btn-volver">← Ver tienda</a>
+    <h1>Panel de Administración — ToTo Tools</h1>
+    <button id="btnPublicar" class="btn btn-wa" type="button">Publicar cambios</button>
   </div>
-  <script src="editar.js"></script>
+</header>
+
+<main class="contenedor panel-main">
+  <!-- CONFIGURACIÓN DE TOKEN GITHUB -->
+  <section class="card-panel">
+    <h2>1. Clave de acceso a GitHub (Token)</h2>
+    <p class="txt-sub">Ingresa tu token de GitHub (Fine-grained personal access token) con permisos de lectura y escritura para guardar cambios en este repositorio.</p>
+    <div class="input-group">
+      <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
+      <button id="btnGuardarToken" class="btn btn-tinta" type="button">Guardar token</button>
+    </div>
+    <small id="tokenStatus" class="status-txt"></small>
+  </section>
+
+  <!-- LISTADO Y EDICIÓN DE PRODUCTOS -->
+  <section class="card-panel">
+    <div class="flex-between">
+      <h2>2. Catálogo de Productos</h2>
+      <button id="btnNuevoProd" class="btn btn-luz" type="button">+ Nuevo Producto</button>
+    </div>
+
+    <div id="listaProductos" class="editor-grid">
+      <!-- Se carga dinámicamente -->
+    </div>
+  </section>
+</main>
+
+<script src="editar.js?v=5"></script>
 </body>
 </html>
