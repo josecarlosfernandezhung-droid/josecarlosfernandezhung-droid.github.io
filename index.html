@@ -6,7 +6,6 @@
   <title>ToTo Tools — Ferretería en Santiago de Cuba</title>
   <meta name="description" content="Herramientas y artículos de ferretería en Santiago de Cuba. Calidad, garantía y atención directa por WhatsApp.">
   
-  <!-- Estilos y Tipografías -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
@@ -15,10 +14,8 @@
 </head>
 <body>
 
-  <!-- Barra de progreso superior -->
   <div class="progreso" id="barraProgreso"></div>
 
-  <!-- Cabecera / Barra de Navegación -->
   <header class="barra" id="barraNavegacion">
     <div class="contenedor barra-contenido">
       <a href="#" class="logo">
@@ -35,18 +32,15 @@
       </nav>
 
       <div class="barra-acciones">
-        <!-- Selector de Moneda -->
         <div class="moneda" id="monedaCaja">
           <select id="moneda" aria-label="Seleccionar moneda"></select>
         </div>
 
-        <!-- Botón Carrito / Pedido -->
         <button type="button" class="btn-pedido" id="abrirPedido" aria-label="Ver pedido">
           <svg viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0"/></svg>
           <span class="contador" id="contador" hidden>0</span>
         </button>
 
-        <!-- Botón menú móvil -->
         <button type="button" class="btn-menu" id="btnMenu" aria-expanded="false" aria-label="Menú">
           <span></span><span></span>
         </button>
@@ -55,7 +49,6 @@
   </header>
 
   <main>
-    <!-- Portada -->
     <section class="portada noche" id="inicio">
       <div class="aurora"><i></i><i></i><i></i></div>
       <div class="rejilla-fondo"></div>
@@ -83,7 +76,6 @@
           </div>
         </div>
 
-        <!-- Escena visual con fotos reales y tique flotante -->
         <div class="portada-escena">
           <div class="escena-fotos" id="escenaFotos">
             <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=80" alt="Herramientas" class="activa">
@@ -101,7 +93,6 @@
         </div>
       </div>
 
-      <!-- Cifras o estadísticas -->
       <div class="contenedor">
         <div class="cifras" id="cifras">
           <div class="cifra"><b>100%</b><span>herramientas revisadas</span></div>
@@ -112,7 +103,6 @@
       </div>
     </section>
 
-    <!-- Soluciones / Bento Grid con fotos reales -->
     <section class="soluciones noche" id="soluciones">
       <div class="aurora aurora-baja"><i></i><i></i></div>
       <div class="contenedor">
@@ -125,7 +115,6 @@
       </div>
     </section>
 
-    <!-- Cinta animada intermedia -->
     <div class="cinta">
       <div class="cinta-pista">
         <span>Herramientas eléctricas y manuales</span><span>✦</span><span>Santiago de Cuba</span><span>✦</span><span>Atención por WhatsApp</span><span>✦</span><span>ToTo Tools</span><span>✦</span>
@@ -133,7 +122,6 @@
       </div>
     </div>
 
-    <!-- Tienda / Catálogo -->
     <section class="tienda papel" id="tienda">
       <div class="contenedor">
         <div class="cabecera">
@@ -173,7 +161,6 @@
       </div>
     </section>
 
-    <!-- Pasos (Cómo comprar) -->
     <section class="papel" id="pasos" style="padding-top: 0;">
       <div class="contenedor">
         <div class="cabecera">
@@ -184,7 +171,6 @@
       </div>
     </section>
 
-    <!-- Preguntas Frecuentes -->
     <section class="papel" id="faq" style="padding-top: 0;">
       <div class="contenedor" style="max-width: 800px;">
         <div class="cabecera">
@@ -195,7 +181,6 @@
       </div>
     </section>
 
-    <!-- Contacto y Horario -->
     <section class="contacto noche" id="contacto">
       <div class="contenedor">
         <div class="portada-cuerpo" style="align-items: start;">
@@ -217,14 +202,12 @@
             </div>
           </div>
 
-          <!-- Caja de Horario -->
           <div class="horario-caja" id="horario" style="background: var(--noche-2); border: 1px solid var(--noche-borde); padding: 32px; border-radius: var(--radio);"></div>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Pie de página -->
   <footer class="noche" style="border-top: 1px solid var(--noche-borde); padding-block: 40px; text-align: center; color: var(--luz-3); font-size: 14px;">
     <div class="contenedor" style="display: grid; gap: 12px;">
       <div style="font-family: var(--f-titulo); font-weight: 700; color: var(--luz); font-size: 18px;">ToTo Tools</div>
@@ -233,13 +216,11 @@
     </div>
   </footer>
 
-  <!-- Modal Ficha de Producto -->
   <dialog id="ficha" class="modal-ficha">
     <button type="button" class="modal-cerrar" data-cerrar aria-label="Cerrar">✕</button>
     <div class="ficha-contenedor" id="fichaCuerpo"></div>
   </dialog>
 
-  <!-- Modal Carrito de Pedido -->
   <dialog id="pedido" class="modal-pedido">
     <div class="modal-cab">
       <h3>Tu Pedido en ToTo Tools</h3>
@@ -269,7 +250,6 @@
     </form>
   </dialog>
 
-  <!-- Botón Flotante de Pedido -->
   <button type="button" class="pedido-flotante" id="pedidoFlotante" hidden>
     <svg viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0"/></svg>
     <span>Ver pedido</span>
