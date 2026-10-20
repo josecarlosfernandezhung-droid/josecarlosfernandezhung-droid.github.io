@@ -1,85 +1,124 @@
+body.papel {
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--f-texto);
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
 .barra-editor {
   background: var(--noche);
   color: var(--luz);
-  padding: 1rem 0;
+  padding: 0.8rem 1rem;
   border-bottom: 1px solid var(--noche-borde);
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
-.flex-between {
+.barra-editor .contenedor {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 0.5rem;
+}
+
+.barra-editor h1 {
+  font-size: 1rem;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .btn-volver {
   color: var(--cian);
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .panel-main {
-  margin-top: 2rem;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
   display: grid;
-  gap: 2rem;
-  padding-bottom: 4rem;
+  gap: 1.5rem;
 }
 
 .card-panel {
   background: var(--blanco);
   border: 1px solid var(--borde);
   border-radius: var(--radio);
-  padding: 1.5rem;
+  padding: 1.2rem;
+  box-shadow: var(--sombra);
+}
+
+.card-panel h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
 }
 
 .txt-sub {
   color: var(--tinta-2);
-  font-size: 0.9rem;
-  margin: 0.5rem 0 1rem;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
 }
 
 .input-group {
   display: flex;
   gap: 0.5rem;
-  max-width: 500px;
+  flex-wrap: wrap;
 }
 
 .input-group input {
   flex: 1;
-  padding: 0.6rem;
+  min-width: 200px;
+  padding: 0.7rem;
   border-radius: 8px;
   border: 1px solid var(--borde);
+  font-size: 0.95rem;
 }
 
 .status-txt {
   display: block;
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
   font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .editor-grid {
   display: grid;
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .prod-item-row {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
   padding: 1rem;
   border: 1px solid var(--borde);
   border-radius: var(--radio-s);
   background: var(--papel);
-  flex-wrap: wrap;
+}
+
+@media (min-width: 560px) {
+  .prod-item-row {
+    grid-template-columns: 2fr 100px 140px auto;
+    align-items: center;
+  }
+  .barra-editor h1 { font-size: 1.2rem; }
 }
 
 .prod-item-row input, .prod-item-row select {
-  padding: 0.5rem;
+  padding: 0.6rem;
   border-radius: 6px;
   border: 1px solid var(--borde);
+  background: #fff;
+  font-size: 0.95rem;
+  width: 100%;
 }
-
-.prod-item-row .inp-nombre { flex: 2; min-width: 180px; }
-.prod-item-row .inp-precio { width: 90px; }
