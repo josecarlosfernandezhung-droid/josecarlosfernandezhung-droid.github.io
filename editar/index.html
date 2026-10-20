@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel de Edición — Ferretería Los Hermanos</title>
+<link rel="stylesheet" href="../assets/sitio.css">
+<style>
+  body { background: var(--papel); padding: 20px; }
+  .panel-container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: var(--radio); border: 1px solid var(--borde); }
+  h1 { font-size: 24px; margin-bottom: 20px; }
+  .form-group { margin-bottom: 15px; display: grid; gap: 6px; }
+  .form-group input, .form-group textarea { padding: 10px; border-radius: 8px; border: 1px solid var(--borde); }
+</style>
+</head>
+<body>
+  <div class="panel-container">
+    <h1>Panel de Administración de Productos</h1>
+    <p>Desde aquí puedes gestionar tu catálogo de herramientas y actualizar la información de la ferretería.</p>
+    <hr style="margin: 20px 0; border:0; border-top:1px solid var(--borde);">
+    <div id="editor-contenido">
+      <p>Conectado al catálogo de ToTo Tools. Teléfonos de atención: <strong>+53 56950485</strong> y <strong>+53 58127001</strong>.</p>
+    </div>
+  </div>
+  <script src="editar.js"></script>
+</body>
+</html>
