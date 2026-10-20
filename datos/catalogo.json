@@ -65,7 +65,7 @@
     "codigo": "USD",
     "nombre": "Dólar",
     "simbolo": "$",
-    "tasa": 0.0025,
+    "tasa": 0.0012345679,
     "activa": true
    }
   ],
@@ -109,7 +109,7 @@
   "texto": "Contamos con surtido especializado para trabajos de cerrajería, plomería, electricidad, mecánica y mantenimiento general."
  },
  "tienda": {
-  "titulo": "El Catálogo",
+  "titulo": "Herramientas y Más ",
   "texto": "Selecciona los artículos que necesitas, arma tu pedido y envíalo directamente por WhatsApp."
  },
  "pasos": [
@@ -224,8 +224,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0veqrggkc7.webp",
+   "fotos": [
+    "img/productos/d0veqrggkc7.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -240,8 +242,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0vhm2kkytn.webp",
+   "fotos": [
+    "img/productos/d0vhm2kkytn.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -256,8 +260,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0vo85c4aym.webp",
+   "fotos": [
+    "img/productos/d0vo85c4aym.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -272,8 +278,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0vz0tw04v0.webp",
+   "fotos": [
+    "img/productos/d0vz0tw04v0.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -288,8 +296,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0w7grxzhwp.webp",
+   "fotos": [
+    "img/productos/d0w7grxzhwp.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -304,8 +314,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0wgscf8799.webp",
+   "fotos": [
+    "img/productos/d0wgscf8799.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -320,8 +332,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0wt5lj6z8v.webp",
+   "fotos": [
+    "img/productos/d0wt5lj6z8v.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -368,8 +382,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0x908kyb4v.webp",
+   "fotos": [
+    "img/productos/d0x908kyb4v.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -400,8 +416,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0xnzunjf6l.webp",
+   "fotos": [
+    "img/productos/d0xnzunjf6l.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -416,8 +434,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0xwk5ba1pq.webp",
+   "fotos": [
+    "img/productos/d0xwk5ba1pq.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -432,8 +452,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0y7xhzke91.webp",
+   "fotos": [
+    "img/productos/d0y7xhzke91.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -448,8 +470,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0yjnhln1o6.webp",
+   "fotos": [
+    "img/productos/d0yjnhln1o6.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -464,8 +488,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0ysg33e2vc.webp",
+   "fotos": [
+    "img/productos/d0ysg33e2vc.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -480,8 +506,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0z0qefjlvd.webp",
+   "fotos": [
+    "img/productos/d0z0qefjlvd.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -496,8 +524,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0zamd8jla8.webp",
+   "fotos": [
+    "img/productos/d0zamd8jla8.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -512,8 +542,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0zfvk249cr.webp",
+   "fotos": [
+    "img/productos/d0zfvk249cr.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -528,8 +560,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0zlj8jib1v.webp",
+   "fotos": [
+    "img/productos/d0zlj8jib1v.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -544,8 +578,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d0zvvxnsbnl.webp",
+   "fotos": [
+    "img/productos/d0zvvxnsbnl.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -560,8 +596,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d102hthk358.webp",
+   "fotos": [
+    "img/productos/d102hthk358.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -576,8 +614,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d10g414g8l2.webp",
+   "fotos": [
+    "img/productos/d10g414g8l2.webp",
+    "img/productos/d10rm4lvfgq.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -624,8 +665,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1117tgtgz3.webp",
+   "fotos": [
+    "img/productos/d1117tgtgz3.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -640,8 +683,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d11fo1u7llu.webp",
+   "fotos": [
+    "img/productos/d11fo1u7llu.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -656,8 +701,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d11pvmv0lfk.webp",
+   "fotos": [
+    "img/productos/d11pvmv0lfk.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -672,8 +719,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d11zh5ki7us.webp",
+   "fotos": [
+    "img/productos/d11zh5ki7us.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -688,8 +737,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d12fayjccf0.webp",
+   "fotos": [
+    "img/productos/d12fayjccf0.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -720,8 +771,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d12kvxowf3w.webp",
+   "fotos": [
+    "img/productos/d12kvxowf3w.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -736,8 +789,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d12pf5j19xn.webp",
+   "fotos": [
+    "img/productos/d12pf5j19xn.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -752,8 +807,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1371arqwmk.webp",
+   "fotos": [
+    "img/productos/d1371arqwmk.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -768,8 +825,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d13f2ireuqt.webp",
+   "fotos": [
+    "img/productos/d13f2ireuqt.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -784,8 +843,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d13noq2egkd.webp",
+   "fotos": [
+    "img/productos/d13noq2egkd.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -800,8 +861,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d13x948k1w3.webp",
+   "fotos": [
+    "img/productos/d13x948k1w3.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -816,8 +879,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d146kaj6umc.webp",
+   "fotos": [
+    "img/productos/d146kaj6umc.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -832,8 +897,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d14ffz9eygk.webp",
+   "fotos": [
+    "img/productos/d14ffz9eygk.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -848,8 +915,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d14nagzi5o8.webp",
+   "fotos": [
+    "img/productos/d14nagzi5o8.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -880,8 +949,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d14yh9sqre0.webp",
+   "fotos": [
+    "img/productos/d14yh9sqre0.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -896,8 +967,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d158bx1d30t.webp",
+   "fotos": [
+    "img/productos/d158bx1d30t.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -912,8 +985,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d15go03ai8p.webp",
+   "fotos": [
+    "img/productos/d15go03ai8p.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -944,8 +1019,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d15suq4p1kn.webp",
+   "fotos": [
+    "img/productos/d15suq4p1kn.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -960,8 +1037,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d15u83wlium.webp",
+   "fotos": [
+    "img/productos/d15u83wlium.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -976,8 +1055,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d16868fzeu5.webp",
+   "fotos": [
+    "img/productos/d16868fzeu5.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -992,8 +1073,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d16hk973bhl.webp",
+   "fotos": [
+    "img/productos/d16hk973bhl.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1008,8 +1091,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d16u31yvnyu.webp",
+   "fotos": [
+    "img/productos/d16u31yvnyu.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1024,8 +1109,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d171dpua4sb.webp",
+   "fotos": [
+    "img/productos/d171dpua4sb.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1040,8 +1127,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d17b7zmh7pi.webp",
+   "fotos": [
+    "img/productos/d17b7zmh7pi.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1056,8 +1145,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d17i2cmpbwf.webp",
+   "fotos": [
+    "img/productos/d17i2cmpbwf.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1072,8 +1163,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d17pmxvmbs4.webp",
+   "fotos": [
+    "img/productos/d17pmxvmbs4.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1088,8 +1181,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d180ddeolgb.webp",
+   "fotos": [
+    "img/productos/d180ddeolgb.webp",
+    "img/productos/d18a14z1amc.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1104,8 +1200,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d18ijfegixn.webp",
+   "fotos": [
+    "img/productos/d18ijfegixn.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1120,8 +1218,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d18s4rpckxa.webp",
+   "fotos": [
+    "img/productos/d18s4rpckxa.webp",
+    "img/productos/d192hyy7hd3.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1136,8 +1237,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d19aizh3ehy.webp",
+   "fotos": [
+    "img/productos/d19aizh3ehy.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1152,8 +1255,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d19lxnbnht5.webp",
+   "fotos": [
+    "img/productos/d19lxnbnht5.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1200,8 +1305,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d19vlzqwf6v.webp",
+   "fotos": [
+    "img/productos/d19vlzqwf6v.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1248,8 +1355,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1a67ktyvkn.webp",
+   "fotos": [
+    "img/productos/d1a67ktyvkn.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1264,8 +1373,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1abd3qdj3a.webp",
+   "fotos": [
+    "img/productos/d1abd3qdj3a.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1280,8 +1391,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1aj2zvoe5d.webp",
+   "fotos": [
+    "img/productos/d1aj2zvoe5d.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1296,8 +1409,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ausvaasdd.webp",
+   "fotos": [
+    "img/productos/d1ausvaasdd.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1312,8 +1427,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1b3megl8he.webp",
+   "fotos": [
+    "img/productos/d1b3megl8he.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1328,8 +1445,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1bax8xosj9.webp",
+   "fotos": [
+    "img/productos/d1bax8xosj9.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1360,8 +1479,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1bk4tl6mau.webp",
+   "fotos": [
+    "img/productos/d1bk4tl6mau.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1376,8 +1497,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1bz7d64paw.webp",
+   "fotos": [
+    "img/productos/d1bz7d64paw.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1392,8 +1515,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1c9h51v12y.webp",
+   "fotos": [
+    "img/productos/d1c9h51v12y.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1408,8 +1533,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1chr0n76b0.webp",
+   "fotos": [
+    "img/productos/d1chr0n76b0.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1424,8 +1551,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1cpuljrbzt.webp",
+   "fotos": [
+    "img/productos/d1cpuljrbzt.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1440,8 +1569,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1cxmtuktv2.webp",
+   "fotos": [
+    "img/productos/d1cxmtuktv2.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1456,8 +1587,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1d6lc86qh0.webp",
+   "fotos": [
+    "img/productos/d1d6lc86qh0.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1488,8 +1621,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1dhx1gr2zy.webp",
+   "fotos": [
+    "img/productos/d1dhx1gr2zy.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1504,8 +1639,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1dqlfstong.webp",
+   "fotos": [
+    "img/productos/d1dqlfstong.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1536,8 +1673,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1e1gth4hpa.webp",
+   "fotos": [
+    "img/productos/d1e1gth4hpa.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1552,8 +1691,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ed6wdn1vh.webp",
+   "fotos": [
+    "img/productos/d1ed6wdn1vh.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1568,8 +1709,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1eml7dnakf.webp",
+   "fotos": [
+    "img/productos/d1eml7dnakf.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1584,8 +1727,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ex4ipyv2a.webp",
+   "fotos": [
+    "img/productos/d1ex4ipyv2a.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1600,8 +1745,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1fe7kk200v.webp",
+   "fotos": [
+    "img/productos/d1fe7kk200v.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1616,8 +1763,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1fkjxmllve.webp",
+   "fotos": [
+    "img/productos/d1fkjxmllve.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1632,8 +1781,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ftb9vmozc.webp",
+   "fotos": [
+    "img/productos/d1ftb9vmozc.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1648,8 +1799,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1g7kb60r28.webp",
+   "fotos": [
+    "img/productos/d1g7kb60r28.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1680,8 +1833,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1gly68vbot.webp",
+   "fotos": [
+    "img/productos/d1gly68vbot.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1696,8 +1851,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1gtby6ss8p.webp",
+   "fotos": [
+    "img/productos/d1gtby6ss8p.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1712,8 +1869,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1h17gq1yxw.webp",
+   "fotos": [
+    "img/productos/d1h17gq1yxw.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1728,8 +1887,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1haitmcf4y.webp",
+   "fotos": [
+    "img/productos/d1haitmcf4y.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1744,8 +1905,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1hc29omqmn.webp",
+   "fotos": [
+    "img/productos/d1hc29omqmn.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1760,8 +1923,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1hke8ilgof.webp",
+   "fotos": [
+    "img/productos/d1hke8ilgof.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1776,8 +1941,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1hsf3icybw.webp",
+   "fotos": [
+    "img/productos/d1hsf3icybw.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1792,8 +1959,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1i07r986u1.webp",
+   "fotos": [
+    "img/productos/d1i07r986u1.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1808,8 +1977,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1i6qkmugg1.webp",
+   "fotos": [
+    "img/productos/d1i6qkmugg1.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1824,8 +1995,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1igb5xpj76.webp",
+   "fotos": [
+    "img/productos/d1igb5xpj76.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1840,8 +2013,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ipntlnysk.webp",
+   "fotos": [
+    "img/productos/d1ipntlnysk.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1856,8 +2031,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1izlvweevh.webp",
+   "fotos": [
+    "img/productos/d1izlvweevh.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1872,8 +2049,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1j58ir8qbd.webp",
+   "fotos": [
+    "img/productos/d1j58ir8qbd.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1888,8 +2067,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1jhb28wouc.webp",
+   "fotos": [
+    "img/productos/d1jhb28wouc.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1904,8 +2085,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1jr28vu5ux.webp",
+   "fotos": [
+    "img/productos/d1jr28vu5ux.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1920,8 +2103,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1jzthi4ela.webp",
+   "fotos": [
+    "img/productos/d1jzthi4ela.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -1936,8 +2121,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1k5z0olkq5.webp",
+   "fotos": [
+    "img/productos/d1k5z0olkq5.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1968,8 +2155,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1kesl5dhww.webp",
+   "fotos": [
+    "img/productos/d1kesl5dhww.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -1984,8 +2173,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1kjkt638ot.webp",
+   "fotos": [
+    "img/productos/d1kjkt638ot.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2000,8 +2191,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1kruc5jxba.webp",
+   "fotos": [
+    "img/productos/d1kruc5jxba.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2016,8 +2209,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1kwu0keeox.webp",
+   "fotos": [
+    "img/productos/d1kwu0keeox.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2032,8 +2227,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1l3jd3kl3b.webp",
+   "fotos": [
+    "img/productos/d1l3jd3kl3b.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2048,8 +2245,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1l8npjmgd6.webp",
+   "fotos": [
+    "img/productos/d1l8npjmgd6.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2064,8 +2263,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1lhyyx7tit.webp",
+   "fotos": [
+    "img/productos/d1lhyyx7tit.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2080,8 +2281,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ls2nz0w7u.webp",
+   "fotos": [
+    "img/productos/d1ls2nz0w7u.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2096,8 +2299,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1m486dbqm7.webp",
+   "fotos": [
+    "img/productos/d1m486dbqm7.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2112,8 +2317,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1mbg81vpq5.webp",
+   "fotos": [
+    "img/productos/d1mbg81vpq5.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2128,8 +2335,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1mfqt3iejv.webp",
+   "fotos": [
+    "img/productos/d1mfqt3iejv.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2144,8 +2353,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1mp9ivyjqv.webp",
+   "fotos": [
+    "img/productos/d1mp9ivyjqv.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2160,8 +2371,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1mz5qi2bnb.webp",
+   "fotos": [
+    "img/productos/d1mz5qi2bnb.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2176,8 +2389,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d50fqkr8ih2.webp",
+   "fotos": [
+    "img/productos/d50fqkr8ih2.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2192,8 +2407,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1n7v7ox4f1.webp",
+   "fotos": [
+    "img/productos/d1n7v7ox4f1.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2256,8 +2473,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1nj7yc0ktx.webp",
+   "fotos": [
+    "img/productos/d1nj7yc0ktx.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2272,8 +2491,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1nss64fa5a.webp",
+   "fotos": [
+    "img/productos/d1nss64fa5a.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2288,8 +2509,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1nxy3k8uvg.webp",
+   "fotos": [
+    "img/productos/d1nxy3k8uvg.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2304,8 +2527,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1o6qkclutu.webp",
+   "fotos": [
+    "img/productos/d1o6qkclutu.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2320,8 +2545,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ofpbv6yw0.webp",
+   "fotos": [
+    "img/productos/d1ofpbv6yw0.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2336,8 +2563,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1op31la6sb.webp",
+   "fotos": [
+    "img/productos/d1op31la6sb.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2352,8 +2581,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ov1dm2jrh.webp",
+   "fotos": [
+    "img/productos/d1ov1dm2jrh.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2368,8 +2599,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1p3ocbry22.webp",
+   "fotos": [
+    "img/productos/d1p3ocbry22.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2384,8 +2617,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1pct01k2r5.webp",
+   "fotos": [
+    "img/productos/d1pct01k2r5.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2400,8 +2635,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1plk7ny3z0.webp",
+   "fotos": [
+    "img/productos/d1plk7ny3z0.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2416,8 +2653,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1pswebvh8q.webp",
+   "fotos": [
+    "img/productos/d1pswebvh8q.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2432,8 +2671,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1q4xq2i2gk.webp",
+   "fotos": [
+    "img/productos/d1q4xq2i2gk.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2448,8 +2689,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1qd3uuns7l.webp",
+   "fotos": [
+    "img/productos/d1qd3uuns7l.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2464,8 +2707,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1qomx22y0a.webp",
+   "fotos": [
+    "img/productos/d1qomx22y0a.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2480,8 +2725,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1qwp11kp6b.webp",
+   "fotos": [
+    "img/productos/d1qwp11kp6b.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2496,8 +2743,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1r6ze6u6ob.webp",
+   "fotos": [
+    "img/productos/d1r6ze6u6ob.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2512,8 +2761,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1rf847utg4.webp",
+   "fotos": [
+    "img/productos/d1rf847utg4.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2528,8 +2779,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1rlstds973.webp",
+   "fotos": [
+    "img/productos/d1rlstds973.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2544,8 +2797,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ruw5h4ebb.webp",
+   "fotos": [
+    "img/productos/d1ruw5h4ebb.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2560,8 +2815,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1s36pyblba.webp",
+   "fotos": [
+    "img/productos/d1s36pyblba.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2576,8 +2833,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1s7yti91xu.webp",
+   "fotos": [
+    "img/productos/d1s7yti91xu.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2592,8 +2851,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1si6fl7hwl.webp",
+   "fotos": [
+    "img/productos/d1si6fl7hwl.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2608,8 +2869,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1so4a1l6l1.webp",
+   "fotos": [
+    "img/productos/d1so4a1l6l1.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2624,8 +2887,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1swc8yz11m.webp",
+   "fotos": [
+    "img/productos/d1swc8yz11m.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2656,8 +2921,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1t46wv35cw.webp",
+   "fotos": [
+    "img/productos/d1t46wv35cw.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2672,8 +2939,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1t8zoinc8i.webp",
+   "fotos": [
+    "img/productos/d1t8zoinc8i.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2688,8 +2957,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1tirlp0alt.webp",
+   "fotos": [
+    "img/productos/d1tirlp0alt.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2704,8 +2975,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1tnxvvlfcb.webp",
+   "fotos": [
+    "img/productos/d1tnxvvlfcb.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2720,8 +2993,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1tu3bt86c1.webp",
+   "fotos": [
+    "img/productos/d1tu3bt86c1.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2752,8 +3027,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1u0tt83w7w.webp",
+   "fotos": [
+    "img/productos/d1u0tt83w7w.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2768,8 +3045,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1u8csvmts7.webp",
+   "fotos": [
+    "img/productos/d1u8csvmts7.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2784,8 +3063,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1umw8zsqvv.webp",
+   "fotos": [
+    "img/productos/d1umw8zsqvv.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2816,8 +3097,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1uzxcpqjh1.webp",
+   "fotos": [
+    "img/productos/d1uzxcpqjh1.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2864,8 +3147,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1v6o9b1ors.webp",
+   "fotos": [
+    "img/productos/d1v6o9b1ors.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2880,8 +3165,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1vgtw8hu1a.webp",
+   "fotos": [
+    "img/productos/d1vgtw8hu1a.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2928,8 +3215,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1vqsq73f65.webp",
+   "fotos": [
+    "img/productos/d1vqsq73f65.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -2944,8 +3233,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1vzmqfpcg9.webp",
+   "fotos": [
+    "img/productos/d1vzmqfpcg9.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2960,8 +3251,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1wbn9wr9f9.webp",
+   "fotos": [
+    "img/productos/d1wbn9wr9f9.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -2992,8 +3285,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1wn07jgs7g.webp",
+   "fotos": [
+    "img/productos/d1wn07jgs7g.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3008,8 +3303,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1wzpmcx7re.webp",
+   "fotos": [
+    "img/productos/d1wzpmcx7re.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3024,8 +3321,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1x5l03bckw.webp",
+   "fotos": [
+    "img/productos/d1x5l03bckw.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3040,8 +3339,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1xh0dwhc86.webp",
+   "fotos": [
+    "img/productos/d1xh0dwhc86.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3056,8 +3357,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d4rst6mhh16.webp",
+   "fotos": [
+    "img/productos/d4rst6mhh16.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3072,8 +3375,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1xpyxz96pr.webp",
+   "fotos": [
+    "img/productos/d1xpyxz96pr.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3104,8 +3409,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1xwqnot5uk.webp",
+   "fotos": [
+    "img/productos/d1xwqnot5uk.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3120,8 +3427,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1y3sg0iyl8.webp",
+   "fotos": [
+    "img/productos/d1y3sg0iyl8.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3136,8 +3445,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ybhvo3s5v.webp",
+   "fotos": [
+    "img/productos/d1ybhvo3s5v.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3152,8 +3463,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1yk8450cuq.webp",
+   "fotos": [
+    "img/productos/d1yk8450cuq.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3168,8 +3481,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1ysxno7twl.webp",
+   "fotos": [
+    "img/productos/d1ysxno7twl.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3200,8 +3515,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1yzv1pyhoe.webp",
+   "fotos": [
+    "img/productos/d1yzv1pyhoe.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3216,8 +3533,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1z8jr8i3k6.webp",
+   "fotos": [
+    "img/productos/d1z8jr8i3k6.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3232,8 +3551,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1zfkt8m6au.webp",
+   "fotos": [
+    "img/productos/d1zfkt8m6au.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3248,8 +3569,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1zp2q4qu11.webp",
+   "fotos": [
+    "img/productos/d1zp2q4qu11.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3280,8 +3603,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d1zyrjpcxh1.webp",
+   "fotos": [
+    "img/productos/d1zyrjpcxh1.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3296,8 +3621,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d208a0q5r4y.webp",
+   "fotos": [
+    "img/productos/d208a0q5r4y.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3312,8 +3639,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d20dmth3pe1.webp",
+   "fotos": [
+    "img/productos/d20dmth3pe1.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3328,8 +3657,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d20nd4ayg8n.webp",
+   "fotos": [
+    "img/productos/d20nd4ayg8n.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3344,8 +3675,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d20sfnviu8c.webp",
+   "fotos": [
+    "img/productos/d20sfnviu8c.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3360,8 +3693,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d211d7ha12o.webp",
+   "fotos": [
+    "img/productos/d211d7ha12o.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3376,8 +3711,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2177wdfvw2.webp",
+   "fotos": [
+    "img/productos/d2177wdfvw2.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3392,8 +3729,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d21hd318xta.webp",
+   "fotos": [
+    "img/productos/d21hd318xta.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3408,8 +3747,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d21mllm8o3o.webp",
+   "fotos": [
+    "img/productos/d21mllm8o3o.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3424,8 +3765,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d21pcxuo2hz.webp",
+   "fotos": [
+    "img/productos/d21pcxuo2hz.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3440,8 +3783,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d21z8yevo11.webp",
+   "fotos": [
+    "img/productos/d21z8yevo11.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3456,8 +3801,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d228xvfpshu.webp",
+   "fotos": [
+    "img/productos/d228xvfpshu.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3472,8 +3819,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d22d6obd2d7.webp",
+   "fotos": [
+    "img/productos/d22d6obd2d7.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3488,8 +3837,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d22pfj2ec4x.webp",
+   "fotos": [
+    "img/productos/d22pfj2ec4x.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3504,8 +3855,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d22w2fgg31m.webp",
+   "fotos": [
+    "img/productos/d22w2fgg31m.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3520,8 +3873,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d230j5wi0fo.webp",
+   "fotos": [
+    "img/productos/d230j5wi0fo.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3536,8 +3891,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d23aivzo3km.webp",
+   "fotos": [
+    "img/productos/d23aivzo3km.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3552,8 +3909,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d23jdmm5enb.webp",
+   "fotos": [
+    "img/productos/d23jdmm5enb.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3584,8 +3943,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d23smk0qlad.webp",
+   "fotos": [
+    "img/productos/d23smk0qlad.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3600,8 +3961,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d243nxwfhse.webp",
+   "fotos": [
+    "img/productos/d243nxwfhse.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3616,8 +3979,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d24a9v22dnf.webp",
+   "fotos": [
+    "img/productos/d24a9v22dnf.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3632,8 +3997,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d24jk6illlz.webp",
+   "fotos": [
+    "img/productos/d24jk6illlz.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3664,8 +4031,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d24vs7dblrm.webp",
+   "fotos": [
+    "img/productos/d24vs7dblrm.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3712,8 +4081,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d25534jcrdi.webp",
+   "fotos": [
+    "img/productos/d25534jcrdi.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3728,8 +4099,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d25gn0aowr4.webp",
+   "fotos": [
+    "img/productos/d25gn0aowr4.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3744,8 +4117,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d25r20nyqum.webp",
+   "fotos": [
+    "img/productos/d25r20nyqum.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3760,8 +4135,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d25zsbxc6pj.webp",
+   "fotos": [
+    "img/productos/d25zsbxc6pj.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3776,8 +4153,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d26cxp06gfb.webp",
+   "fotos": [
+    "img/productos/d26cxp06gfb.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3792,8 +4171,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d26mqfccxyi.webp",
+   "fotos": [
+    "img/productos/d26mqfccxyi.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3808,8 +4189,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d26uvmfe1ao.webp",
+   "fotos": [
+    "img/productos/d26uvmfe1ao.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -3840,8 +4223,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d275dzwskof.webp",
+   "fotos": [
+    "img/productos/d275dzwskof.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3856,8 +4241,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d27gupou809.webp",
+   "fotos": [
+    "img/productos/d27gupou809.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3904,8 +4291,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d27phaqodjy.webp",
+   "fotos": [
+    "img/productos/d27phaqodjy.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3936,8 +4325,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d27xoep22te.webp",
+   "fotos": [
+    "img/productos/d27xoep22te.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3968,8 +4359,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d286imey6bc.webp",
+   "fotos": [
+    "img/productos/d286imey6bc.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -3984,8 +4377,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d28e3jsi1rx.webp",
+   "fotos": [
+    "img/productos/d28e3jsi1rx.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4000,8 +4395,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d28mr6ddyfm.webp",
+   "fotos": [
+    "img/productos/d28mr6ddyfm.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4016,8 +4413,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d28pgeapcoq.webp",
+   "fotos": [
+    "img/productos/d28pgeapcoq.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4032,8 +4431,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d28zha5ov2f.webp",
+   "fotos": [
+    "img/productos/d28zha5ov2f.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4048,8 +4449,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d299bpspgtl.webp",
+   "fotos": [
+    "img/productos/d299bpspgtl.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4064,8 +4467,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d29gv8oqo12.webp",
+   "fotos": [
+    "img/productos/d29gv8oqo12.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4080,8 +4485,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d29src5icsa.webp",
+   "fotos": [
+    "img/productos/d29src5icsa.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4096,8 +4503,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2a1ue20bo0.webp",
+   "fotos": [
+    "img/productos/d2a1ue20bo0.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4112,8 +4521,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2a540awvl7.webp",
+   "fotos": [
+    "img/productos/d2a540awvl7.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4128,8 +4539,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2adb3vgtgn.webp",
+   "fotos": [
+    "img/productos/d2adb3vgtgn.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4144,8 +4557,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ao6qyna64.webp",
+   "fotos": [
+    "img/productos/d2ao6qyna64.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4160,8 +4575,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2aw5uwzecy.webp",
+   "fotos": [
+    "img/productos/d2aw5uwzecy.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4176,8 +4593,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2b2zyvxn49.webp",
+   "fotos": [
+    "img/productos/d2b2zyvxn49.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4192,8 +4611,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ba2i7unyr.webp",
+   "fotos": [
+    "img/productos/d2ba2i7unyr.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4224,8 +4645,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2bgvncdn7l.webp",
+   "fotos": [
+    "img/productos/d2bgvncdn7l.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4240,8 +4663,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2bquiqbzj5.webp",
+   "fotos": [
+    "img/productos/d2bquiqbzj5.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4272,8 +4697,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2c0curgpy3.webp",
+   "fotos": [
+    "img/productos/d2c0curgpy3.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4288,8 +4715,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2cafjq4fvp.webp",
+   "fotos": [
+    "img/productos/d2cafjq4fvp.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4304,8 +4733,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ciar4iqtr.webp",
+   "fotos": [
+    "img/productos/d2ciar4iqtr.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4320,8 +4751,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2cp3xzm8ov.webp",
+   "fotos": [
+    "img/productos/d2cp3xzm8ov.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4336,8 +4769,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2cx35qlzs5.webp",
+   "fotos": [
+    "img/productos/d2cx35qlzs5.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4352,8 +4787,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2d46hqfzjr.webp",
+   "fotos": [
+    "img/productos/d2d46hqfzjr.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4368,8 +4805,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2d5hw3ei18.webp",
+   "fotos": [
+    "img/productos/d2d5hw3ei18.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4400,8 +4839,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2dds5thbjp.webp",
+   "fotos": [
+    "img/productos/d2dds5thbjp.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4416,8 +4857,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2dmshz1njl.webp",
+   "fotos": [
+    "img/productos/d2dmshz1njl.webp",
+    "img/productos/d2dv9jxygg4.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4448,8 +4892,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2e7midqxlc.webp",
+   "fotos": [
+    "img/productos/d2e7midqxlc.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4480,8 +4926,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2eeg9to6gh.webp",
+   "fotos": [
+    "img/productos/d2eeg9to6gh.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4496,8 +4944,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2enmxodba7.webp",
+   "fotos": [
+    "img/productos/d2enmxodba7.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4528,8 +4978,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ezkle5utk.webp",
+   "fotos": [
+    "img/productos/d2ezkle5utk.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4560,8 +5012,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2f8dzz7771.webp",
+   "fotos": [
+    "img/productos/d2f8dzz7771.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4576,8 +5030,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d4h0538qo1n.webp",
+   "fotos": [
+    "img/productos/d4h0538qo1n.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4592,8 +5048,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d4gs3h7n0ii.webp",
+   "fotos": [
+    "img/productos/d4gs3h7n0ii.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4624,8 +5082,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2fhnwif6j6.webp",
+   "fotos": [
+    "img/productos/d2fhnwif6j6.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4656,8 +5116,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2fpjvm8l7q.webp",
+   "fotos": [
+    "img/productos/d2fpjvm8l7q.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4672,8 +5134,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2fziuw1int.webp",
+   "fotos": [
+    "img/productos/d2fziuw1int.webp",
+    "img/productos/d2ga5royg77.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4704,8 +5169,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2gje9emp90.webp",
+   "fotos": [
+    "img/productos/d2gje9emp90.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4720,8 +5187,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2grz62tf1j.webp",
+   "fotos": [
+    "img/productos/d2grz62tf1j.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4736,8 +5205,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2gycu8hofv.webp",
+   "fotos": [
+    "img/productos/d2gycu8hofv.webp",
+    "img/productos/d2h8mz38dk2.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4752,8 +5224,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2hkkdqfwnj.webp",
+   "fotos": [
+    "img/productos/d2hkkdqfwnj.webp",
+    "img/productos/d2huezqqw4o.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4768,8 +5243,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2i1wto18x2.webp",
+   "fotos": [
+    "img/productos/d2i1wto18x2.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4784,8 +5261,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ib5bj2hac.webp",
+   "fotos": [
+    "img/productos/d2ib5bj2hac.webp",
+    "img/productos/d2ijvio8l74.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4800,8 +5280,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ittpp3fpe.webp",
+   "fotos": [
+    "img/productos/d2ittpp3fpe.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4832,8 +5314,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2j22o5pgw8.webp",
+   "fotos": [
+    "img/productos/d2j22o5pgw8.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4848,8 +5332,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2jbxhei4re.webp",
+   "fotos": [
+    "img/productos/d2jbxhei4re.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -4864,8 +5350,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2jldx366sw.webp",
+   "fotos": [
+    "img/productos/d2jldx366sw.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4912,8 +5400,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2jt1hghkt2.webp",
+   "fotos": [
+    "img/productos/d2jt1hghkt2.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4928,8 +5418,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2jzzwdqmw2.webp",
+   "fotos": [
+    "img/productos/d2jzzwdqmw2.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4944,8 +5436,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2k68na4ite.webp",
+   "fotos": [
+    "img/productos/d2k68na4ite.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4960,8 +5454,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2kfbexuh0y.webp",
+   "fotos": [
+    "img/productos/d2kfbexuh0y.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -4992,8 +5488,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2kp1iy33gc.webp",
+   "fotos": [
+    "img/productos/d2kp1iy33gc.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5008,8 +5506,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2kxyq0qik3.webp",
+   "fotos": [
+    "img/productos/d2kxyq0qik3.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5024,8 +5524,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2l3dzrrv2w.webp",
+   "fotos": [
+    "img/productos/d2l3dzrrv2w.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5040,8 +5542,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2l69btt2g3.webp",
+   "fotos": [
+    "img/productos/d2l69btt2g3.webp",
+    "img/productos/d2leln1iy4h.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5056,8 +5561,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2lmcooudtr.webp",
+   "fotos": [
+    "img/productos/d2lmcooudtr.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5072,8 +5579,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2lt4tsd8iu.webp",
+   "fotos": [
+    "img/productos/d2lt4tsd8iu.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -5088,8 +5597,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d4gja1k4y9l.webp",
+   "fotos": [
+    "img/productos/d4gja1k4y9l.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -5120,8 +5631,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2m1acyuhdh.webp",
+   "fotos": [
+    "img/productos/d2m1acyuhdh.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -5136,8 +5649,11 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2mbweu9ctv.webp",
+   "fotos": [
+    "img/productos/d2mbweu9ctv.webp",
+    "img/productos/d2mn6k2el2k.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -5152,8 +5668,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2mwnvc8h29.webp",
+   "fotos": [
+    "img/productos/d2mwnvc8h29.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5168,8 +5686,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2n5r2rtqi8.webp",
+   "fotos": [
+    "img/productos/d2n5r2rtqi8.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -5184,8 +5704,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2nggogzvo3.webp",
+   "fotos": [
+    "img/productos/d2nggogzvo3.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5200,8 +5722,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2nstyc2pm0.webp",
+   "fotos": [
+    "img/productos/d2nstyc2pm0.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5216,8 +5740,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ny8c46elr.webp",
+   "fotos": [
+    "img/productos/d2ny8c46elr.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5232,8 +5758,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2o8afwl1ja.webp",
+   "fotos": [
+    "img/productos/d2o8afwl1ja.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5264,8 +5792,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ojwinaqm3.webp",
+   "fotos": [
+    "img/productos/d2ojwinaqm3.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5280,8 +5810,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ot88xpvpv.webp",
+   "fotos": [
+    "img/productos/d2ot88xpvpv.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5296,8 +5828,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2ovmkyfc1f.webp",
+   "fotos": [
+    "img/productos/d2ovmkyfc1f.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -5312,8 +5846,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2p1idsyx1s.webp",
+   "fotos": [
+    "img/productos/d2p1idsyx1s.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -5328,8 +5864,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2p7guv5hqs.webp",
+   "fotos": [
+    "img/productos/d2p7guv5hqs.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5344,8 +5882,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2pce8tksxw.webp",
+   "fotos": [
+    "img/productos/d2pce8tksxw.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5360,8 +5900,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2pjv2d8hup.webp",
+   "fotos": [
+    "img/productos/d2pjv2d8hup.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5376,8 +5918,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2prktpodt0.webp",
+   "fotos": [
+    "img/productos/d2prktpodt0.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
@@ -5392,8 +5936,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2q03crocw3.webp",
+   "fotos": [
+    "img/productos/d2q03crocw3.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5408,8 +5954,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2q8h7yd4dz.webp",
+   "fotos": [
+    "img/productos/d2q8h7yd4dz.webp"
+   ],
    "agotado": true,
    "nuevo": false,
    "destacado": false,
@@ -5424,8 +5972,10 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/d2qg6eqzwmx.webp",
+   "fotos": [
+    "img/productos/d2qg6eqzwmx.webp"
+   ],
    "agotado": false,
    "nuevo": false,
    "destacado": false,
