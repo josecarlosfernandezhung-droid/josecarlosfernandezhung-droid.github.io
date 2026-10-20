@@ -1,5 +1,4 @@
-/* ToTo Tools — Ferretería Los Hermanos! (Santiago de Cuba)
-   Lógica interactiva completa, sincronización de precios y carrito WhatsApp. */
+/* ToTo Tools — Ferretería Los Hermanos! (Santiago de Cuba) */
 
 let CATALOGO = null;
 let PEDIDO = {};
@@ -27,13 +26,11 @@ async function cargarCatalogo() {
 function inicializarInterfaz() {
   if (!CATALOGO) return;
 
-  // 1. WhatsApp y contactos
   const telWsp = CATALOGO.contacto?.whatsapp || "5356950485";
   document.querySelectorAll("[data-wa]").forEach(el => {
     el.href = `https://wa.me/${telWsp}?text=${encodeURIComponent("Hola, quisiera información sobre herramientas en ToTo Tools.")}`;
   });
 
-  // 2. Elementos visuales dinámicos
   iniciarRotativa(CATALOGO.portada?.rotativas || ["talleres", "reparaciones", "construcción"]);
   iniciarFotosPortada(CATALOGO.portada?.fotos || []);
   renderizarBento();
@@ -44,7 +41,6 @@ function inicializarInterfaz() {
   renderizarPreguntas();
   renderizarHorario();
 
-  // 3. Eventos buscador y filtros
   document.getElementById("buscar")?.addEventListener("input", renderizarProductos);
   document.getElementById("orden")?.addEventListener("change", renderizarProductos);
 
@@ -60,7 +56,6 @@ function inicializarInterfaz() {
     renderizarProductos();
   });
 
-  // 4. Modales de pedido
   const dlgPedido = document.getElementById("pedido");
   document.getElementById("abrirPedido")?.addEventListener("click", () => dlgPedido?.showModal());
   document.getElementById("pedidoFlotante")?.addEventListener("click", () => dlgPedido?.showModal());
@@ -75,7 +70,6 @@ function inicializarInterfaz() {
     actualizarPedidoUI();
   });
 
-  // 5. Menú hamburguesa móvil
   const btnMenu = document.getElementById("btnMenu");
   const navMenu = document.getElementById("menu");
   if (btnMenu && navMenu) {
@@ -94,7 +88,6 @@ function inicializarInterfaz() {
   }
 }
 
-/* ROTATIVA Y FOTOS PORTADA */
 function iniciarRotativa(lista) {
   const el = document.getElementById("rotativa");
   if (!el || !lista.length) return;
@@ -133,7 +126,6 @@ function iniciarFotosPortada(fotos) {
   }
 }
 
-/* BENTO GRID CON FOTOS REALES */
 function renderizarBento() {
   const container = document.getElementById("bento");
   if (!container) return;
@@ -167,7 +159,6 @@ function renderizarBento() {
   `;
 }
 
-/* FILTROS Y CATEGORÍAS */
 let CATEGORIA_SELECCIONADA = "todas";
 
 function renderizarFiltros() {
@@ -190,7 +181,6 @@ window.seleccionarCategoria = function(catId, btn) {
   renderizarProductos();
 };
 
-/* CONVERSIÓN DE PRECIOS */
 function formatearPrecio(precioBase) {
   const infoMoneda = CATALOGO.monedas?.lista?.find(m => m.codigo === MONEDA_ACTUAL);
   if (!infoMoneda) return `${precioBase} CUP`;
@@ -203,7 +193,6 @@ function formatearPrecio(precioBase) {
   return `${simbolo}${valor.toLocaleString('es-CU', {minimumFractionDigits: 0, maximumFractionDigits: 2})} ${MONEDA_ACTUAL}`;
 }
 
-/* PRODUCTOS */
 function renderizarProductos() {
   const container = document.getElementById("catalogo");
   const vacio = document.getElementById("vacio");
@@ -273,7 +262,6 @@ function renderizarProductos() {
   });
 }
 
-/* FICHA MODAL */
 window.abrirFichaProducto = function(id) {
   const p = CATALOGO.productos.find(item => item.id === id);
   if (!p) return;
@@ -301,7 +289,6 @@ window.abrirFichaProducto = function(id) {
   dlg.showModal();
 };
 
-/* CARRITO */
 window.agregarAlPedido = function(id) {
   const p = CATALOGO.productos.find(item => item.id === id);
   if (!p || p.agotado) return;
@@ -405,7 +392,6 @@ function enviarPedidoWhatsApp(e) {
   window.open(`https://wa.me/${tel}?text=${encodeURIComponent(msj)}`, "_blank");
 }
 
-/* PASOS Y PREGUNTAS */
 function renderizarPasos() {
   const container = document.getElementById("pasosLista");
   if (!container || !CATALOGO.pasos) return;
