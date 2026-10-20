@@ -1,1 +1,49 @@
-
+{
+  "whatsapp": "5356950485",
+  "monedaPorDefecto": "USD",
+  "monedas": {
+    "USD": {"simbolo": "$", "nombre": "USD", "tasa": 1}
+  },
+  "condiciones": {
+    "pedido": "Los pedidos se confirman por WhatsApp y se coordinan para entrega o recogida rápida en Santiago de Cuba.",
+    "entrega": "Atención directa en Santiago de Cuba."
+  },
+  "categorias": [
+    {"id": "electricas", "nombre": "Herramientas Eléctricas", "icono": "codigo"},
+    {"id": "manuales", "nombre": "Herramientas Manuales", "icono": "caja"},
+    {"id": "accesorios", "nombre": "Discos y Brocas", "icono": "escudo"},
+    {"id": "fontaneria", "nombre": "Fontanería y Gasfitería", "icono": "llave"}
+  ],
+  "productos": [
+    {
+      "id": "taladro-percutor",
+      "nombre": "Taladro Percutor Profesional",
+      "categoria": "electricas",
+      "precio": 65.00,
+      "precioOferta": 58.00,
+      "resumen": "Taladro de alta potencia con velocidad variable y función percutora.",
+      "descripcion": "Excelente rendimiento para trabajos en concreto, madera y metal. Diseño ergonómico y mandril de alta resistencia.",
+      "foto": "",
+      "agotado": false,
+      "nuevo": true,
+      "destacado": true,
+      "visible": true,
+      "orden": 1
+    },
+    {
+      "id": "juego-llaves",
+      "nombre": "Juego de Llaves Combinadas (12 piezas)",
+      "categoria": "manuales",
+      "precio": 25.00,
+      "precioOferta": null,
+      "resumen": "Juego de llaves mixtas de acero al cromo-vanadio.",
+      "descripcion": "Incluye estuche organizador. Medidas esenciales para mecánica, talleres y mantenimiento general.",
+      "foto": "",
+      "agotado": false,
+      "nuevo": false,
+      "destacado": true,
+      "visible": true,
+      "orden": 2
+    }
+  ]
+}
