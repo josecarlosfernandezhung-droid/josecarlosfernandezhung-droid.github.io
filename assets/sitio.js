@@ -4,7 +4,7 @@
 
 let CATALOGO = null;
 let PEDIDO = {};
-let MONEDA_ACTUAL = "USD";
+let MONEDA_ACTUAL = "CUP";
 
 document.addEventListener("DOMContentLoaded", async () => {
   await cargarCatalogo();
@@ -17,6 +17,9 @@ async function cargarCatalogo() {
     const res = await fetch("datos/catalogo.json?v=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     CATALOGO = await res.json();
+    if (CATALOGO.monedas?.porDefecto) {
+      MONEDA_ACTUAL = CATALOGO.monedas.porDefecto;
+    }
   } catch (err) {
     console.error("Error cargando el catálogo:", err);
     mostrarErrorCarga();
@@ -67,7 +70,12 @@ function inicializarInterfaz() {
   // 6. Monedas
   inicializarMonedas();
 
-  // 7. Eventos de búsqueda y orden
+  // 7. Renderizar secciones de Pasos, Preguntas y Horario
+  renderizarPasos();
+  renderizarPreguntas();
+  renderizarHorario();
+
+  // 8. Eventos de búsqueda y orden
   const inpBuscar = document.getElementById("buscar");
   if (inpBuscar) inpBuscar.addEventListener("input", renderizarProductos);
 
@@ -92,7 +100,7 @@ function inicializarInterfaz() {
     });
   }
 
-  // 8. Eventos de Modal de Pedido
+  // 9. Eventos de Modal de Pedido
   const btnAbrirPedido = document.getElementById("abrirPedido");
   const btnPedidoFlotante = document.getElementById("pedidoFlotante");
   const dlgPedido = document.getElementById("pedido");
@@ -119,7 +127,7 @@ function inicializarInterfaz() {
     });
   }
 
-  // 9. Control del menú hamburguesa en móviles
+  // 10. Control del menú hamburguesa en móviles
   const btnMenu = document.getElementById("btnMenu");
   const navMenu = document.getElementById("menu");
 
@@ -159,7 +167,7 @@ function iniciarRotativa(lista) {
 /* BENTO GRID */
 function renderizarBento() {
   const container = document.getElementById("bento");
-  if (!container || !CATALOGO.soluciones) return;
+  if (!container) return;
 
   container.innerHTML = `
     <div class="bloque grande">
@@ -212,6 +220,23 @@ window.seleccionarCategoria = function(catId, btn) {
   renderizarProductos();
 };
 
+/* CONVERSIÓN DE PRECIOS SEGÚN MONEDA */
+function formatearPrecio(precioBaseUSD) {
+  const infoMoneda = CATALOGO.monedas?.lista?.find(m => m.codigo === MONEDA_ACTUAL);
+  if (!infoMoneda) return `${precioBaseUSD.toFixed(2)} CUP`;
+
+  // Si la base en el JSON es CUP y la tasa es respecto a CUP
+  let valorFinal = precioBaseUSD;
+  if (CATALOGO.monedas.base === "CUP" && MONEDA_ACTUAL === "USD") {
+    valorFinal = precioBaseUSD * infoMoneda.tasa; // Tasa USD respecto a CUP
+  } else if (CATALOGO.monedas.base === "USD" && MONEDA_ACTUAL === "CUP") {
+    valorFinal = precioBaseUSD * infoMoneda.tasa;
+  }
+
+  const simbolo = infoMoneda.simbolo || "$";
+  return `${simbolo}${valorFinal.toLocaleString('es-CU', {minimumFractionDigits: 2, maximumFractionDigits: 2})} ${MONEDA_ACTUAL}`;
+}
+
 /* RENDERIZADO DE PRODUCTOS */
 function renderizarProductos() {
   const container = document.getElementById("catalogo");
@@ -256,207 +281,9 @@ function renderizarProductos() {
     const card = document.createElement("article");
     card.className = `producto rv in ${p.agotado ? "agotado" : ""}`;
 
-    const precioMostrar = p.precioOferta ? p.precioOferta : p.precio;
     const precioHTML = p.precioOferta
-      ? `<s>$${p.precio.toFixed(2)}</s> $${p.precioOferta.toFixed(2)}`
-      : `$${p.precio.toFixed(2)}`;
+      ? `<s>${formatearPrecio(p.precio)}</s> ${formatearPrecio(p.precioOferta)}`
+      : `${formatearPrecio(p.precio)}`;
 
     let selloHTML = "";
-    if (p.agotado) selloHTML = `<span class="sello agotado">Agotado</span>`;
-    else if (p.precioOferta) selloHTML = `<span class="sello oferta">Oferta</span>`;
-    else if (p.nuevo) selloHTML = `<span class="sello nuevo">Nuevo</span>`;
-
-    card.innerHTML = `
-      <button type="button" class="producto-abrir" onclick="abrirFichaProducto('${p.id}')">
-        <div class="producto-foto">
-          <div class="sellos">${selloHTML}</div>
-          <img src="${p.foto || 'img/marca/icono.svg'}" alt="${p.nombre}" loading="lazy" onerror="this.onerror=null;this.src='img/marca/icono.svg';">
-        </div>
-        <div class="producto-txt">
-          <span class="producto-cat">${p.categoria}</span>
-          <h3>${p.nombre}</h3>
-          <p>${p.resumen || p.descripcion || ""}</p>
-        </div>
-      </button>
-      <div class="producto-pie">
-        <div class="precio">${precioHTML}</div>
-        <button type="button" class="agregar" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}')" aria-label="Agregar a pedido">
-          <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
-        </button>
-      </div>
-    `;
-    container.appendChild(card);
-  });
-}
-
-/* FICHA COMPLETA DE PRODUCTO (MODAL) */
-window.abrirFichaProducto = function(id) {
-  const p = CATALOGO.productos.find(item => item.id === id);
-  if (!p) return;
-
-  const dlg = document.getElementById("ficha");
-  const cuerpo = document.getElementById("fichaCuerpo");
-  if (!dlg || !cuerpo) return;
-
-  cuerpo.innerHTML = `
-    <div class="ficha-foto">
-      <img src="${p.foto || 'img/marca/icono.svg'}" alt="${p.nombre}" onerror="this.onerror=null;this.src='img/marca/icono.svg';">
-    </div>
-    <div class="ficha-info">
-      <h2 id="fichaNombre">${p.nombre}</h2>
-      <div class="ficha-precio">
-        ${p.precioOferta ? `<s>$${p.precio.toFixed(2)} USD</s> <span>$${p.precioOferta.toFixed(2)} USD</span> <span class="ahorro">Oferta</span>` : `<span>$${p.precio.toFixed(2)} USD</span>`}
-      </div>
-      <div class="ficha-desc">
-        <p>${p.descripcion || p.resumen || "Artículo de excelente calidad para ferretería y taller."}</p>
-      </div>
-      <div class="ficha-comprar">
-        <button type="button" class="btn btn-tinta btn-ancho" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}'); document.getElementById('ficha').close();">
-          ${p.agotado ? "Agotado" : "🛒 Agregar al pedido"}
-        </button>
-      </div>
-    </div>
-  `;
-
-  dlg.showModal();
-};
-
-/* GESTIÓN DE CARRITO / PEDIDO */
-window.agregarAlPedido = function(id) {
-  const p = CATALOGO.productos.find(item => item.id === id);
-  if (!p || p.agotado) return;
-
-  if (PEDIDO[id]) {
-    PEDIDO[id].cantidad++;
-  } else {
-    PEDIDO[id] = { producto: p, cantidad: 1 };
-  }
-
-  actualizarPedidoUI();
-  mostrarTostada(`Añadido: ${p.nombre}`);
-};
-
-function actualizarPedidoUI() {
-  const contador = document.getElementById("contador");
-  const pfCantidad = document.getElementById("pfCantidad");
-  const pfTotal = document.getElementById("pfTotal");
-  const btnFlotante = document.getElementById("pedidoFlotante");
-  const listaEl = document.getElementById("pedidoLista");
-  const totalEl = document.getElementById("pedidoTotal");
-
-  let totalItems = 0;
-  let totalMonto = 0;
-
-  Object.values(PEDIDO).forEach(item => {
-    totalItems += item.cantidad;
-    const precio = item.producto.precioOferta ? item.producto.precioOferta : item.producto.precio;
-    totalMonto += precio * item.cantidad;
-  });
-
-  if (contador) {
-    contador.innerText = totalItems;
-    contador.hidden = totalItems === 0;
-  }
-
-  if (btnFlotante) {
-    btnFlotante.hidden = totalItems === 0;
-    if (pfCantidad) pfCantidad.innerText = `${totalItems} ${totalItems === 1 ? 'producto' : 'productos'}`;
-    if (pfTotal) pfTotal.innerText = `$${totalMonto.toFixed(2)}`;
-  }
-
-  if (totalEl) totalEl.innerText = `$${totalMonto.toFixed(2)} USD`;
-
-  if (listaEl) {
-    listaEl.innerHTML = "";
-    if (totalItems === 0) {
-      listaEl.innerHTML = `<div class="pedido-vacio"><b>Tu pedido está vacío</b><span>Elige productos del catálogo para agregarlos aquí.</span></div>`;
-    } else {
-      Object.entries(PEDIDO).forEach(([id, item]) => {
-        const precio = item.producto.precioOferta ? item.producto.precioOferta : item.producto.precio;
-        const linea = document.createElement("div");
-        linea.className = "linea";
-        linea.innerHTML = `
-          <img src="${item.producto.foto || 'img/marca/icono.svg'}" alt="${item.producto.nombre}">
-          <div>
-            <b>${item.producto.nombre}</b>
-            <small>$${precio.toFixed(2)} x ${item.cantidad}</small>
-          </div>
-          <div class="cantidad">
-            <button type="button" onclick="modificarCantidad('${id}', -1)">-</button>
-            <output>${item.cantidad}</output>
-            <button type="button" onclick="modificarCantidad('${id}', 1)">+</button>
-          </div>
-        `;
-        listaEl.appendChild(linea);
-      });
-    }
-  }
-}
-
-window.modificarCantidad = function(id, delta) {
-  if (!PEDIDO[id]) return;
-  PEDIDO[id].cantidad += delta;
-  if (PEDIDO[id].cantidad <= 0) {
-    delete PEDIDO[id];
-  }
-  actualizarPedidoUI();
-};
-
-function enviarPedidoWhatsApp(e) {
-  e.preventDefault();
-  if (Object.keys(PEDIDO).length === 0) return;
-
-  const tel = CATALOGO.contacto?.whatsapp || "5356950485";
-  const cliente = document.getElementById("pNombre")?.value || "Cliente";
-  const direccion = document.getElementById("pNegocio")?.value || "";
-
-  let msj = `Hola, mi nombre es *${cliente}* y deseo realizar el siguiente pedido en *ToTo Tools*:\n\n`;
-  let total = 0;
-
-  Object.values(PEDIDO).forEach(i => {
-    const p = i.producto;
-    const precio = p.precioOferta ? p.precioOferta : p.precio;
-    const sub = precio * i.cantidad;
-    total += sub;
-    msj += `• *${p.nombre}* x${i.cantidad} = $${sub.toFixed(2)} USD\n`;
-  });
-
-  if (direccion) msj += `\n📍 *Ubicación / Notas:* ${direccion}`;
-  msj += `\n\n*Total Estimado:* $${total.toFixed(2)} USD`;
-
-  window.open(`https://wa.me/${tel}?text=${encodeURIComponent(msj)}`, "_blank");
-}
-
-/* MONEDAS Y TOSTADAS */
-function inicializarMonedas() {
-  const sel = document.getElementById("moneda");
-  const caja = document.getElementById("monedaCaja");
-  if (!sel || !CATALOGO.monedas?.lista) return;
-
-  sel.innerHTML = "";
-  CATALOGO.monedas.lista.forEach(m => {
-    sel.innerHTML += `<option value="${m.codigo}">${m.codigo}</option>`;
-  });
-
-  if (caja) caja.hidden = false;
-}
-
-function mostrarTostada(txt) {
-  const t = document.getElementById("tostada");
-  if (!t) return;
-  t.innerText = txt;
-  t.classList.add("ver");
-  setTimeout(() => t.classList.remove("ver"), 2200);
-}
-
-function inicializarAnimaciones() {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("in");
-      }
-    });
-  }, { threshold: 0.1 });
-
-  document.querySelectorAll(".rv").forEach(el => observer.observe(el));
-}
+    if (p.agotado) selloHTML
