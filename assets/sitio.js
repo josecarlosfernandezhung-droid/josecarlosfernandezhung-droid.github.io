@@ -107,16 +107,31 @@ function iniciarRotativa(lista) {
 
 /* Foto de producto: si no tiene (o es una foto repetida en 5+ productos, o sea de relleno) se muestra un ícono de herramienta */
 const ICONO_VACIO = "img/marca/icono.svg";
+/* SVG inline de respaldo (por si el archivo aún no está en el repo) */
+const ICONO_DATA = "data:image/svg+xml," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" rx="16" fill="#e8f1ff"/><g transform="translate(18 18) scale(3.5)" fill="none" stroke="#2f7cf6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></g></svg>');
 let FOTOS_REPETIDAS = new Set();
 function calcularFotosRepetidas() {
   const n = {};
   (CATALOGO.productos || []).forEach(p => { if (p.foto) n[p.foto] = (n[p.foto] || 0) + 1; });
-  FOTOS_REPETIDAS = new Set(Object.keys(n).filter(f => n[f] >= 5));
+  /* Solo marcar como relleno si se repite mucho (plantilla genérica) */
+  FOTOS_REPETIDAS = new Set(Object.keys(n).filter(f => n[f] >= 8));
 }
-function fotoDe(p) { return p && p.foto && !FOTOS_REPETIDAS.has(p.foto) ? p.foto : ICONO_VACIO; }
+function fotoDe(p) {
+  if (!p) return ICONO_VACIO;
+  const f = p.foto || (p.fotos && p.fotos[0]) || "";
+  if (f && !FOTOS_REPETIDAS.has(f)) return f;
+  return ICONO_VACIO;
+}
+function esPlaceholder(src) {
+  return !src || /icono\.svg$/.test(src) || src.indexOf("data:image/svg") === 0;
+}
 document.addEventListener("error", e => {
   const t = e.target;
-  if (t && t.tagName === "IMG" && !t.dataset.fb && !/icono\.svg$/.test(t.src)) { t.dataset.fb = 1; t.src = ICONO_VACIO; }
+  if (t && t.tagName === "IMG" && !t.dataset.fb) {
+    t.dataset.fb = "1";
+    t.classList.add("placeholder");
+    t.src = ICONO_DATA;
+  }
 }, true);
 
 function iniciarFotosPortada(fotos) {
@@ -255,11 +270,12 @@ function renderizarProductos() {
     if (p.agotado) selloHTML = `<span class="sello agotado" style="background:#4c5566; color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700;">Agotado</span>`;
     else if (p.precioOferta) selloHTML = `<span class="sello oferta" style="background:var(--rojo); color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700;">Oferta</span>`;
 
+    const fotoSrc = fotoDe(p);
     card.innerHTML = `
       <button type="button" class="producto-abrir" onclick="abrirFichaProducto('${p.id}')">
         <div class="producto-foto">
           <div class="sellos" style="position:absolute; left:10px; top:10px; z-index:2;">${selloHTML}</div>
-          <img src="${fotoDe(p)}" alt="${p.nombre}" loading="lazy">
+          <img src="${fotoSrc}" alt="${p.nombre}" loading="lazy" class="${esPlaceholder(fotoSrc) ? 'placeholder' : ''}">
         </div>
         <div class="producto-txt">
           <span class="producto-cat">${p.categoria}</span>
@@ -290,7 +306,7 @@ window.abrirFichaProducto = function(id) {
 
   cuerpo.innerHTML = `
     <div class="ficha-foto">
-      <img src="${fotoDe(p)}" alt="${p.nombre}">
+      <img src="${fotoDe(p)}" alt="${p.nombre}" class="${esPlaceholder(fotoDe(p)) ? 'placeholder' : ''}">
     </div>
     <div class="ficha-info">
       <h2>${p.nombre}</h2>
@@ -352,22 +368,25 @@ function actualizarPedidoUI() {
   if (listaEl) {
     listaEl.innerHTML = "";
     if (totalItems === 0) {
-      listaEl.innerHTML = `<div style="text-align:center; padding:20px; color:var(--tinta-2);"><b>Tu pedido está vacío</b><br>Elige productos del catálogo.</div>`;
+      listaEl.innerHTML = `<div class="pedido-vacio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0"/></svg><b>Tu pedido está vacío</b><span>Elige productos del catálogo</span></div>`;
     } else {
       Object.entries(PEDIDO).forEach(([id, item]) => {
         const precio = item.producto.precioOferta ? item.producto.precioOferta : item.producto.precio;
         const linea = document.createElement("div");
         linea.className = "linea";
+        const sub = precio * item.cantidad;
+        const src = fotoDe(item.producto);
         linea.innerHTML = `
-          <img src="${fotoDe(item.producto)}" alt="${item.producto.nombre}">
-          <div>
+          <img src="${src}" alt="${item.producto.nombre}" class="${esPlaceholder(src) ? 'placeholder' : ''}" loading="lazy">
+          <div class="lin-info">
             <b>${item.producto.nombre}</b>
-            <small>${formatearPrecio(precio)}</small>
+            <small>${formatearPrecio(precio)} c/u</small>
+            ${item.cantidad > 1 ? `<span class="subtotal">${formatearPrecio(sub)}</span>` : ''}
           </div>
           <div class="cantidad">
-            <button type="button" onclick="modificarCantidad('${id}', -1)">-</button>
+            <button type="button" onclick="modificarCantidad('${id}', -1)" aria-label="Quitar">−</button>
             <output>${item.cantidad}</output>
-            <button type="button" onclick="modificarCantidad('${id}', 1)">+</button>
+            <button type="button" onclick="modificarCantidad('${id}', 1)" aria-label="Añadir">+</button>
           </div>
         `;
         listaEl.appendChild(linea);
