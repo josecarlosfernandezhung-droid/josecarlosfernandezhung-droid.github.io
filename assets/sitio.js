@@ -16,6 +16,7 @@ async function cargarCatalogo() {
     if (!res.ok) throw new Error("HTTP " + res.status);
     CATALOGO = await res.json();
     calcularFotosRepetidas();
+    calcularTextosRepetidos();
     if (CATALOGO.monedas?.porDefecto) {
       MONEDA_ACTUAL = CATALOGO.monedas.porDefecto;
     }
@@ -44,6 +45,16 @@ function inicializarInterfaz() {
 
   document.getElementById("buscar")?.addEventListener("input", renderizarProductos);
   document.getElementById("orden")?.addEventListener("change", renderizarProductos);
+  ["fMasVendidos", "fNuevos", "fAgotados"].forEach(id => document.getElementById(id)?.addEventListener("click", (e) => {
+    const on = e.currentTarget.getAttribute("aria-pressed") !== "true";
+    e.currentTarget.setAttribute("aria-pressed", on);
+    if (on && id === "fAgotados") document.getElementById("fDisponibles")?.setAttribute("aria-pressed", "false");
+    renderizarProductos();
+  }));
+  document.getElementById("fDisponibles")?.addEventListener("click", () => setTimeout(() => {
+    if (document.getElementById("fDisponibles").getAttribute("aria-pressed") === "true") document.getElementById("fAgotados")?.setAttribute("aria-pressed", "false");
+    renderizarProductos();
+  }, 0));
 
   document.getElementById("fOfertas")?.addEventListener("click", (e) => {
     const activo = e.target.getAttribute("aria-pressed") === "true";
@@ -122,6 +133,14 @@ function fotoDe(p) {
   if (f && !FOTOS_REPETIDAS.has(f)) return f;
   return ICONO_VACIO;
 }
+/* Descripciones: si el mismo texto se repite en 5+ productos es relleno y no se muestra */
+let TEXTOS_REPETIDOS = new Set();
+function calcularTextosRepetidos() {
+  const n = {};
+  (CATALOGO.productos || []).forEach(p => [p.descripcion, p.resumen].forEach(t => { t = (t || "").trim(); if (t) n[t] = (n[t] || 0) + 1; }));
+  TEXTOS_REPETIDOS = new Set(Object.keys(n).filter(t => n[t] >= 5));
+}
+function textoDe(t) { t = (t || "").trim(); return t && !TEXTOS_REPETIDOS.has(t) ? t : ""; }
 function esPlaceholder(src) {
   return !src || /icono\.svg$/.test(src) || src.indexOf("data:image/svg") === 0;
 }
@@ -240,6 +259,10 @@ function renderizarProductos() {
 
   const fDisponibles = document.getElementById("fDisponibles")?.getAttribute("aria-pressed") === "true";
   if (fDisponibles) prods = prods.filter(p => !p.agotado);
+  const on = id => document.getElementById(id)?.getAttribute("aria-pressed") === "true";
+  if (on("fAgotados")) prods = prods.filter(p => p.agotado);
+  if (on("fNuevos")) prods = prods.filter(p => p.nuevo);
+  if (on("fMasVendidos")) prods = prods.filter(p => p.masVendido);
 
   const q = (document.getElementById("buscar")?.value || "").toLowerCase().trim();
   if (q) prods = prods.filter(p => p.nombre.toLowerCase().includes(q) || (p.resumen && p.resumen.toLowerCase().includes(q)));
@@ -247,6 +270,7 @@ function renderizarProductos() {
   const ord = document.getElementById("orden")?.value || "rel";
   if (ord === "asc") prods.sort((a, b) => a.precio - b.precio);
   if (ord === "desc") prods.sort((a, b) => b.precio - a.precio);
+  if (ord === "ventas" || (on("fMasVendidos") && ord === "rel")) prods.sort((a, b) => (b.ventas || 0) - (a.ventas || 0));
   if (ord === "az") prods.sort((a, b) => a.nombre.localeCompare(b.nombre));
 
   container.innerHTML = "";
@@ -269,6 +293,8 @@ function renderizarProductos() {
     let selloHTML = "";
     if (p.agotado) selloHTML = `<span class="sello agotado" style="background:#4c5566; color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700;">Agotado</span>`;
     else if (p.precioOferta) selloHTML = `<span class="sello oferta" style="background:var(--rojo); color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700;">Oferta</span>`;
+    else if (p.nuevo) selloHTML = `<span class="sello" style="color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700; background:#2f7cf6;">Nuevo</span>`;
+    else if (p.masVendido) selloHTML = `<span class="sello" style="color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700; background:#16a34a;">Más vendido</span>`;
 
     const fotoSrc = fotoDe(p);
     card.innerHTML = `
@@ -280,7 +306,7 @@ function renderizarProductos() {
         <div class="producto-txt">
           <span class="producto-cat">${p.categoria}</span>
           <h3>${p.nombre}</h3>
-          <p>${p.resumen || ""}</p>
+          <p>${textoDe(p.resumen)}</p>
         </div>
       </button>
       <div class="producto-pie">
@@ -311,7 +337,7 @@ window.abrirFichaProducto = function(id) {
     <div class="ficha-info">
       <h2>${p.nombre}</h2>
       <div class="ficha-precio">${formatearPrecio(precioFinal)}</div>
-      <p style="color:var(--tinta-2); font-size:15px;">${p.descripcion || p.resumen || "Herramienta de excelente calidad para taller y hogar."}</p>
+      ${(textoDe(p.descripcion) || textoDe(p.resumen)) ? `<p style="color:var(--tinta-2); font-size:15px;">${textoDe(p.descripcion) || textoDe(p.resumen)}</p>` : ""}
       <button type="button" class="btn btn-tinta btn-ancho" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}'); document.getElementById('ficha').close();">
         ${p.agotado ? "Agotado" : "🛒 Agregar al pedido"}
       </button>

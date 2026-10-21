@@ -578,3 +578,7 @@ details.pregunta summary::after{content:none!important}
 details.pregunta summary{list-style:none}
 details.pregunta summary::-webkit-details-marker,details.pregunta summary::marker{display:none;content:""}
 details.pregunta summary::after{content:none!important}
+
+/* filtros rápidos: más vendidos, nuevos, disponibles, agotados, ofertas */
+.filtros{display:flex!important;flex-wrap:wrap;gap:8px}
+.filtros .filtro{flex:1 1 auto;white-space:nowrap}
