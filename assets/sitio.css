@@ -543,3 +543,38 @@ details.pregunta summary::after{content:none!important}
   display:block;text-align:center;font-size:13.5px;color:var(--tinta-2);
   text-decoration:underline;text-underline-offset:3px;background:none;border:0;padding:4px;
 }
+
+/* ======= Correcciones: logo, cabecera, barra del carrito y lista del pedido ======= */
+/* logo grande y sin recortar */
+.logo{gap:10px;min-width:0}
+.logo-marca{flex:0 0 auto!important;width:56px!important;height:56px!important;background:none!important;border-radius:0!important;overflow:visible!important}
+.logo-marca img{width:100%;height:100%;object-fit:contain!important;border-radius:0!important;display:block}
+.logo-marca:not(:has(img)){background:var(--cian)!important;border-radius:12px!important;font-size:30px!important;width:46px!important;height:46px!important}
+@media (min-width:900px){.logo-marca{width:62px!important;height:62px!important}}
+.barra{min-height:68px}
+/* cabecera que cabe completa aunque haya productos en el pedido */
+.barra-contenido{min-width:0;gap:10px}
+.logo-texto{white-space:normal;line-height:1.05}
+.btn-pedido,#btnPedido{position:relative;flex:0 0 auto;width:46px!important;min-width:46px!important;padding:0!important;justify-content:center}
+#contador{position:absolute!important;top:-5px;right:-5px;min-width:20px;height:20px;padding:0 5px;font-size:11px;line-height:20px;text-align:center;border-radius:999px;box-shadow:0 0 0 2px var(--noche,#080c14)}
+@media (max-width:420px){.logo-marca{width:50px!important;height:50px!important}.logo-texto{font-size:15px}.barra-contenido{gap:8px}}
+@media (max-width:370px){.logo-marca{width:44px!important;height:44px!important}.logo-texto{font-size:14px}.barra-contenido{gap:6px}}
+/* barra flotante «Ver pedido» (sin ícono suelto) */
+.pedido-flotante svg{display:none!important}
+.pedido-flotante{display:flex;align-items:center;gap:12px;white-space:nowrap;padding:8px 8px 8px 18px;max-width:calc(100vw - 24px)}
+.pedido-flotante[hidden]{display:none!important}
+.pedido-flotante>*{white-space:nowrap}
+.pedido-flotante b,.pedido-flotante .pf-total{font:700 15px var(--f-mono,monospace)}
+.pedido-flotante #pfCantidad{font-size:13px;opacity:.8}
+.pedido-flotante .pf-ver{padding:10px 16px;border-radius:999px;background:var(--cian);color:#08111f;font-weight:700;font-size:14px}
+/* lista del pedido: nombres completos, sin cortes */
+.linea{grid-template-columns:60px minmax(0,1fr) auto!important;gap:10px!important}
+.linea img{width:60px!important;height:60px!important}
+.linea .lin-info b,.linea b{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+.linea .cantidad{height:36px!important}
+.linea .cantidad button{width:30px!important}
+@media (min-width:420px){.linea{grid-template-columns:72px minmax(0,1fr) auto!important}.linea img{width:72px!important;height:72px!important}}
+/* preguntas frecuentes: una sola flecha */
+details.pregunta summary{list-style:none}
+details.pregunta summary::-webkit-details-marker,details.pregunta summary::marker{display:none;content:""}
+details.pregunta summary::after{content:none!important}

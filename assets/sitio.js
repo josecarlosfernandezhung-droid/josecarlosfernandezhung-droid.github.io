@@ -364,6 +364,8 @@ function actualizarPedidoUI() {
   }
 
   if (totalEl) totalEl.innerText = formatearPrecio(totalMonto);
+  const notaEl = document.getElementById("pedidoNota");
+  if (notaEl) notaEl.textContent = (CATALOGO.condiciones && CATALOGO.condiciones.entrega) || "";
 
   if (listaEl) {
     listaEl.innerHTML = "";
