@@ -13521,5 +13521,9 @@
  ],
  "especialidades": {
   "foto": "img/marca/unsuzgiqyhx.webp"
+ },
+ "firebase": {
+  "url": "https://catalogo-7f269-default-rtdb.europe-west1.firebasedatabase.app",
+  "slug": "totools"
  }
 }
