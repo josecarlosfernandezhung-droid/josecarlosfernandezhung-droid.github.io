@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   inicializarInterfaz();
   inicializarProgreso();
   fbContarVisita();
+  iniciarDestinoPedido();
 });
 
 async function cargarCatalogo() {
@@ -367,8 +368,7 @@ function actualizarPedidoUI() {
   }
 
   if (totalEl) totalEl.innerText = formatearPrecio(totalMonto);
-  const notaEl = document.getElementById("pedidoNota");
-  if (notaEl) notaEl.textContent = (CATALOGO.condiciones && CATALOGO.condiciones.entrega) || "";
+  aplicarModoEntregaPedido();
 
   if (listaEl) {
     listaEl.innerHTML = "";
@@ -413,7 +413,7 @@ function enviarPedidoWhatsApp(e) {
 
   const tel = CATALOGO.contacto?.whatsapp || "5356950485";
   const cliente = document.getElementById("pNombre")?.value || "Cliente";
-  const direccion = document.getElementById("pNegocio")?.value || "";
+  const direccion = conDomicilio() ? (document.getElementById("pNegocio")?.value || "") : "";
 
   const negocio = CATALOGO.marca?.nombre || "ToTo Tools";
   let msj = `Hola, mi nombre es *${cliente}* y deseo realizar el siguiente pedido en *${negocio}*:\n\n`;
@@ -428,6 +428,7 @@ function enviarPedidoWhatsApp(e) {
   });
 
   if (direccion) msj += `\n📍 *Ubicación / Notas:* ${direccion}`;
+  else if (!conDomicilio()) msj += `\n🏪 *Recogida en el local*`;
   msj += `\n\n*Total Estimado:* ${formatearPrecio(total)}`;
 
   /* Código del pedido: el panel lo lee al copiar este mensaje y registra el pedido solo */
@@ -436,7 +437,16 @@ function enviarPedidoWhatsApp(e) {
   msj += `\n\n🧾 Pedido #${codigo.slice(0, 5)}-${codigo.slice(5)}\n[ref:${codigo}|${refs}|${MONEDA_ACTUAL}]`;
 
   fbEnviarPedido(codigo, msj);
-  window.open(`https://wa.me/${tel}?text=${encodeURIComponent(msj)}`, "_blank");
+  /* Destino: tus números (el cliente elige si hay varios) o el chat que el cliente escoja */
+  const aCliente = CATALOGO.contacto?.pedidoA === "cliente";
+  let destino = document.getElementById("pDestino")?.value || tel;
+  if (aCliente) {
+    let d = (document.getElementById("pTelefono")?.value || "").split(/[\/,;]/)[0].replace(/\D/g, "");
+    if (d.length === 8 && d[0] === "5") d = "53" + d;
+    if (d.length < 10) { document.getElementById("pTelefono")?.focus(); mostrarTostada?.("Escribe tu número de WhatsApp"); return; }
+    destino = d;
+  }
+  window.open(`https://wa.me/${destino}?text=${encodeURIComponent(msj)}`, "_blank");
 }
 
 /* ---- Firebase (opcional): visitas y pedidos llegan al panel. Si falla, la web sigue igual ---- */
@@ -547,4 +557,47 @@ function inicializarProgreso() {
     const progreso = window.scrollY / total;
     document.getElementById("barraProgreso")?.style.setProperty("--p", progreso);
   });
+}
+
+/* Si configuraste varios WhatsApp, el cliente elige a cuál enviar el pedido */
+function iniciarDestinoPedido() {
+  aplicarModoEntregaPedido();
+  const c = CATALOGO && CATALOGO.contacto, caja = document.getElementById("pDestinoCaja"), sel = document.getElementById("pDestino");
+  const tc = document.getElementById("pTelefonoCaja"), ti = document.getElementById("pTelefono");
+  if (c && c.pedidoA === "cliente" && tc && ti) { tc.hidden = false; ti.required = true; }
+  if (!c || !caja || !sel || c.pedidoA === "cliente" || !Array.isArray(c.whatsapps) || c.whatsapps.length < 2) return;
+  sel.innerHTML = c.whatsapps.map((n, i) => `<option value="${n}">WhatsApp ${i + 1} · +${n}</option>`).join("");
+  caja.hidden = false;
+}
+
+/* domicilio=true en el panel → entrega a domicilio (pide ubicación).
+   Si no, solo recogida en el local → no se pide dirección. */
+function conDomicilio() {
+  const c = CATALOGO && CATALOGO.contacto;
+  if (!c) return false;
+  if (c.domicilio === true || c.domicilio === 1 || c.domicilio === "true" || c.domicilio === "1") return true;
+  if (Array.isArray(c.zonas) && c.zonas.length > 0) return true;
+  return false;
+}
+
+function aplicarModoEntregaPedido() {
+  const ub = document.getElementById("pNegocio");
+  const caja = document.getElementById("pUbicacionCaja") || (ub && ub.closest("label"));
+  const notaEl = document.getElementById("pedidoNota");
+  const hayDom = conDomicilio();
+  if (ub) {
+    ub.required = !!hayDom;
+    if (!hayDom) ub.value = "";
+  }
+  if (caja) caja.hidden = !hayDom;
+  if (notaEl) {
+    if (hayDom) {
+      const t = (CATALOGO.condiciones && CATALOGO.condiciones.entrega) || "";
+      notaEl.textContent = t;
+      notaEl.hidden = !t;
+    } else {
+      notaEl.textContent = "Recogida en el local.";
+      notaEl.hidden = false;
+    }
+  }
 }
