@@ -301,18 +301,17 @@
    "categoria": "",
    "precio": 9000,
    "precioOferta": null,
-   "resumen": "Lleva energía a donde más lo necesitas con la Extensión Eléctrica V-TEG de 15 metros. Dise",
-   "descripcion": "Lleva energía a donde más lo necesitas con la Extensión Eléctrica V-TEG de 15 metros. Diseñada para brindar alcance, durabilidad y seguridad tanto en el hogar como en el taller o proyectos en exteriores.",
-   "foto": "img/productos/0s4g8gujjly.webp",
+   "resumen": "",
+   "descripcion": "",
+   "foto": "img/productos/d0wt5lj6z8v.webp",
    "fotos": [
-    "img/productos/0s4g8gujjly.webp",
     "img/productos/d0wt5lj6z8v.webp"
    ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
-   "destacado": true,
+   "destacado": false,
    "visible": true,
    "orden": 6
   },
@@ -3647,9 +3646,8 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/0s3iykeg35x.webp",
+   "foto": "img/productos/d22pfj2ec4x.webp",
    "fotos": [
-    "img/productos/0s3iykeg35x.webp",
     "img/productos/d22pfj2ec4x.webp"
    ],
    "agotado": false,
@@ -5295,9 +5293,8 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/0s4x9ey1rcd.webp",
+   "foto": "img/productos/d2nggogzvo3.webp",
    "fotos": [
-    "img/productos/0s4x9ey1rcd.webp",
     "img/productos/d2nggogzvo3.webp"
    ],
    "agotado": true,
@@ -10710,9 +10707,8 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/0s2nmzl6tex.webp",
+   "foto": "img/productos/d4tcxtg69v3.webp",
    "fotos": [
-    "img/productos/0s2nmzl6tex.webp",
     "img/productos/d4tcxtg69v3.webp"
    ],
    "agotado": true,
@@ -11835,9 +11831,8 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/0s33sdbrovf.webp",
+   "foto": "img/productos/d5cv5j4197y.webp",
    "fotos": [
-    "img/productos/0s33sdbrovf.webp",
     "img/productos/d5cv5j4197y.webp"
    ],
    "agotado": true,
@@ -12647,9 +12642,8 @@
    "precioOferta": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/0s3yyx2y89n.webp",
+   "foto": "img/productos/d5q2txhd2u0.webp",
    "fotos": [
-    "img/productos/0s3yyx2y89n.webp",
     "img/productos/d5q2txhd2u0.webp"
    ],
    "agotado": true,
