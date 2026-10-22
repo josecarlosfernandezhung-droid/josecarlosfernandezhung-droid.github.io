@@ -582,3 +582,13 @@ details.pregunta summary::after{content:none!important}
 /* filtros rápidos: más vendidos, nuevos, disponibles, agotados, ofertas */
 .filtros{display:flex!important;flex-wrap:wrap;gap:8px}
 .filtros .filtro{flex:1 1 auto;white-space:nowrap}
+
+
+/* filtro rápido en lista desplegable (ahorra espacio) */
+.filtros{display:block!important;flex:1 1 180px}
+.filtros select{width:100%;height:46px;border-radius:99px;border:1px solid var(--borde);background:var(--blanco);padding:0 16px;font-weight:600;font-size:14px}
+.herramientas-fila .orden{flex:1 1 180px}
+.herramientas-fila .orden select{width:100%;height:46px}
+@media (max-width:560px){.filtros{flex:1 1 calc(50% - 6px)!important;width:auto}.orden{flex:1 1 calc(50% - 6px)!important}.filtros select,.orden select{font-size:13px;padding:0 12px}}
+/* foto de especialidades: se ve completa */
+.bloque.grande .bloque-foto img{object-fit:cover;object-position:center}

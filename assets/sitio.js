@@ -45,28 +45,7 @@ function inicializarInterfaz() {
 
   document.getElementById("buscar")?.addEventListener("input", renderizarProductos);
   document.getElementById("orden")?.addEventListener("change", renderizarProductos);
-  ["fMasVendidos", "fNuevos", "fAgotados"].forEach(id => document.getElementById(id)?.addEventListener("click", (e) => {
-    const on = e.currentTarget.getAttribute("aria-pressed") !== "true";
-    e.currentTarget.setAttribute("aria-pressed", on);
-    if (on && id === "fAgotados") document.getElementById("fDisponibles")?.setAttribute("aria-pressed", "false");
-    renderizarProductos();
-  }));
-  document.getElementById("fDisponibles")?.addEventListener("click", () => setTimeout(() => {
-    if (document.getElementById("fDisponibles").getAttribute("aria-pressed") === "true") document.getElementById("fAgotados")?.setAttribute("aria-pressed", "false");
-    renderizarProductos();
-  }, 0));
-
-  document.getElementById("fOfertas")?.addEventListener("click", (e) => {
-    const activo = e.target.getAttribute("aria-pressed") === "true";
-    e.target.setAttribute("aria-pressed", !activo);
-    renderizarProductos();
-  });
-
-  document.getElementById("fDisponibles")?.addEventListener("click", (e) => {
-    const activo = e.target.getAttribute("aria-pressed") === "true";
-    e.target.setAttribute("aria-pressed", !activo);
-    renderizarProductos();
-  });
+  document.getElementById("filtroRapido")?.addEventListener("change", renderizarProductos);
 
   const dlgPedido = document.getElementById("pedido");
   document.getElementById("abrirPedido")?.addEventListener("click", () => dlgPedido?.showModal());
@@ -181,7 +160,7 @@ function renderizarBento() {
   if (!container) return;
   container.innerHTML = `
     <div class="bloque grande">
-      <div class="bloque-foto"><img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=80" alt="Herramientas Eléctricas"></div>
+      <div class="bloque-foto"><img src="${(CATALOGO.especialidades && CATALOGO.especialidades.foto) || 'img/marca/especialidades.jpg'}" alt="Nuestras especialidades"></div>
       <div class="bloque-txt">
         <h3>Herramientas Eléctricas</h3>
         <p>Taladros, esmeriladoras y sierras de alta durabilidad para trabajo pesado.</p>
@@ -254,15 +233,12 @@ function renderizarProductos() {
     prods = prods.filter(p => p.categoria === CATEGORIA_SELECCIONADA);
   }
 
-  const fOfertas = document.getElementById("fOfertas")?.getAttribute("aria-pressed") === "true";
-  if (fOfertas) prods = prods.filter(p => p.precioOferta !== null && p.precioOferta < p.precio);
-
-  const fDisponibles = document.getElementById("fDisponibles")?.getAttribute("aria-pressed") === "true";
-  if (fDisponibles) prods = prods.filter(p => !p.agotado);
-  const on = id => document.getElementById(id)?.getAttribute("aria-pressed") === "true";
-  if (on("fAgotados")) prods = prods.filter(p => p.agotado);
-  if (on("fNuevos")) prods = prods.filter(p => p.nuevo);
-  if (on("fMasVendidos")) prods = prods.filter(p => p.masVendido);
+  const fr = document.getElementById("filtroRapido")?.value || "todos";
+  if (fr === "ofertas") prods = prods.filter(p => p.precioOferta !== null && p.precioOferta < p.precio);
+  if (fr === "disponibles") prods = prods.filter(p => !p.agotado);
+  if (fr === "agotados") prods = prods.filter(p => p.agotado);
+  if (fr === "nuevos") prods = prods.filter(p => p.nuevo);
+  if (fr === "masvendidos") prods = prods.filter(p => p.masVendido);
 
   const q = (document.getElementById("buscar")?.value || "").toLowerCase().trim();
   if (q) prods = prods.filter(p => p.nombre.toLowerCase().includes(q) || (p.resumen && p.resumen.toLowerCase().includes(q)));
@@ -270,7 +246,7 @@ function renderizarProductos() {
   const ord = document.getElementById("orden")?.value || "rel";
   if (ord === "asc") prods.sort((a, b) => a.precio - b.precio);
   if (ord === "desc") prods.sort((a, b) => b.precio - a.precio);
-  if (ord === "ventas" || (on("fMasVendidos") && ord === "rel")) prods.sort((a, b) => (b.ventas || 0) - (a.ventas || 0));
+  if (ord === "ventas" || (fr === "masvendidos" && ord === "rel")) prods.sort((a, b) => (b.ventas || 0) - (a.ventas || 0));
   if (ord === "az") prods.sort((a, b) => a.nombre.localeCompare(b.nombre));
 
   container.innerHTML = "";
@@ -438,7 +414,8 @@ function enviarPedidoWhatsApp(e) {
   const cliente = document.getElementById("pNombre")?.value || "Cliente";
   const direccion = document.getElementById("pNegocio")?.value || "";
 
-  let msj = `Hola, mi nombre es *${cliente}* y deseo realizar el siguiente pedido en *ToTo Tools*:\n\n`;
+  const negocio = CATALOGO.marca?.nombre || "ToTo Tools";
+  let msj = `Hola, mi nombre es *${cliente}* y deseo realizar el siguiente pedido en *${negocio}*:\n\n`;
   let total = 0;
 
   Object.values(PEDIDO).forEach(i => {
@@ -452,7 +429,21 @@ function enviarPedidoWhatsApp(e) {
   if (direccion) msj += `\n📍 *Ubicación / Notas:* ${direccion}`;
   msj += `\n\n*Total Estimado:* ${formatearPrecio(total)}`;
 
+  /* Código del pedido: el panel lo lee al copiar este mensaje y registra el pedido solo */
+  const codigo = codigoPedido();
+  const refs = Object.entries(PEDIDO).map(([id, i]) => encodeURIComponent(id) + ":" + i.cantidad).join(",");
+  msj += `\n\n🧾 Pedido #${codigo.slice(0, 5)}-${codigo.slice(5)}\n[ref:${codigo}|${refs}|${MONEDA_ACTUAL}]`;
+
   window.open(`https://wa.me/${tel}?text=${encodeURIComponent(msj)}`, "_blank");
+}
+
+/* 8 caracteres de fecha (base 36) + 2 al azar: ordenable y casi imposible de repetir */
+function codigoPedido() {
+  let t = Date.now().toString(36);
+  while (t.length < 8) t = "0" + t;
+  let r = "";
+  for (let k = 0; k < 2; k++) r += Math.floor(Math.random() * 36).toString(36);
+  return (t + r).toUpperCase();
 }
 
 function renderizarPasos() {
