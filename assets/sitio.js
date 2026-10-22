@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   await cargarCatalogo();
   inicializarInterfaz();
   inicializarProgreso();
+  fbContarVisita();
 });
 
 async function cargarCatalogo() {
@@ -434,7 +435,29 @@ function enviarPedidoWhatsApp(e) {
   const refs = Object.entries(PEDIDO).map(([id, i]) => encodeURIComponent(id) + ":" + i.cantidad).join(",");
   msj += `\n\n🧾 Pedido #${codigo.slice(0, 5)}-${codigo.slice(5)}\n[ref:${codigo}|${refs}|${MONEDA_ACTUAL}]`;
 
+  fbEnviarPedido(codigo, msj);
   window.open(`https://wa.me/${tel}?text=${encodeURIComponent(msj)}`, "_blank");
+}
+
+/* ---- Firebase (opcional): visitas y pedidos llegan al panel. Si falla, la web sigue igual ---- */
+function fbCfg() {
+  const f = CATALOGO && CATALOGO.firebase;
+  return f && f.url && f.slug ? { url: String(f.url).replace(/\/+$/, ""), slug: encodeURIComponent(f.slug) } : null;
+}
+function fbEnviarPedido(codigo, texto) {
+  try {
+    const f = fbCfg(); if (!f) return;
+    fetch(`${f.url}/pedidos/${f.slug}/${codigo}.json`, { method: "PUT", keepalive: true, body: JSON.stringify({ t: Date.now(), txt: texto }) }).catch(() => {});
+  } catch (e) { }
+}
+function fbContarVisita() {
+  try {
+    const f = fbCfg(); if (!f) return;
+    if (sessionStorage.getItem("visita-contada")) return;
+    sessionStorage.setItem("visita-contada", "1");
+    const d = new Date(), dia = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    fetch(`${f.url}/visitas/${f.slug}/${dia}.json`, { method: "PUT", keepalive: true, body: JSON.stringify({ ".sv": { increment: 1 } }) }).catch(() => {});
+  } catch (e) { }
 }
 
 /* 8 caracteres de fecha (base 36) + 2 al azar: ordenable y casi imposible de repetir */
