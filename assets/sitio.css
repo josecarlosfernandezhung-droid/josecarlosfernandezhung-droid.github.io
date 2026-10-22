@@ -304,8 +304,8 @@ dialog::backdrop{background:rgba(5,9,18,.62);backdrop-filter:blur(6px);-webkit-b
 .ficha[open]{animation:aparece .45s var(--suave)}
 @keyframes aparece{from{opacity:0;transform:translateY(24px) scale(.97)}}
 .ficha-cuerpo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);max-height:calc(100dvh - 32px)}
-.ficha-foto{background:#fff;display:grid;place-items:center;border-right:1px solid var(--borde);position:relative;min-height:320px}
-.ficha-foto img{width:100%;height:100%;max-height:calc(100dvh - 32px);object-fit:contain}
+.ficha-foto{background:#fff;display:grid;place-items:center;border-right:1px solid var(--borde);position:relative;min-height:320px;max-height:min(70vh,640px);overflow:hidden}
+.ficha-foto img{width:100%;height:100%;max-height:min(70vh,640px);object-fit:contain}
 .ficha-info{padding:32px 32px 24px;overflow-y:auto;display:flex;flex-direction:column;gap:14px}
 .ficha-info h2{font-size:clamp(24px,3vw,34px);font-weight:800;padding-right:40px}
 .ficha-precio{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;font:600 26px var(--f-mono);font-variant-numeric:tabular-nums}
@@ -379,7 +379,8 @@ dialog::backdrop{background:rgba(5,9,18,.62);backdrop-filter:blur(6px);-webkit-b
   .estado{display:none}
   .pasos{grid-template-columns:1fr}
   .ficha-cuerpo{grid-template-columns:1fr;overflow-y:auto}
-  .ficha-foto{border-right:0;border-bottom:1px solid var(--borde);min-height:0;aspect-ratio:4/3}
+  .ficha-foto{border-right:0;border-bottom:1px solid var(--borde);min-height:0;aspect-ratio:4/3;max-height:42vh;overflow:hidden}
+  .ficha-foto img{max-height:42vh}
   .ficha-info{overflow:visible;padding:24px 20px 20px}
   .ficha-comprar{bottom:-20px}
 }
@@ -409,6 +410,8 @@ dialog::backdrop{background:rgba(5,9,18,.62);backdrop-filter:blur(6px);-webkit-b
   .orden select{width:100%}
   .ficha{width:100%;max-height:100dvh;height:100dvh;border-radius:0}
   .ficha-cuerpo{max-height:100dvh}
+  .ficha-foto{max-height:38vh}
+  .ficha-foto img{max-height:38vh}
   .cifra{padding:18px}
 }
 @media (prefers-reduced-motion:reduce){
