@@ -18,7 +18,12 @@
   "telegram": "",
   "facebook": "",
   "instagram": "",
-  "youtube": ""
+  "youtube": "",
+  "whatsapps": [
+   "5356950485"
+  ],
+  "pedidoA": "cliente",
+  "domicilio": false
  },
  "horario": {
   "zona": "America/Havana",
