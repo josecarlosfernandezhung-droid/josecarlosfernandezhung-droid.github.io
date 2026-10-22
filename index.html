@@ -78,7 +78,7 @@
 
         <div class="portada-escena">
           <div class="escena-fotos" id="escenaFotos">
-            <img src="img/portada-catalogo.jpg" alt="Herramientas y artículos de ferretería" class="activa">
+            <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=80" alt="Herramientas y artículos de ferretería" class="activa">
           </div>
         </div>
       </div>
@@ -120,11 +120,14 @@
               <input type="search" id="buscar" placeholder="Buscar taladro, llaves, discos..." aria-label="Buscar productos">
             </div>
             <div class="filtros">
-              <button type="button" class="filtro" id="fOfertas" aria-pressed="false">Ofertas</button>
-              <button type="button" class="filtro" id="fMasVendidos" aria-pressed="false">Más vendidos</button>
-              <button type="button" class="filtro" id="fNuevos" aria-pressed="false">Nuevos</button>
-              <button type="button" class="filtro" id="fDisponibles" aria-pressed="false">Disponibles</button>
-              <button type="button" class="filtro" id="fAgotados" aria-pressed="false">Agotados</button>
+              <select id="filtroRapido" aria-label="Filtrar catálogo">
+                <option value="todos">Todos los productos</option>
+                <option value="ofertas">Ofertas</option>
+                <option value="masvendidos">Más vendidos</option>
+                <option value="nuevos">Nuevos</option>
+                <option value="disponibles">Disponibles</option>
+                <option value="agotados">Agotados</option>
+              </select>
             </div>
             <div class="orden">
               <select id="orden" aria-label="Ordenar catálogo">
