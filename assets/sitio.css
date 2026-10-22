@@ -304,8 +304,8 @@ dialog::backdrop{background:rgba(5,9,18,.62);backdrop-filter:blur(6px);-webkit-b
 .ficha[open]{animation:aparece .45s var(--suave)}
 @keyframes aparece{from{opacity:0;transform:translateY(24px) scale(.97)}}
 .ficha-cuerpo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);max-height:calc(100dvh - 32px)}
-.ficha-foto{background:#fff;display:grid;place-items:center;border-right:1px solid var(--borde);position:relative;min-height:280px;max-height:min(58vh,560px);overflow:hidden}
-.ficha-foto img{width:100%;height:100%;max-height:min(58vh,560px);object-fit:contain}
+.ficha-foto{background:#fff;display:grid;place-items:center;border-right:1px solid var(--borde);position:relative;min-height:240px;max-height:min(62vh,620px);overflow:hidden}
+.ficha-foto img{width:100%;height:auto;max-height:min(62vh,620px);object-fit:contain}
 .ficha-info{padding:28px 32px 24px;overflow-y:auto;max-height:calc(90dvh - 40px);display:flex;flex-direction:column;gap:14px}
 .ficha-info h2{font-size:clamp(24px,3vw,34px);font-weight:800;padding-right:40px}
 .ficha-precio{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;font:600 26px var(--f-mono);font-variant-numeric:tabular-nums}
@@ -379,10 +379,10 @@ dialog::backdrop{background:rgba(5,9,18,.62);backdrop-filter:blur(6px);-webkit-b
   .estado{display:none}
   .pasos{grid-template-columns:1fr}
   .ficha-cuerpo{grid-template-columns:1fr;overflow-y:auto}
-  .ficha-foto{border-right:0;border-bottom:1px solid var(--borde);min-height:0;aspect-ratio:4/3;max-height:50vh;overflow:hidden}
-  .ficha-foto img{max-height:50vh}
-  .ficha-info{overflow-y:auto;max-height:calc(50dvh - 20px);padding:24px 20px 20px}
-  .ficha-comprar{bottom:-20px}
+  .ficha-foto{border-right:0;border-bottom:1px solid var(--borde);min-height:0;max-height:55vh;overflow:hidden}
+  .ficha-foto img{width:100%;height:auto;max-height:55vh;object-fit:contain}
+  .ficha-info{overflow-y:visible;max-height:none;padding:20px 20px 24px}
+  .ficha-comprar{bottom:-20px;position:sticky}
 }
 @media (max-width:560px){
   :root{--barra-alto:60px}
@@ -409,9 +409,9 @@ dialog::backdrop{background:rgba(5,9,18,.62);backdrop-filter:blur(6px);-webkit-b
   .orden{flex:1 1 100%}
   .orden select{width:100%}
   .ficha{width:100%;max-height:100dvh;height:100dvh;border-radius:0}
-  .ficha-cuerpo{max-height:100dvh}
-  .ficha-foto{max-height:48vh}
-  .ficha-foto img{max-height:48vh}
+  .ficha-cuerpo{max-height:100dvh;overflow-y:auto}
+  .ficha-foto{max-height:52vh}
+  .ficha-foto img{max-height:52vh}
   .ficha-info{max-height:none;overflow-y:visible}
   .cifra{padding:18px}
 }
