@@ -304,8 +304,8 @@ dialog::backdrop{background:rgba(5,9,18,.62);backdrop-filter:blur(6px);-webkit-b
 .ficha[open]{animation:aparece .45s var(--suave)}
 @keyframes aparece{from{opacity:0;transform:translateY(24px) scale(.97)}}
 .ficha-cuerpo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);max-height:calc(100dvh - 32px)}
-.ficha-foto{background:#fff;display:grid;place-items:center;border-right:1px solid var(--borde);position:relative;min-height:240px;max-height:min(62vh,620px);overflow:hidden}
-.ficha-foto img{width:100%;height:auto;max-height:min(62vh,620px);object-fit:contain}
+.ficha-foto{background:#fff;display:grid;place-items:center;border-right:1px solid var(--borde);position:relative;min-height:240px;max-height:min(72vh,720px);overflow:hidden}
+.ficha-foto img{width:100%;height:auto;max-height:min(72vh,720px);object-fit:contain}
 .ficha-info{padding:28px 32px 24px;overflow-y:auto;max-height:calc(90dvh - 40px);display:flex;flex-direction:column;gap:14px}
 .ficha-info h2{font-size:clamp(24px,3vw,34px);font-weight:800;padding-right:40px}
 .ficha-precio{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;font:600 26px var(--f-mono);font-variant-numeric:tabular-nums}
@@ -379,8 +379,8 @@ dialog::backdrop{background:rgba(5,9,18,.62);backdrop-filter:blur(6px);-webkit-b
   .estado{display:none}
   .pasos{grid-template-columns:1fr}
   .ficha-cuerpo{grid-template-columns:1fr;overflow-y:auto}
-  .ficha-foto{border-right:0;border-bottom:1px solid var(--borde);min-height:0;max-height:55vh;overflow:hidden}
-  .ficha-foto img{width:100%;height:auto;max-height:55vh;object-fit:contain}
+  .ficha-foto{border-right:0;border-bottom:1px solid var(--borde);min-height:0;max-height:58vh;overflow:hidden}
+  .ficha-foto img{width:100%;height:auto;max-height:58vh;object-fit:contain}
   .ficha-info{overflow-y:visible;max-height:none;padding:20px 20px 24px}
   .ficha-comprar{bottom:-20px;position:sticky}
 }
@@ -410,8 +410,8 @@ dialog::backdrop{background:rgba(5,9,18,.62);backdrop-filter:blur(6px);-webkit-b
   .orden select{width:100%}
   .ficha{width:100%;max-height:100dvh;height:100dvh;border-radius:0}
   .ficha-cuerpo{max-height:100dvh;overflow-y:auto}
-  .ficha-foto{max-height:52vh}
-  .ficha-foto img{max-height:52vh}
+  .ficha-foto{max-height:58vh}
+  .ficha-foto img{max-height:58vh}
   .ficha-info{max-height:none;overflow-y:visible}
   .cifra{padding:18px}
 }
@@ -604,9 +604,15 @@ details.pregunta summary::after{content:none!important}
 /* ---------- ficha del producto: la foto nunca tapa el nombre ni la descripción ---------- */
 .modal-ficha{width:min(760px,calc(100% - 24px));max-height:calc(100dvh - 24px);overflow-y:auto;overflow-x:hidden;margin:auto;border-radius:20px}
 .ficha-contenedor{align-items:start}
-.modal-ficha .ficha-foto{position:relative;width:100%;aspect-ratio:1/1;max-height:60dvh;min-height:0;overflow:hidden;display:block;border:0;border-radius:14px;background:#fff}
-.modal-ficha .ficha-foto img{position:absolute;inset:0;width:100%;height:100%;max-height:none;object-fit:contain}
-.modal-ficha .ficha-foto img[src*="icono.svg"],.modal-ficha .ficha-foto img.placeholder{box-sizing:border-box;max-width:none}
+/* Foto más grande, sin forzar cuadrado (las fotos verticales se veían pequeñas) */
+.modal-ficha .ficha-foto{position:relative;width:100%;min-height:0;max-height:min(72vh,720px);overflow:hidden;display:grid;place-items:center;border:0;border-radius:14px;background:#fff}
+.modal-ficha .ficha-foto img{position:static;width:100%;height:auto;max-height:min(72vh,720px);object-fit:contain;display:block}
+.modal-ficha .ficha-foto img[src*="icono.svg"],.modal-ficha .ficha-foto img.placeholder{box-sizing:border-box;max-width:280px;padding:18%}
 .modal-ficha .ficha-info{min-width:0;overflow:visible;padding:0;display:flex;flex-direction:column;gap:12px}
 .modal-ficha .ficha-info h2{font-size:clamp(20px,5vw,28px);line-height:1.2;padding-right:44px;overflow-wrap:anywhere}
-@media(max-width:560px){.modal-ficha{width:100%;max-height:100dvh;height:100dvh;border-radius:0}.ficha-contenedor{padding:16px 16px 24px}}
+@media(max-width:560px){
+  .modal-ficha{width:100%;max-height:100dvh;height:100dvh;border-radius:0}
+  .ficha-contenedor{padding:16px 16px 24px;grid-template-columns:1fr}
+  .modal-ficha .ficha-foto{max-height:58vh}
+  .modal-ficha .ficha-foto img{max-height:58vh}
+}
