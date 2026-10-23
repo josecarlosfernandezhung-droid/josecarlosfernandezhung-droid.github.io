@@ -212,6 +212,21 @@ window.seleccionarCategoria = function(catId, btn) {
   renderizarProductos();
 };
 
+/* Transferencia: el panel manda precioTransf / precioOfertaTransf cuando se cobra distinto */
+function pagoTransf() { const e = document.getElementById("pPago"); return !!e && e.value === "transferencia"; }
+function hayTransf() { return !!(CATALOGO && CATALOGO.productos && CATALOGO.productos.some(p => p.precioTransf)); }
+function precioDe(p) {
+  const of = p.precioOferta ? true : false;
+  if (pagoTransf()) {
+    const t = of ? (p.precioOfertaTransf || p.precioTransf) : p.precioTransf;
+    if (t) return t;
+  }
+  return of ? p.precioOferta : p.precio;
+}
+function lineaTransf(p) {
+  if (!p.precioTransf) return "";
+  return `<small class="p-transf">Transferencia: ${formatearPrecio(p.precioOferta ? (p.precioOfertaTransf || p.precioTransf) : p.precioTransf)}</small>`;
+}
 function formatearPrecio(precioBase) {
   const infoMoneda = CATALOGO.monedas?.lista?.find(m => m.codigo === MONEDA_ACTUAL);
   if (!infoMoneda) return `${precioBase} CUP`;
@@ -264,9 +279,9 @@ function renderizarProductos() {
     const card = document.createElement("article");
     card.className = `producto ${p.agotado ? "agotado" : ""}`;
 
-    const precioHTML = p.precioOferta
+    const precioHTML = (p.precioOferta
       ? `<s>${formatearPrecio(p.precio)}</s> ${formatearPrecio(p.precioOferta)}`
-      : `${formatearPrecio(p.precio)}`;
+      : `${formatearPrecio(p.precio)}`) + lineaTransf(p);
 
     let selloHTML = "";
     if (p.agotado) selloHTML = `<span class="sello agotado" style="background:#4c5566; color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700;">Agotado</span>`;
@@ -314,7 +329,7 @@ window.abrirFichaProducto = function(id) {
     </div>
     <div class="ficha-info">
       <h2>${p.nombre}</h2>
-      <div class="ficha-precio">${formatearPrecio(precioFinal)}</div>
+      <div class="ficha-precio">${formatearPrecio(precioFinal)}${lineaTransf(p)}</div>
       ${(textoDe(p.descripcion) || textoDe(p.resumen)) ? `<p style="color:var(--tinta-2); font-size:15px;">${textoDe(p.descripcion) || textoDe(p.resumen)}</p>` : ""}
       <button type="button" class="btn btn-tinta btn-ancho" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}'); document.getElementById('ficha').close();">
         ${p.agotado ? "Agotado" : "🛒 Agregar al pedido"}
@@ -352,7 +367,7 @@ function actualizarPedidoUI() {
 
   Object.values(PEDIDO).forEach(item => {
     totalItems += item.cantidad;
-    const precio = item.producto.precioOferta ? item.producto.precioOferta : item.producto.precio;
+    const precio = precioDe(item.producto);
     totalMonto += precio * item.cantidad;
   });
 
@@ -376,7 +391,7 @@ function actualizarPedidoUI() {
       listaEl.innerHTML = `<div class="pedido-vacio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0"/></svg><b>Tu pedido está vacío</b><span>Elige productos del catálogo</span></div>`;
     } else {
       Object.entries(PEDIDO).forEach(([id, item]) => {
-        const precio = item.producto.precioOferta ? item.producto.precioOferta : item.producto.precio;
+        const precio = precioDe(item.producto);
         const linea = document.createElement("div");
         linea.className = "linea";
         const sub = precio * item.cantidad;
@@ -421,12 +436,13 @@ function enviarPedidoWhatsApp(e) {
 
   Object.values(PEDIDO).forEach(i => {
     const p = i.producto;
-    const precio = p.precioOferta ? p.precioOferta : p.precio;
+    const precio = precioDe(p);
     const sub = precio * i.cantidad;
     total += sub;
     msj += `• *${p.nombre}* x${i.cantidad} = ${formatearPrecio(sub)}\n`;
   });
 
+  if (hayTransf()) msj += `\n💳 *Pago:* ${pagoTransf() ? "Transferencia" : "Efectivo"}`;
   if (direccion) msj += `\n📍 *Ubicación / Notas:* ${direccion}`;
   else if (!conDomicilio()) msj += `\n🏪 *Recogida en el local*`;
   msj += `\n\n*Total Estimado:* ${formatearPrecio(total)}`;
@@ -434,7 +450,7 @@ function enviarPedidoWhatsApp(e) {
   /* Código del pedido: el panel lo lee al copiar este mensaje y registra el pedido solo */
   const codigo = codigoPedido();
   const refs = Object.entries(PEDIDO).map(([id, i]) => encodeURIComponent(id) + ":" + i.cantidad).join(",");
-  msj += `\n\n🧾 Pedido #${codigo.slice(0, 5)}-${codigo.slice(5)}\n[ref:${codigo}|${refs}|${MONEDA_ACTUAL}]`;
+  msj += `\n\n🧾 Pedido #${codigo.slice(0, 5)}-${codigo.slice(5)}\n[ref:${codigo}|${refs}|${MONEDA_ACTUAL}${pagoTransf() ? "|T" : ""}]`;
 
   fbEnviarPedido(codigo, msj);
   /* Destino: tus números (el cliente elige si hay varios) o el chat que el cliente escoja */
@@ -562,6 +578,8 @@ function inicializarProgreso() {
 /* Si configuraste varios WhatsApp, el cliente elige a cuál enviar el pedido */
 function iniciarDestinoPedido() {
   aplicarModoEntregaPedido();
+  const pc = document.getElementById("pPagoCaja"), ps = document.getElementById("pPago");
+  if (pc && ps && hayTransf()) { pc.hidden = false; ps.onchange = () => actualizarPedidoUI(); }
   const c = CATALOGO && CATALOGO.contacto, caja = document.getElementById("pDestinoCaja"), sel = document.getElementById("pDestino");
   const tc = document.getElementById("pTelefonoCaja"), ti = document.getElementById("pTelefono");
   if (c && c.pedidoA === "cliente" && tc && ti) { tc.hidden = false; ti.required = true; }

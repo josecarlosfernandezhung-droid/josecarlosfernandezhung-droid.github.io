@@ -616,3 +616,6 @@ details.pregunta summary::after{content:none!important}
   .modal-ficha .ficha-foto{max-height:58vh}
   .modal-ficha .ficha-foto img{max-height:58vh}
 }
+
+/* precio por transferencia */
+.precio .p-transf,.ficha-precio .p-transf{display:block;font-size:12px;font-weight:600;opacity:.7;margin-top:2px}
