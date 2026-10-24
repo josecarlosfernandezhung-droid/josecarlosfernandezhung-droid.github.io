@@ -176,23 +176,13 @@
    "icono": "llave"
   },
   {
-   "id": "s8egcakvzcx",
-   "nombre": "|Grupo de servicio",
-   "icono": "caja"
-  },
-  {
    "id": "s8egd2z3bnj",
-   "nombre": "|Tornilleria",
-   "icono": "caja"
-  },
-  {
-   "id": "s8egd23waat",
-   "nombre": "|Nuevas cosas",
+   "nombre": "Tornilleria",
    "icono": "caja"
   },
   {
    "id": "s8egelcjjpf",
-   "nombre": "|Herramientas y construcción|Materiales y pinturas",
+   "nombre": "Herramientas y construcción|Materiales y pinturas",
    "icono": "caja"
   },
   {
@@ -316,7 +306,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 0
   },
   {
@@ -426,7 +416,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 5
   },
   {
@@ -470,7 +460,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 7
   },
   {
@@ -492,7 +482,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 8
   },
   {
@@ -514,7 +504,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 9
   },
   {
@@ -536,7 +526,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 10
   },
   {
@@ -558,7 +548,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 11
   },
   {
@@ -602,7 +592,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 13
   },
   {
@@ -624,7 +614,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 14
   },
   {
@@ -668,7 +658,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 16
   },
   {
@@ -690,7 +680,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 17
   },
   {
@@ -801,7 +791,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 22
   },
   {
@@ -823,7 +813,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 23
   },
   {
@@ -845,7 +835,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 24
   },
   {
@@ -889,7 +879,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 26
   },
   {
@@ -933,7 +923,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 28
   },
   {
@@ -977,7 +967,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 30
   },
   {
@@ -1065,7 +1055,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 34
   },
   {
@@ -1109,7 +1099,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 36
   },
   {
@@ -1153,7 +1143,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 38
   },
   {
@@ -1175,7 +1165,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 39
   },
   {
@@ -1285,7 +1275,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 44
   },
   {
@@ -1307,7 +1297,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 45
   },
   {
@@ -1330,7 +1320,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 46
   },
   {
@@ -1397,7 +1387,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 49
   },
   {
@@ -1419,7 +1409,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 50
   },
   {
@@ -1441,7 +1431,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 51
   },
   {
@@ -1485,7 +1475,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 53
   },
   {
@@ -1573,7 +1563,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 57
   },
   {
@@ -1661,7 +1651,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 61
   },
   {
@@ -1771,7 +1761,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 66
   },
   {
@@ -1837,7 +1827,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 69
   },
   {
@@ -1881,7 +1871,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 71
   },
   {
@@ -1925,7 +1915,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 73
   },
   {
@@ -1947,7 +1937,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 74
   },
   {
@@ -1991,7 +1981,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 76
   },
   {
@@ -2013,7 +2003,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 77
   },
   {
@@ -2035,7 +2025,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 78
   },
   {
@@ -2057,7 +2047,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 79
   },
   {
@@ -2079,7 +2069,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 80
   },
   {
@@ -2123,7 +2113,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 82
   },
   {
@@ -2189,7 +2179,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 85
   },
   {
@@ -2211,7 +2201,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 86
   },
   {
@@ -2233,7 +2223,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 87
   },
   {
@@ -2299,7 +2289,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 90
   },
   {
@@ -2387,7 +2377,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 94
   },
   {
@@ -2563,7 +2553,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 102
   },
   {
@@ -2585,7 +2575,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 103
   },
   {
@@ -2651,7 +2641,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 106
   },
   {
@@ -2673,7 +2663,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 107
   },
   {
@@ -2695,7 +2685,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 108
   },
   {
@@ -2871,7 +2861,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 116
   },
   {
@@ -2893,7 +2883,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 117
   },
   {
@@ -2915,7 +2905,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 118
   },
   {
@@ -2937,7 +2927,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 119
   },
   {
@@ -2959,7 +2949,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 120
   },
   {
@@ -2981,7 +2971,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 121
   },
   {
@@ -3091,7 +3081,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 126
   },
   {
@@ -3113,7 +3103,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 127
   },
   {
@@ -3135,7 +3125,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 128
   },
   {
@@ -3157,7 +3147,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 129
   },
   {
@@ -3223,7 +3213,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 132
   },
   {
@@ -3311,7 +3301,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 136
   },
   {
@@ -3355,7 +3345,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 138
   },
   {
@@ -3377,7 +3367,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 139
   },
   {
@@ -3399,7 +3389,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 140
   },
   {
@@ -3443,7 +3433,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 142
   },
   {
@@ -3531,7 +3521,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 146
   },
   {
@@ -3553,7 +3543,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 147
   },
   {
@@ -3597,7 +3587,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 149
   },
   {
@@ -3619,7 +3609,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 150
   },
   {
@@ -3641,7 +3631,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 151
   },
   {
@@ -3663,7 +3653,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 152
   },
   {
@@ -3685,7 +3675,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 153
   },
   {
@@ -3707,7 +3697,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 154
   },
   {
@@ -3729,7 +3719,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 155
   },
   {
@@ -3751,7 +3741,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 156
   },
   {
@@ -3861,7 +3851,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 161
   },
   {
@@ -3905,7 +3895,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 163
   },
   {
@@ -3927,7 +3917,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 164
   },
   {
@@ -3949,7 +3939,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 165
   },
   {
@@ -4015,7 +4005,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 168
   },
   {
@@ -4037,7 +4027,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 169
   },
   {
@@ -4059,7 +4049,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 170
   },
   {
@@ -4081,7 +4071,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 171
   },
   {
@@ -4191,7 +4181,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 176
   },
   {
@@ -4213,7 +4203,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 177
   },
   {
@@ -4235,7 +4225,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 178
   },
   {
@@ -4279,7 +4269,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 180
   },
   {
@@ -4301,7 +4291,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 181
   },
   {
@@ -4323,7 +4313,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 182
   },
   {
@@ -4345,7 +4335,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 183
   },
   {
@@ -4367,7 +4357,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 184
   },
   {
@@ -4389,7 +4379,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 185
   },
   {
@@ -4411,7 +4401,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 186
   },
   {
@@ -4433,13 +4423,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 187
   },
   {
    "id": "cq8j96awgd6",
    "nombre": "Manguera gas x rollo 50mts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 17500,
    "precioOferta": null,
    "precioTransf": null,
@@ -4455,7 +4445,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 188
   },
   {
@@ -4477,7 +4467,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 189
   },
   {
@@ -4593,7 +4583,7 @@
   {
    "id": "cq8japmk2oo",
    "nombre": "Disco tungsteno 115mm ranurado",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -4609,13 +4599,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 195
   },
   {
    "id": "cq8ja6et3d4",
    "nombre": "Llavín de calle anticopia",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 5900,
    "precioOferta": null,
    "precioTransf": null,
@@ -4637,7 +4627,7 @@
   {
    "id": "cq8ja491cfd",
    "nombre": "Moto sierra Seal tools",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 80000,
    "precioOferta": null,
    "precioTransf": null,
@@ -4653,13 +4643,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 197
   },
   {
    "id": "cq8jaagamdw",
    "nombre": "Base de tv 14\"-55\" giratoria",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 7800,
    "precioOferta": null,
    "precioTransf": null,
@@ -4681,7 +4671,7 @@
   {
    "id": "cq8jatnhd4v",
    "nombre": "Pasta dental con cepillo",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 450,
    "precioOferta": null,
    "precioTransf": null,
@@ -4697,13 +4687,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 199
   },
   {
    "id": "cq8jae28bkq",
    "nombre": "Lampara solar con detector de movimiento",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 24000,
    "precioOferta": null,
    "precioTransf": null,
@@ -4719,13 +4709,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 200
   },
   {
    "id": "cq8janlykc0",
    "nombre": "Sifa fregadero flexible boca chica",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": null,
@@ -4763,7 +4753,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 202
   },
   {
@@ -4791,7 +4781,7 @@
   {
    "id": "cq8jbh1nl17",
    "nombre": "Plancha de pan",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": null,
@@ -4807,13 +4797,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 204
   },
   {
    "id": "cq8jbx4eyze",
    "nombre": "Cheque de plástico 1\"",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 1700,
    "precioOferta": null,
    "precioTransf": null,
@@ -4835,7 +4825,7 @@
   {
    "id": "cq8jb2yyng5",
    "nombre": "Timbre inalámbrico",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 2800,
    "precioOferta": null,
    "precioTransf": null,
@@ -4851,7 +4841,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 206
   },
   {
@@ -4873,7 +4863,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 207
   },
   {
@@ -4895,7 +4885,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 208
   },
   {
@@ -4961,7 +4951,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 211
   },
   {
@@ -4983,13 +4973,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 212
   },
   {
    "id": "cq8jbwgh7j0",
    "nombre": "Cortina de baño",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2300,
    "precioOferta": null,
    "precioTransf": null,
@@ -5005,13 +4995,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 213
   },
   {
    "id": "cq8jb5ctvb6",
    "nombre": "Cortina tapa sol",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 7500,
    "precioOferta": null,
    "precioTransf": null,
@@ -5027,13 +5017,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 214
   },
   {
    "id": "cq8jblc2447",
    "nombre": "Coladera",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 2400,
    "precioOferta": null,
    "precioTransf": null,
@@ -5049,13 +5039,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 215
   },
   {
    "id": "cq8jbk8gg60",
    "nombre": "Juego de pulover y shorts",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 8000,
    "precioOferta": null,
    "precioTransf": null,
@@ -5071,7 +5061,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 216
   },
   {
@@ -5144,7 +5134,7 @@
   {
    "id": "cq8jcp3s0v7",
    "nombre": "Panera",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 2800,
    "precioOferta": null,
    "precioTransf": null,
@@ -5160,13 +5150,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 220
   },
   {
    "id": "cq8jcohx2u9",
    "nombre": "Termo pequeño",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": null,
@@ -5182,7 +5172,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 221
   },
   {
@@ -5210,7 +5200,7 @@
   {
    "id": "cq8jcoa9i9g",
    "nombre": "Pestillo 3\"",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -5248,7 +5238,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 224
   },
   {
@@ -5292,13 +5282,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 226
   },
   {
    "id": "cq8jcxu7fez",
    "nombre": "Grampa paquete",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": null,
@@ -5320,7 +5310,7 @@
   {
    "id": "cq8jcjlaynl",
    "nombre": "Juego de cazuela de inducción 10 pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 9000,
    "precioOferta": null,
    "precioTransf": null,
@@ -5336,7 +5326,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 228
   },
   {
@@ -5359,7 +5349,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 229
   },
   {
@@ -5381,7 +5371,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 230
   },
   {
@@ -5403,13 +5393,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 231
   },
   {
    "id": "cq8jd6urq82",
    "nombre": "Cortinero corto",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 6900,
    "precioOferta": null,
    "precioTransf": null,
@@ -5432,7 +5422,7 @@
   {
    "id": "cq8jdz8gmck",
    "nombre": "Cortinero largo",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 9800,
    "precioOferta": null,
    "precioTransf": null,
@@ -5471,13 +5461,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 234
   },
   {
    "id": "cq8jdaw5hww",
    "nombre": "Lunchera normal",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 3200,
    "precioOferta": null,
    "precioTransf": null,
@@ -5500,7 +5490,7 @@
   {
    "id": "cq8jdvurve0",
    "nombre": "Juego de vaso 240ml IMG",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2350,
    "precioOferta": null,
    "precioTransf": null,
@@ -5516,13 +5506,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 236
   },
   {
    "id": "cq8jdnu0i5h",
    "nombre": "Juego de vaso 220ml maxim largo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -5538,7 +5528,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 237
   },
   {
@@ -5582,7 +5572,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 239
   },
   {
@@ -5604,13 +5594,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 240
   },
   {
    "id": "cq8jdfokwxo",
    "nombre": "Lunchera eléctrica",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -5626,13 +5616,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 241
   },
   {
    "id": "cq8jde1yg1c",
    "nombre": "Juguera redonda",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 2600,
    "precioOferta": null,
    "precioTransf": null,
@@ -5648,13 +5638,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 242
   },
   {
    "id": "cq8jdwpxxml",
    "nombre": "Alfombra de baño de pelo",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": null,
@@ -5670,7 +5660,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 243
   },
   {
@@ -5692,7 +5682,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 244
   },
   {
@@ -5714,7 +5704,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 245
   },
   {
@@ -5736,7 +5726,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 246
   },
   {
@@ -5759,13 +5749,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 247
   },
   {
    "id": "cq8je6q0o49",
    "nombre": "Cucharero",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -5781,7 +5771,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 248
   },
   {
@@ -5865,7 +5855,7 @@
     "img/productos/sbnewzick8q.webp",
     "img/productos/sbnpnuatw56.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
@@ -5892,7 +5882,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 253
   },
   {
@@ -5936,7 +5926,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 255
   },
   {
@@ -5958,13 +5948,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 256
   },
   {
    "id": "cq8jeadoev4",
    "nombre": "Cuello ganso flexible abajo",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -5980,13 +5970,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 257
   },
   {
    "id": "cq8jevibp0y",
    "nombre": "Cuchillo 6\"",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 850,
    "precioOferta": null,
    "precioTransf": null,
@@ -6002,13 +5992,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 258
   },
   {
    "id": "cq8jedb7bbc",
    "nombre": "Lampara solar 400w",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 33000,
    "precioOferta": null,
    "precioTransf": null,
@@ -6024,7 +6014,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 259
   },
   {
@@ -6046,13 +6036,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 260
   },
   {
    "id": "cq8jel3vnex",
    "nombre": "Sifa fregadero flexible boca ancha",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -6112,7 +6102,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 263
   },
   {
@@ -6134,13 +6124,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 264
   },
   {
    "id": "cq8jes6dl9u",
    "nombre": "Flota de goma",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -6156,7 +6146,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 265
   },
   {
@@ -6184,7 +6174,7 @@
   {
    "id": "cq8jf3inz86",
    "nombre": "Chirri 2\" gordo",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 20,
    "precioOferta": null,
    "precioTransf": null,
@@ -6200,7 +6190,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 267
   },
   {
@@ -6222,13 +6212,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 268
   },
   {
    "id": "cq8jfl7h5vv",
    "nombre": "Chirri 2\" fino",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 20,
    "precioOferta": null,
    "precioTransf": null,
@@ -6266,7 +6256,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 270
   },
   {
@@ -6288,7 +6278,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 271
   },
   {
@@ -6310,7 +6300,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 272
   },
   {
@@ -6360,7 +6350,7 @@
   {
    "id": "cq8jf2fregq",
    "nombre": "Anafre grande",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -6398,7 +6388,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 276
   },
   {
@@ -6426,7 +6416,7 @@
   {
    "id": "cq8jg1rc1c0",
    "nombre": "Cubo plástico",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -6442,13 +6432,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 278
   },
   {
    "id": "cq8jg8rkhbb",
    "nombre": "Rodamiento 6202-2rs",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 1100,
    "precioOferta": null,
    "precioTransf": null,
@@ -6464,13 +6454,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 279
   },
   {
    "id": "cq8jg982mbt",
    "nombre": "Rodamiento 6203-2rs",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 1100,
    "precioOferta": null,
    "precioTransf": null,
@@ -6486,7 +6476,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 280
   },
   {
@@ -6508,7 +6498,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 281
   },
   {
@@ -6552,7 +6542,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 283
   },
   {
@@ -6580,7 +6570,7 @@
   {
    "id": "cq8jgmpeohk",
    "nombre": "Cuchilla dorco",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": null,
@@ -6596,13 +6586,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 285
   },
   {
    "id": "cq8jgr60bdd",
    "nombre": "Perchero docena",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 350,
    "precioOferta": null,
    "precioTransf": null,
@@ -6684,7 +6674,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 289
   },
   {
@@ -6712,7 +6702,7 @@
   {
    "id": "cq8jgzsj5ng",
    "nombre": "Fregadero sencillo",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 14800,
    "precioOferta": null,
    "precioTransf": null,
@@ -6750,13 +6740,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 292
   },
   {
    "id": "cq8jh6zd6c3",
    "nombre": "Cinta aluminio split ancha",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": null,
@@ -6772,7 +6762,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 293
   },
   {
@@ -6794,13 +6784,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 294
   },
   {
    "id": "cq8jhtxbqax",
    "nombre": "Aseadora",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 1400,
    "precioOferta": null,
    "precioTransf": null,
@@ -6816,7 +6806,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 295
   },
   {
@@ -6882,7 +6872,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 298
   },
   {
@@ -6904,7 +6894,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 299
   },
   {
@@ -6926,13 +6916,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 300
   },
   {
    "id": "cq8jh0cuci9",
    "nombre": "Taladro Total",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 20000,
    "precioOferta": null,
    "precioTransf": null,
@@ -6948,7 +6938,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 301
   },
   {
@@ -6976,7 +6966,7 @@
   {
    "id": "cq8jhnkw8q4",
    "nombre": "Cortador de césped",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 75000,
    "precioOferta": null,
    "precioTransf": null,
@@ -6992,13 +6982,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 303
   },
   {
    "id": "cq8jho3x7vg",
    "nombre": "Atornilladora de bateria Total",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 30000,
    "precioOferta": null,
    "precioTransf": null,
@@ -7014,7 +7004,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 304
   },
   {
@@ -7036,7 +7026,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 305
   },
   {
@@ -7058,7 +7048,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 306
   },
   {
@@ -7102,7 +7092,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 308
   },
   {
@@ -7124,13 +7114,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 309
   },
   {
    "id": "cq8jhq4ua7j",
    "nombre": "Potenciador de octanaje",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -7146,7 +7136,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 310
   },
   {
@@ -7168,7 +7158,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 311
   },
   {
@@ -7215,13 +7205,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 313
   },
   {
    "id": "cq8jiupz9up",
    "nombre": "Fregadero escurridor boca ancha",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 15500,
    "precioOferta": null,
    "precioTransf": null,
@@ -7237,7 +7227,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 314
   },
   {
@@ -7259,7 +7249,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 315
   },
   {
@@ -7303,13 +7293,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 317
   },
   {
    "id": "cq8jii9xmwc",
    "nombre": "Tapa de taza",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 6800,
    "precioOferta": null,
    "precioTransf": null,
@@ -7325,7 +7315,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 318
   },
   {
@@ -7391,13 +7381,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 321
   },
   {
    "id": "cq8jiphyros",
    "nombre": "Juego de 5 pozuelo cristal",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 3400,
    "precioOferta": null,
    "precioTransf": null,
@@ -7435,7 +7425,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 323
   },
   {
@@ -7463,7 +7453,7 @@
   {
    "id": "cq8ji8mohqc",
    "nombre": "Vaso con absorbente",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": null,
@@ -7479,7 +7469,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 325
   },
   {
@@ -7501,13 +7491,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 326
   },
   {
    "id": "cq8jiwqiwmz",
    "nombre": "Juego de jarra dorada",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": null,
@@ -7523,13 +7513,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 327
   },
   {
    "id": "cq8ji3uvc0q",
    "nombre": "Platero",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -7551,7 +7541,7 @@
   {
    "id": "cq8jipaymgu",
    "nombre": "Felpa de limpiar",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": null,
@@ -7567,13 +7557,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 329
   },
   {
    "id": "cq8jinqcvs2",
    "nombre": "Rallador redondo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": null,
@@ -7589,13 +7579,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 330
   },
   {
    "id": "cq8jihpu2mw",
    "nombre": "Cepillo de copa trenzado",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -7611,13 +7601,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 331
   },
   {
    "id": "cq8jiy6paxs",
    "nombre": "Brida 4.8x300mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": null,
@@ -7639,7 +7629,7 @@
   {
    "id": "cq8jiga4s8f",
    "nombre": "Candado engomado 45mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -7655,13 +7645,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 333
   },
   {
    "id": "cq8jib26zfd",
    "nombre": "Lapicero",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 40,
    "precioOferta": null,
    "precioTransf": null,
@@ -7683,7 +7673,7 @@
   {
    "id": "cq8ji39ye1o",
    "nombre": "Casco criollo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -7705,7 +7695,7 @@
   {
    "id": "cq8jjdqtwcx",
    "nombre": "Tabla de cocina",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3900,
    "precioOferta": null,
    "precioTransf": null,
@@ -7721,13 +7711,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 336
   },
   {
    "id": "cq8jj1gvr89",
    "nombre": "Pozuelo 200",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": null,
@@ -7749,7 +7739,7 @@
   {
    "id": "cq8jj3qun9n",
    "nombre": "Clavo x libra",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 850,
    "precioOferta": null,
    "precioTransf": null,
@@ -7771,7 +7761,7 @@
   {
    "id": "cq8jjfr8s3x",
    "nombre": "Cinta 5mts 1000$",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -7787,7 +7777,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 339
   },
   {
@@ -7809,7 +7799,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 340
   },
   {
@@ -7837,7 +7827,7 @@
   {
    "id": "cq8jj978jso",
    "nombre": "Codo de 50",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 650,
    "precioOferta": null,
    "precioTransf": null,
@@ -7859,7 +7849,7 @@
   {
    "id": "cq8jj61gmut",
    "nombre": "Cepillo de copa normal 800$",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": null,
@@ -7881,7 +7871,7 @@
   {
    "id": "cq8jj40fssg",
    "nombre": "Reloj pared",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2800,
    "precioOferta": null,
    "precioTransf": null,
@@ -7897,13 +7887,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 344
   },
   {
    "id": "cq8jjympue5",
    "nombre": "Juego de dulceras bowl",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -7919,13 +7909,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 345
   },
   {
    "id": "cq8jj4gf7k8",
    "nombre": "Esquineros",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4000,
    "precioOferta": null,
    "precioTransf": null,
@@ -7941,13 +7931,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 346
   },
   {
    "id": "cq8jjiz6b5v",
    "nombre": "Transfer automático",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 42000,
    "precioOferta": null,
    "precioTransf": null,
@@ -7963,13 +7953,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 347
   },
   {
    "id": "cq8jj0beot4",
    "nombre": "Juego set de tijeras",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": null,
@@ -7985,13 +7975,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 348
   },
   {
    "id": "cq8jjkcrx0d",
    "nombre": "Llave de ángulo 1/2 macho",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1100,
    "precioOferta": null,
    "precioTransf": null,
@@ -8007,7 +7997,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 349
   },
   {
@@ -8036,7 +8026,7 @@
   {
    "id": "cq8jjc3pk2r",
    "nombre": "Vaso térmico",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5800,
    "precioOferta": null,
    "precioTransf": null,
@@ -8052,13 +8042,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 351
   },
   {
    "id": "cq8jkvmgomh",
    "nombre": "Juego set de peine y espejo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -8074,13 +8064,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 352
   },
   {
    "id": "cq8jkvlgl48",
    "nombre": "Maquina dorco",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -8096,13 +8086,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 353
   },
   {
    "id": "cq8jkvugszn",
    "nombre": "Llave lavamano zapatilla",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3200,
    "precioOferta": null,
    "precioTransf": null,
@@ -8124,7 +8114,7 @@
   {
    "id": "cq8jkwqnom9",
    "nombre": "Alfombra engomada",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": null,
@@ -8140,13 +8130,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 355
   },
   {
    "id": "cq8jkz49tuq",
    "nombre": "Tablita de comer bebé",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": null,
@@ -8162,13 +8152,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 356
   },
   {
    "id": "cq8jkaorjl6",
    "nombre": "Bocina",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 15500,
    "precioOferta": null,
    "precioTransf": null,
@@ -8184,13 +8174,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 357
   },
   {
    "id": "cq8jk6356kr",
    "nombre": "Olla arrocera 1.8 EKO",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 19800,
    "precioOferta": null,
    "precioTransf": null,
@@ -8212,7 +8202,7 @@
   {
    "id": "cq8jkw2fuyi",
    "nombre": "Cuchilla manual 3/polos 100A",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 16000,
    "precioOferta": null,
    "precioTransf": null,
@@ -8228,13 +8218,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 359
   },
   {
    "id": "cq8jkye2ic8",
    "nombre": "Base de 20 doble",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -8256,7 +8246,7 @@
   {
    "id": "cq8jkw5ipqs",
    "nombre": "Motosierra Coofix",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 90000,
    "precioOferta": null,
    "precioTransf": null,
@@ -8272,13 +8262,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 361
   },
   {
    "id": "cq8jkz014z0",
    "nombre": "Tornillo tira-fondo pladur 1 1/2\"/35mm x caja 420",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10,
    "precioOferta": null,
    "precioTransf": null,
@@ -8300,7 +8290,7 @@
   {
    "id": "cq8jkhbx9gg",
    "nombre": "Cafetera eléctrica",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 23000,
    "precioOferta": null,
    "precioTransf": null,
@@ -8316,13 +8306,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 363
   },
   {
    "id": "cq8jkuzv7o2",
    "nombre": "Pala 4500$",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4500,
    "precioOferta": null,
    "precioTransf": null,
@@ -8338,13 +8328,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 364
   },
   {
    "id": "cq8jknob7xq",
    "nombre": "Cepillo de biberon",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": null,
@@ -8360,13 +8350,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 365
   },
   {
    "id": "cq8jk1yetfl",
    "nombre": "Pluma de jardín metálica 1/2",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": null,
@@ -8382,13 +8372,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 366
   },
   {
    "id": "cq8jk6l0ht7",
    "nombre": "Soga",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -8404,13 +8394,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 367
   },
   {
    "id": "cq8jkkjc4b7",
    "nombre": "Paquete de presilla de gas",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": null,
@@ -8426,13 +8416,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 368
   },
   {
    "id": "cq8jkh37620",
    "nombre": "Interruptor sencillo original",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": null,
@@ -8454,7 +8444,7 @@
   {
    "id": "cq8jk0fnpej",
    "nombre": "Candado 50mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1350,
    "precioOferta": null,
    "precioTransf": null,
@@ -8476,7 +8466,7 @@
   {
    "id": "cq8jlterf85",
    "nombre": "Disco de sierra madera115mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -8498,7 +8488,7 @@
   {
    "id": "cq8jl3xt6ia",
    "nombre": "Anclaje de taza",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 300,
    "precioOferta": null,
    "precioTransf": null,
@@ -8514,13 +8504,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 372
   },
   {
    "id": "cq8jl3pskd9",
    "nombre": "Domino 28 pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -8536,13 +8526,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 373
   },
   {
    "id": "cq8jlkd8ne3",
    "nombre": "Calculadora",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2900,
    "precioOferta": null,
    "precioTransf": null,
@@ -8564,7 +8554,7 @@
   {
    "id": "cq8jlbm25tl",
    "nombre": "Multímetro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -8580,13 +8570,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 375
   },
   {
    "id": "cq8jlu1z2aw",
    "nombre": "Tornillo tira-fondo pladur 1\"3/4\"/45mm x caja 360",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10,
    "precioOferta": null,
    "precioTransf": null,
@@ -8608,7 +8598,7 @@
   {
    "id": "cq8jlpzpfgt",
    "nombre": "Brocha 3\"",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 750,
    "precioOferta": null,
    "precioTransf": null,
@@ -8630,7 +8620,7 @@
   {
    "id": "cq8jlz2p9bc",
    "nombre": "Turbina 1/2 HP",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 35000,
    "precioOferta": null,
    "precioTransf": null,
@@ -8653,7 +8643,7 @@
   {
    "id": "cq8jlrfpuyt",
    "nombre": "Plato",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 580,
    "precioOferta": null,
    "precioTransf": null,
@@ -8669,13 +8659,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 379
   },
   {
    "id": "cq8jlp1kzn9",
    "nombre": "Lima 900",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 900,
    "precioOferta": null,
    "precioTransf": null,
@@ -8697,7 +8687,7 @@
   {
    "id": "cq8jle3x05r",
    "nombre": "Estante de baño",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": null,
@@ -8713,13 +8703,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 381
   },
   {
    "id": "cq8jljeev3p",
    "nombre": "Vela pequeña 4/unidades",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": null,
@@ -8735,13 +8725,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 382
   },
   {
    "id": "cq8jlzizxwf",
    "nombre": "Palo de cartera",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 9500,
    "precioOferta": null,
    "precioTransf": null,
@@ -8757,13 +8747,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 383
   },
   {
    "id": "cq8jlwdsyrr",
    "nombre": "Niple 1/2",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -8785,7 +8775,7 @@
   {
    "id": "cq8jlc9tew1",
    "nombre": "Cesto de ropa chiquito 2500",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -8801,13 +8791,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 385
   },
   {
    "id": "cq8jm4myrg9",
    "nombre": "Palangana frutero",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1350,
    "precioOferta": null,
    "precioTransf": null,
@@ -8823,13 +8813,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 386
   },
   {
    "id": "cq8jmcubajq",
    "nombre": "Palangana grande",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": null,
@@ -8851,7 +8841,7 @@
   {
    "id": "cq8jmokcy1j",
    "nombre": "Anilla 1/2",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -8873,7 +8863,7 @@
   {
    "id": "cq8jmssfvtn",
    "nombre": "Calzoncillo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 400,
    "precioOferta": null,
    "precioTransf": null,
@@ -8889,13 +8879,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 389
   },
   {
    "id": "cq8jms5p60z",
    "nombre": "Clavo etecsa",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": null,
@@ -8911,13 +8901,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 390
   },
   {
    "id": "cq8jmif9b23",
    "nombre": "Juego de llave allen 9pcs largo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2600,
    "precioOferta": null,
    "precioTransf": null,
@@ -8933,13 +8923,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 391
   },
   {
    "id": "cq8jmqngpq5",
    "nombre": "Juego de barrena métal 19pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -8955,13 +8945,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 392
   },
   {
    "id": "cq8jmx2sx95",
    "nombre": "Agarradera mediana dorada",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -8983,7 +8973,7 @@
   {
    "id": "cq8jmaphu78",
    "nombre": "Cinta 5 mts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": null,
@@ -9005,7 +8995,7 @@
   {
    "id": "cq8jm4l6jmt",
    "nombre": "Breke 32A triple AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4000,
    "precioOferta": null,
    "precioTransf": null,
@@ -9021,13 +9011,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 395
   },
   {
    "id": "cq8jmbjbvv5",
    "nombre": "Precilla grande",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 80,
    "precioOferta": null,
    "precioTransf": null,
@@ -9049,7 +9039,7 @@
   {
    "id": "cq8jmbcfgwn",
    "nombre": "Cocina doble hornilla",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 11000,
    "precioOferta": null,
    "precioTransf": null,
@@ -9065,13 +9055,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 397
   },
   {
    "id": "cq8jmdaz1ga",
    "nombre": "Terminal cobre",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": null,
@@ -9087,13 +9077,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 398
   },
   {
    "id": "cq8jm4bcun1",
    "nombre": "Conector MC4",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": null,
@@ -9115,7 +9105,7 @@
   {
    "id": "cq8jmsux6bv",
    "nombre": "Botonera",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -9137,7 +9127,7 @@
   {
    "id": "cq8jmf9qi41",
    "nombre": "Lampara solar 300w",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 29000,
    "precioOferta": null,
    "precioTransf": null,
@@ -9153,13 +9143,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 401
   },
   {
    "id": "cq8jm6t5uwb",
    "nombre": "Fogón de petroleo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 11500,
    "precioOferta": null,
    "precioTransf": null,
@@ -9181,7 +9171,7 @@
   {
    "id": "cq8jm84g3j0",
    "nombre": "Disco corte jumlee 125mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 170,
    "precioOferta": null,
    "precioTransf": null,
@@ -9197,13 +9187,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 403
   },
   {
    "id": "cq8jmj2f0lh",
    "nombre": "Supresor general SPD",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 13500,
    "precioOferta": null,
    "precioTransf": null,
@@ -9225,7 +9215,7 @@
   {
    "id": "cq8jn8rbode",
    "nombre": "Conector Y",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 9500,
    "precioOferta": null,
    "precioTransf": null,
@@ -9247,7 +9237,7 @@
   {
    "id": "cq8jn2b38zf",
    "nombre": "Carbón saco",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1700,
    "precioOferta": null,
    "precioTransf": null,
@@ -9263,13 +9253,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 406
   },
   {
    "id": "cq8jnev1mtd",
    "nombre": "Batidora EKO",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 14000,
    "precioOferta": null,
    "precioTransf": null,
@@ -9291,7 +9281,7 @@
   {
    "id": "cq8jndnmlg7",
    "nombre": "Bola",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 950,
    "precioOferta": null,
    "precioTransf": null,
@@ -9307,13 +9297,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 408
   },
   {
    "id": "cq8jn82lu77",
    "nombre": "Set de herrmaientas mixto",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6500,
    "precioOferta": null,
    "precioTransf": null,
@@ -9335,7 +9325,7 @@
   {
    "id": "cq8jn7voy81",
    "nombre": "Agarradera grande",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -9351,13 +9341,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 410
   },
   {
    "id": "cq8jnxltrf7",
    "nombre": "Agarradera plateada",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -9379,7 +9369,7 @@
   {
    "id": "cq8jnw60rsb",
    "nombre": "Agarradera mediana plateada",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 350,
    "precioOferta": null,
    "precioTransf": null,
@@ -9395,13 +9385,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 412
   },
   {
    "id": "cq8jn3saz38",
    "nombre": "Guante",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": null,
@@ -9423,7 +9413,7 @@
   {
    "id": "cq8jnbq7kjb",
    "nombre": "Cartera bandolero",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2600,
    "precioOferta": null,
    "precioTransf": null,
@@ -9439,13 +9429,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 414
   },
   {
    "id": "cq8jncd73eq",
    "nombre": "Dancing line",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 85000,
    "precioOferta": null,
    "precioTransf": null,
@@ -9461,13 +9451,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 415
   },
   {
    "id": "cq8jnhxdq72",
    "nombre": "Cepillo de diente niño",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 120,
    "precioOferta": null,
    "precioTransf": null,
@@ -9489,7 +9479,7 @@
   {
    "id": "cq8jnp18cd5",
    "nombre": "Toalla húmeda",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 680,
    "precioOferta": null,
    "precioTransf": null,
@@ -9511,7 +9501,7 @@
   {
    "id": "cq8jn9x097w",
    "nombre": "Toallita cocina",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 230,
    "precioOferta": null,
    "precioTransf": null,
@@ -9527,13 +9517,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 418
   },
   {
    "id": "cq8jn4jye3f",
    "nombre": "Olla multipropósito/reina 90min-4lts EKO",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 29500,
    "precioOferta": null,
    "precioTransf": null,
@@ -9549,13 +9539,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 419
   },
   {
    "id": "cq8jnyu0bfu",
    "nombre": "Aplicador",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -9571,13 +9561,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 420
   },
   {
    "id": "cq8jnalapy7",
    "nombre": "Juego pozuelo C-A-S",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1950,
    "precioOferta": null,
    "precioTransf": null,
@@ -9593,13 +9583,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 421
   },
   {
    "id": "cq8jnbxovrx",
    "nombre": "Tablita de comer bebé chica",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 850,
    "precioOferta": null,
    "precioTransf": null,
@@ -9615,13 +9605,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 422
   },
   {
    "id": "cq8jodbdkww",
    "nombre": "Estropajo alambre",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 120,
    "precioOferta": null,
    "precioTransf": null,
@@ -9643,7 +9633,7 @@
   {
    "id": "cq8jozz3g20",
    "nombre": "Esponja fregar",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 80,
    "precioOferta": null,
    "precioTransf": null,
@@ -9659,13 +9649,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 424
   },
   {
    "id": "cq8joo7n2k7",
    "nombre": "Casco criollo vicera",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": null,
@@ -9681,13 +9671,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 425
   },
   {
    "id": "cq8joh2tvxh",
    "nombre": "Termo metal",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -9703,13 +9693,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 426
   },
   {
    "id": "cq8joanjvup",
    "nombre": "Set sacapunta",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -9725,13 +9715,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 427
   },
   {
    "id": "cq8jotykuhg",
    "nombre": "Clavo techo 5\"",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 35,
    "precioOferta": null,
    "precioTransf": null,
@@ -9753,7 +9743,7 @@
   {
    "id": "cq8jo9a8597",
    "nombre": "Batería 10/kwh Lithium valley",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1483500,
    "precioOferta": null,
    "precioTransf": null,
@@ -9769,13 +9759,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 429
   },
   {
    "id": "cq8jodelspw",
    "nombre": "Zapatera roja",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 9800,
    "precioOferta": null,
    "precioTransf": null,
@@ -9791,13 +9781,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 430
   },
   {
    "id": "cq8jopmtfs6",
    "nombre": "Juego de cuchillo tijera",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2300,
    "precioOferta": null,
    "precioTransf": null,
@@ -9813,13 +9803,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 431
   },
   {
    "id": "cq8jo7lcs6f",
    "nombre": "Teype grande",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 380,
    "precioOferta": null,
    "precioTransf": null,
@@ -9835,13 +9825,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 432
   },
   {
    "id": "cq8jou77usr",
    "nombre": "Candado anti-copy 70mm modelo normal",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2800,
    "precioOferta": null,
    "precioTransf": null,
@@ -9857,13 +9847,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 433
   },
   {
    "id": "cq8jolwc2md",
    "nombre": "Cepillo de lavar madera",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 380,
    "precioOferta": null,
    "precioTransf": null,
@@ -9879,13 +9869,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 434
   },
   {
    "id": "cq8jolfpsup",
    "nombre": "Llavin calle proefix",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5900,
    "precioOferta": null,
    "precioTransf": null,
@@ -9901,13 +9891,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 435
   },
   {
    "id": "cq8jom2xrl7",
    "nombre": "Sierra copa madera",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1400,
    "precioOferta": null,
    "precioTransf": null,
@@ -9923,13 +9913,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 436
   },
   {
    "id": "cq8joue08d0",
    "nombre": "Pistola de silicona",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -9945,13 +9935,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 437
   },
   {
    "id": "cq8jox04ftg",
    "nombre": "Disco corte 3mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 350,
    "precioOferta": null,
    "precioTransf": null,
@@ -9967,13 +9957,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 438
   },
   {
    "id": "cq8jpoyjsq5",
    "nombre": "Micrometro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1250,
    "precioOferta": null,
    "precioTransf": null,
@@ -9995,7 +9985,7 @@
   {
    "id": "cq8jpv149hn",
    "nombre": "llave ajustable plástica",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 700,
    "precioOferta": null,
    "precioTransf": null,
@@ -10011,13 +10001,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 440
   },
   {
    "id": "cq8jpqnvn3b",
    "nombre": "Barra silicona colores",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -10039,7 +10029,7 @@
   {
    "id": "cq8jp70k737",
    "nombre": "Lija taladro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": null,
@@ -10055,13 +10045,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 442
   },
   {
    "id": "cq8jpazkps4",
    "nombre": "Plato goma taladro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 850,
    "precioOferta": null,
    "precioTransf": null,
@@ -10077,13 +10067,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 443
   },
   {
    "id": "cq8jpp3hwpo",
    "nombre": "Cepillo alambre negro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -10099,13 +10089,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 444
   },
   {
    "id": "cq8jpuskkis",
    "nombre": "Juego 6 gubias",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": null,
@@ -10121,13 +10111,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 445
   },
   {
    "id": "cq8jpl4jwhl",
    "nombre": "Neon digital",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -10143,13 +10133,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 446
   },
   {
    "id": "cq8jp17qii4",
    "nombre": "Alicate curvo 6\"",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": null,
@@ -10165,13 +10155,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 447
   },
   {
    "id": "cq8jp3zfpuh",
    "nombre": "Juego 5 piedra grano 60",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": null,
@@ -10187,13 +10177,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 448
   },
   {
    "id": "cq8jp11q299",
    "nombre": "Neon normal",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -10209,13 +10199,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 449
   },
   {
    "id": "cq8jpbqk059",
    "nombre": "Herramienta recogida magnetica",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 900,
    "precioOferta": null,
    "precioTransf": null,
@@ -10237,7 +10227,7 @@
   {
    "id": "cq8jpy5mzpn",
    "nombre": "Juego 6 minimuela",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": null,
@@ -10259,7 +10249,7 @@
   {
    "id": "cq8jp54kchw",
    "nombre": "Alicate doblado 8\"",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -10275,13 +10265,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 452
   },
   {
    "id": "cq8jp0n80je",
    "nombre": "Lija redonda pqte",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 750,
    "precioOferta": null,
    "precioTransf": null,
@@ -10303,7 +10293,7 @@
   {
    "id": "cq8jpen5f9b",
    "nombre": "Escuadra angulo plana",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": null,
@@ -10325,7 +10315,7 @@
   {
    "id": "cq8jpzz5kz0",
    "nombre": "Arandela presion 12mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 450,
    "precioOferta": null,
    "precioTransf": null,
@@ -10341,13 +10331,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 455
   },
   {
    "id": "cq8jp7mgc66",
    "nombre": "Barra silicona gorda",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 850,
    "precioOferta": null,
    "precioTransf": null,
@@ -10363,13 +10353,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 456
   },
   {
    "id": "cq8jpjkv2s5",
    "nombre": "Juego 8 minigubias",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1400,
    "precioOferta": null,
    "precioTransf": null,
@@ -10391,7 +10381,7 @@
   {
    "id": "cq8jplrqkaf",
    "nombre": "Disco sierra 230mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4000,
    "precioOferta": null,
    "precioTransf": null,
@@ -10407,13 +10397,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 458
   },
   {
    "id": "cq8jpx4ngro",
    "nombre": "Ecofina",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -10435,7 +10425,7 @@
   {
    "id": "cq8jq34lmtd",
    "nombre": "Trincha 25mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1350,
    "precioOferta": null,
    "precioTransf": null,
@@ -10451,13 +10441,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 460
   },
   {
    "id": "cq8jqle2tgs",
    "nombre": "Trincha 38mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": null,
@@ -10473,13 +10463,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 461
   },
   {
    "id": "cq8jqehx7pc",
    "nombre": "Trincha 32mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1450,
    "precioOferta": null,
    "precioTransf": null,
@@ -10495,13 +10485,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 462
   },
   {
    "id": "cq8jqtb73ga",
    "nombre": "Trincha 8mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -10523,7 +10513,7 @@
   {
    "id": "cq8jq68uxd9",
    "nombre": "Candado anti-sisalla 90mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4900,
    "precioOferta": null,
    "precioTransf": null,
@@ -10545,7 +10535,7 @@
   {
    "id": "cq8jqrp5fhd",
    "nombre": "Set juego de pinza",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 7500,
    "precioOferta": null,
    "precioTransf": null,
@@ -10567,7 +10557,7 @@
   {
    "id": "cq8jq02e25o",
    "nombre": "Cajita 4x4 original",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -10583,13 +10573,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 466
   },
   {
    "id": "cq8jqjfy36x",
    "nombre": "Cuchilla manual 2/polos 32A",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6500,
    "precioOferta": null,
    "precioTransf": null,
@@ -10605,13 +10595,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 467
   },
   {
    "id": "cq8jqsellsq",
    "nombre": "Copa de cristal",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -10628,13 +10618,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 468
   },
   {
    "id": "cq8jqim60ao",
    "nombre": "Zapatera doble",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10500,
    "precioOferta": null,
    "precioTransf": null,
@@ -10650,13 +10640,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 469
   },
   {
    "id": "cq8jq1xenos",
    "nombre": "Fumigadora",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 35000,
    "precioOferta": null,
    "precioTransf": null,
@@ -10678,7 +10668,7 @@
   {
    "id": "cq8jqw97dvp",
    "nombre": "Teype 10mts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 300,
    "precioOferta": null,
    "precioTransf": null,
@@ -10694,13 +10684,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 471
   },
   {
    "id": "cq8jqg92jai",
    "nombre": "clavo etecsa chico",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 550,
    "precioOferta": null,
    "precioTransf": null,
@@ -10716,13 +10706,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 472
   },
   {
    "id": "cq8jql0h2bq",
    "nombre": "clavo etecsa grande",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 850,
    "precioOferta": null,
    "precioTransf": null,
@@ -10738,13 +10728,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 473
   },
   {
    "id": "cq8jqo9snh3",
    "nombre": "Accesorio de baño",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 19500,
    "precioOferta": null,
    "precioTransf": null,
@@ -10760,13 +10750,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 474
   },
   {
    "id": "cq8jqracc6w",
    "nombre": "Llave española 8 pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5800,
    "precioOferta": null,
    "precioTransf": null,
@@ -10782,13 +10772,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 475
   },
   {
    "id": "cq8jqes8yo1",
    "nombre": "Llave española 14 pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 9500,
    "precioOferta": null,
    "precioTransf": null,
@@ -10804,13 +10794,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 476
   },
   {
    "id": "cq8jqvi2s0t",
    "nombre": "Extensión 9 fts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2750,
    "precioOferta": null,
    "precioTransf": null,
@@ -10832,7 +10822,7 @@
   {
    "id": "cq8jqbv204f",
    "nombre": "Isopo de baño 1800",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": null,
@@ -10848,13 +10838,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 478
   },
   {
    "id": "cq8jqb1d2u2",
    "nombre": "Isopo de baño 1400",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1400,
    "precioOferta": null,
    "precioTransf": null,
@@ -10870,13 +10860,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 479
   },
   {
    "id": "cq8jr9d83s8",
    "nombre": "Pie de rey",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4500,
    "precioOferta": null,
    "precioTransf": null,
@@ -10892,13 +10882,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 480
   },
   {
    "id": "cq8jrpav7uo",
    "nombre": "Set juego de plumón y crayola",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1700,
    "precioOferta": null,
    "precioTransf": null,
@@ -10915,13 +10905,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 481
   },
   {
    "id": "cq8jr70tbsg",
    "nombre": "Candado de alarma",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -10943,7 +10933,7 @@
   {
    "id": "cq8jrokw6fi",
    "nombre": "Protector de línea saco",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 14500,
    "precioOferta": null,
    "precioTransf": null,
@@ -10959,13 +10949,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 483
   },
   {
    "id": "cq8jrjrzl8t",
    "nombre": "Controlador solar MTTP",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 98000,
    "precioOferta": null,
    "precioTransf": null,
@@ -10982,13 +10972,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 484
   },
   {
    "id": "cq8jrht4cqn",
    "nombre": "Porta terminal",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 18000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11010,7 +11000,7 @@
   {
    "id": "cq8jr926727",
    "nombre": "Tarraja metál",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 7500,
    "precioOferta": null,
    "precioTransf": null,
@@ -11026,13 +11016,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 486
   },
   {
    "id": "cq8jrb10g8p",
    "nombre": "Macho para rosca métal",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 7500,
    "precioOferta": null,
    "precioTransf": null,
@@ -11048,13 +11038,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 487
   },
   {
    "id": "cq8jrobstyf",
    "nombre": "Infrarojo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 28000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11070,13 +11060,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 488
   },
   {
    "id": "cq8jr50mscb",
    "nombre": "Candado anti-copy 50mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2600,
    "precioOferta": null,
    "precioTransf": null,
@@ -11092,13 +11082,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 489
   },
   {
    "id": "cq8jremtak1",
    "nombre": "Candado anti-copy 80mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3200,
    "precioOferta": null,
    "precioTransf": null,
@@ -11114,13 +11104,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 490
   },
   {
    "id": "cq8jrarkmpn",
    "nombre": "Candado anti-copy 100mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3600,
    "precioOferta": null,
    "precioTransf": null,
@@ -11136,13 +11126,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 491
   },
   {
    "id": "cq8jr4ktexd",
    "nombre": "Reflector led 100watts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 7000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11164,7 +11154,7 @@
   {
    "id": "cq8jr91oktb",
    "nombre": "Pintura spray dorado",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1950,
    "precioOferta": null,
    "precioTransf": null,
@@ -11180,13 +11170,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 493
   },
   {
    "id": "cq8jri4gzww",
    "nombre": "Candado anti-copy 70mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11202,13 +11192,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 494
   },
   {
    "id": "cq8jr2t738i",
    "nombre": "Clavo techo 4\"",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 30,
    "precioOferta": null,
    "precioTransf": null,
@@ -11230,7 +11220,7 @@
   {
    "id": "cq8jr8k6kld",
    "nombre": "Brekera 2 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2800,
    "precioOferta": null,
    "precioTransf": null,
@@ -11252,7 +11242,7 @@
   {
    "id": "cq8jr0wmc4z",
    "nombre": "Escobillón 1400",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": null,
@@ -11274,7 +11264,7 @@
   {
    "id": "cq8jrt6a4ui",
    "nombre": "Brekera 24 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 38000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11290,13 +11280,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 498
   },
   {
    "id": "cq8jsxvpk7y",
    "nombre": "Breker 25A triple AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3800,
    "precioOferta": null,
    "precioTransf": null,
@@ -11318,7 +11308,7 @@
   {
    "id": "cq8js7326ph",
    "nombre": "Breker 32A doble AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11340,7 +11330,7 @@
   {
    "id": "cq8js3i1x6c",
    "nombre": "Breker 25A doble AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5600,
    "precioOferta": null,
    "precioTransf": null,
@@ -11356,13 +11346,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 501
   },
   {
    "id": "cq8jsm6zf5b",
    "nombre": "Cable 8 cobre",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 130000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11378,13 +11368,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 502
   },
   {
    "id": "cq8jsdrxs9u",
    "nombre": "Cable 10 cobre",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 98000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11401,13 +11391,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 503
   },
   {
    "id": "cq8js9h348d",
    "nombre": "Cable 12 cobre",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 60000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11429,7 +11419,7 @@
   {
    "id": "cq8jsdof6iz",
    "nombre": "Brekera 12 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 19000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11451,7 +11441,7 @@
   {
    "id": "cq8jsdtop7l",
    "nombre": "Brekera 8 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 15000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11473,7 +11463,7 @@
   {
    "id": "cq8jsyrgp2j",
    "nombre": "Brekera 15 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 23000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11495,7 +11485,7 @@
   {
    "id": "cq8js4hpmnm",
    "nombre": "Fusible solar 32A doble DC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 13000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11512,13 +11502,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 508
   },
   {
    "id": "cq8jsn3icpw",
    "nombre": "Breker cuchilla 63A doble tiro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 11000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11534,13 +11524,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 509
   },
   {
    "id": "cq8jskj2xf5",
    "nombre": "Brekera combinada 600v/32A",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 65000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11557,13 +11547,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 510
   },
   {
    "id": "cq8jsi56htu",
    "nombre": "Brekera combinada 600v/25A",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 65000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11580,13 +11570,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 511
   },
   {
    "id": "cq8jsq0khef",
    "nombre": "Transfer ATS unizuki",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 45000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11608,7 +11598,7 @@
   {
    "id": "cq8js5kecqz",
    "nombre": "Fusible solar 25A sencillo DC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5500,
    "precioOferta": null,
    "precioTransf": null,
@@ -11630,7 +11620,7 @@
   {
    "id": "cq8jsgr8t2o",
    "nombre": "Breker 63A doble DC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 9500,
    "precioOferta": null,
    "precioTransf": null,
@@ -11647,13 +11637,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 514
   },
   {
    "id": "cq8js97iys8",
    "nombre": "Protector de línea ajustable Q7",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 14500,
    "precioOferta": null,
    "precioTransf": null,
@@ -11669,13 +11659,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 515
   },
   {
    "id": "cq8jspa8ihj",
    "nombre": "Breker SACO 32A DC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11697,7 +11687,7 @@
   {
    "id": "cq8jshwjfnv",
    "nombre": "Breker SACO 125A triple AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 20000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11713,13 +11703,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 517
   },
   {
    "id": "cq8jsf15bxz",
    "nombre": "Breker Q7 125A doble DC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10500,
    "precioOferta": null,
    "precioTransf": null,
@@ -11735,13 +11725,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 518
   },
   {
    "id": "cq8jsu30ajx",
    "nombre": "Cable fotovoltaico calibre 12 rollo 100mts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": null,
@@ -11757,13 +11747,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 519
   },
   {
    "id": "cq8jsre719x",
    "nombre": "Breker 40A sencillo AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2900,
    "precioOferta": null,
    "precioTransf": null,
@@ -11785,7 +11775,7 @@
   {
    "id": "cq8jsnsjn77",
    "nombre": "Breker 63A doble AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11807,7 +11797,7 @@
   {
    "id": "cq8jtgq26pd",
    "nombre": "Extinguidor de incendio",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 9500,
    "precioOferta": null,
    "precioTransf": null,
@@ -11823,13 +11813,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 522
   },
   {
    "id": "cq8jtezg9qv",
    "nombre": "Extension USB",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6500,
    "precioOferta": null,
    "precioTransf": null,
@@ -11845,13 +11835,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 523
   },
   {
    "id": "cq8jt6d6vw7",
    "nombre": "Latiguillo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1100,
    "precioOferta": null,
    "precioTransf": null,
@@ -11874,7 +11864,7 @@
   {
    "id": "cq8jtf0kzeh",
    "nombre": "Cable fotovoltaico calibre 10 rollo 100mts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 190000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11890,13 +11880,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 525
   },
   {
    "id": "cq8jthzb4ud",
    "nombre": "Tornillo M6 2\" 50mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 70,
    "precioOferta": null,
    "precioTransf": null,
@@ -11918,7 +11908,7 @@
   {
    "id": "cq8jtjbe9mu",
    "nombre": "Brekera 9 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 16000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11940,7 +11930,7 @@
   {
    "id": "cq8jtc8lehy",
    "nombre": "Brekera 13 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 21000,
    "precioOferta": null,
    "precioTransf": null,
@@ -11956,13 +11946,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 528
   },
   {
    "id": "cq8jt7frdun",
    "nombre": "Candado anti-sisalla 70mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3800,
    "precioOferta": null,
    "precioTransf": null,
@@ -11984,7 +11974,7 @@
   {
    "id": "cq8jtziox2k",
    "nombre": "Cable de ecoflow",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 11000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12000,13 +11990,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 530
   },
   {
    "id": "cq8jtf5p9i6",
    "nombre": "Maleta de herramienta",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 33000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12022,13 +12012,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 531
   },
   {
    "id": "cq8jtw9xxq3",
    "nombre": "Pluma mezcladora fregadero",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10500,
    "precioOferta": null,
    "precioTransf": null,
@@ -12050,7 +12040,7 @@
   {
    "id": "cq8jtdpev23",
    "nombre": "Disco corte 230mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12066,13 +12056,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 533
   },
   {
    "id": "cq8jti43ibo",
    "nombre": "Breker 40A doble AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12094,7 +12084,7 @@
   {
    "id": "cq8jtnt6ufd",
    "nombre": "Cuchilla manual 3/polos 63A",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 14000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12116,7 +12106,7 @@
   {
    "id": "cq8jviu8hec",
    "nombre": "Base de tv 26-63 pulgadas",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12132,13 +12122,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 536
   },
   {
    "id": "cq8jvombp0d",
    "nombre": "Fosforera magneto grande",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": null,
@@ -12160,7 +12150,7 @@
   {
    "id": "cq8jv9j86wr",
    "nombre": "Pintura spray rojo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1750,
    "precioOferta": null,
    "precioTransf": null,
@@ -12183,7 +12173,7 @@
   {
    "id": "cq8jvf7hxzy",
    "nombre": "Lampara redonda 12w",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -12205,7 +12195,7 @@
   {
    "id": "cq8jvr2pxbf",
    "nombre": "Lampara redonda 9w",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1750,
    "precioOferta": null,
    "precioTransf": null,
@@ -12221,13 +12211,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 540
   },
   {
    "id": "cq8jv9llffq",
    "nombre": "Lampara redonda 18w",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -12243,13 +12233,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 541
   },
   {
    "id": "cq8jvekxbmt",
    "nombre": "Lampara redonda 6w",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1350,
    "precioOferta": null,
    "precioTransf": null,
@@ -12265,13 +12255,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 542
   },
   {
    "id": "cq8jv1yzz41",
    "nombre": "Lampara redonda 3w",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1100,
    "precioOferta": null,
    "precioTransf": null,
@@ -12287,13 +12277,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 543
   },
   {
    "id": "cq8jvj9oulc",
    "nombre": "Pintura spray anticorrosivo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": null,
@@ -12309,13 +12299,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 544
   },
   {
    "id": "cq8jvhhq14a",
    "nombre": "pintura spray amarilla",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1750,
    "precioOferta": null,
    "precioTransf": null,
@@ -12331,13 +12321,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 545
   },
   {
    "id": "cq8jvswj9iz",
    "nombre": "Tornillo M6 3\" 75mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 80,
    "precioOferta": null,
    "precioTransf": null,
@@ -12353,13 +12343,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 546
   },
   {
    "id": "cq8jvh158q3",
    "nombre": "Pulidora SACO 900watts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12375,13 +12365,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 547
   },
   {
    "id": "cq8jv62ufj2",
    "nombre": "Alambre de amarrar cabilla",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12397,13 +12387,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 548
   },
   {
    "id": "cq8jvjetbm2",
    "nombre": "Llave española combinada 5pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12419,13 +12409,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 549
   },
   {
    "id": "cq8jvlbiw62",
    "nombre": "Fosforera de piedra",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -12441,13 +12431,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 550
   },
   {
    "id": "cq8jv663zfb",
    "nombre": "Cable fotovoltaico calibre 10 rollo 50mts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 97500,
    "precioOferta": null,
    "precioTransf": null,
@@ -12463,13 +12453,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 551
   },
   {
    "id": "cq8jw6rt4yq",
    "nombre": "Tornillo M5 2\" con tuerca",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 60,
    "precioOferta": null,
    "precioTransf": null,
@@ -12491,7 +12481,7 @@
   {
    "id": "cq8jw751l9e",
    "nombre": "Canaleta 15x10",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": null,
@@ -12514,7 +12504,7 @@
   {
    "id": "cq8jw3ba4et",
    "nombre": "Mocha",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12530,13 +12520,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 554
   },
   {
    "id": "cq8jw1j0tip",
    "nombre": "Pesa digital",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3700,
    "precioOferta": null,
    "precioTransf": null,
@@ -12552,13 +12542,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 555
   },
   {
    "id": "cq8jw1pi91s",
    "nombre": "Maquina de afeitar",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 120,
    "precioOferta": null,
    "precioTransf": null,
@@ -12580,7 +12570,7 @@
   {
    "id": "cq8jwt29is4",
    "nombre": "Gasolina B94",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2600,
    "precioOferta": null,
    "precioTransf": null,
@@ -12596,13 +12586,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 557
   },
   {
    "id": "cq8jw2p7rlm",
    "nombre": "Toma corriente sencillo 20A",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 850,
    "precioOferta": null,
    "precioTransf": null,
@@ -12624,7 +12614,7 @@
   {
    "id": "cq8jwfpkjid",
    "nombre": "Interruptor triple",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 950,
    "precioOferta": null,
    "precioTransf": null,
@@ -12646,7 +12636,7 @@
   {
    "id": "cq8jwn0yve0",
    "nombre": "Toma corriente mixto palanca",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 950,
    "precioOferta": null,
    "precioTransf": null,
@@ -12668,7 +12658,7 @@
   {
    "id": "cq8jwnau688",
    "nombre": "Interruptor LIOA",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 750,
    "precioOferta": null,
    "precioTransf": null,
@@ -12690,7 +12680,7 @@
   {
    "id": "cq8jwwk6kgt",
    "nombre": "Bombillo recargable 12w",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2100,
    "precioOferta": null,
    "precioTransf": null,
@@ -12706,13 +12696,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 562
   },
   {
    "id": "cq8jwl01d5d",
    "nombre": "Spray anti ponche",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2950,
    "precioOferta": null,
    "precioTransf": null,
@@ -12734,7 +12724,7 @@
   {
    "id": "cq8jwp0dba5",
    "nombre": "Capacitor",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2800,
    "precioOferta": null,
    "precioTransf": null,
@@ -12751,13 +12741,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 564
   },
   {
    "id": "cq8jwtc4oki",
    "nombre": "Brekera 16 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12773,13 +12763,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 565
   },
   {
    "id": "cq8jwxajf58",
    "nombre": "Olla arrocera 3lts IMPUD",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 20000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12795,13 +12785,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 566
   },
   {
    "id": "cq8jwox141i",
    "nombre": "Manguera de agua",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 500,
    "precioOferta": null,
    "precioTransf": null,
@@ -12817,13 +12807,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 567
   },
   {
    "id": "cq8jwdk2vs5",
    "nombre": "Palangana criolla",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 650,
    "precioOferta": null,
    "precioTransf": null,
@@ -12839,13 +12829,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 568
   },
   {
    "id": "cq8jws3s87y",
    "nombre": "Vaso plástico",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 120,
    "precioOferta": null,
    "precioTransf": null,
@@ -12861,13 +12851,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 569
   },
   {
    "id": "cq8jwudf4dn",
    "nombre": "Lapicero blanco",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 50,
    "precioOferta": null,
    "precioTransf": null,
@@ -12883,13 +12873,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 570
   },
   {
    "id": "cq8jw51amth",
    "nombre": "Pintura galón 3.785lts dorado",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 20000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12905,13 +12895,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 571
   },
   {
    "id": "cq8jxuk02b6",
    "nombre": "Bocina chica",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12927,13 +12917,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 572
   },
   {
    "id": "cq8jxdlig7o",
    "nombre": "Bocina grande",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 55000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12950,13 +12940,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 573
   },
   {
    "id": "cq8jxx2vkw7",
    "nombre": "Cable 8 aluminio",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 35000,
    "precioOferta": null,
    "precioTransf": null,
@@ -12972,13 +12962,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 574
   },
   {
    "id": "cq8jxhdn5rz",
    "nombre": "Olla de presión 3 válvulas 11lts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 28000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13000,7 +12990,7 @@
   {
    "id": "cq8jxak2tix",
    "nombre": "Olla arrocera 2.2lts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 24500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13016,13 +13006,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 576
   },
   {
    "id": "cq8jxnmiesq",
    "nombre": "Cable 8 aluminio x metros",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 300,
    "precioOferta": null,
    "precioTransf": null,
@@ -13038,13 +13028,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 577
   },
   {
    "id": "cq8jxvh1a02",
    "nombre": "Set de pozuelo 3 pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": null,
@@ -13060,13 +13050,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 578
   },
   {
    "id": "cq8jxjb3xci",
    "nombre": "Llavin de calle MAF",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13088,7 +13078,7 @@
   {
    "id": "cq8jxske5gj",
    "nombre": "Breker 16A doble AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3200,
    "precioOferta": null,
    "precioTransf": null,
@@ -13104,13 +13094,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 580
   },
   {
    "id": "cq8jx3p87mh",
    "nombre": "Toma corriente doble 20A",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2200,
    "precioOferta": null,
    "precioTransf": null,
@@ -13126,13 +13116,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 581
   },
   {
    "id": "cq8jxl6pb3l",
    "nombre": "Mochila",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 13500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13154,7 +13144,7 @@
   {
    "id": "cq8jxjvbanw",
    "nombre": "Cable 16 cobre",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 350,
    "precioOferta": null,
    "precioTransf": null,
@@ -13170,13 +13160,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 583
   },
   {
    "id": "cq8jxte1853",
    "nombre": "Tornillo tira-fondo cabeza plana",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5,
    "precioOferta": null,
    "precioTransf": null,
@@ -13198,7 +13188,7 @@
   {
    "id": "cq8jxw542zg",
    "nombre": "Junquillo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -13220,7 +13210,7 @@
   {
    "id": "cq8jxxy63e3",
    "nombre": "Base de split",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 7500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13243,7 +13233,7 @@
   {
    "id": "cq8jx76tk1d",
    "nombre": "Medias",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -13259,13 +13249,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 587
   },
   {
    "id": "cq8jx0xdl83",
    "nombre": "Biberón",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13281,13 +13271,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 588
   },
   {
    "id": "cq8jxwfuo0p",
    "nombre": "Niple 3/4",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 280,
    "precioOferta": null,
    "precioTransf": null,
@@ -13309,7 +13299,7 @@
   {
    "id": "cq8jx89dq0p",
    "nombre": "Reducido 3/4-1/2",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 300,
    "precioOferta": null,
    "precioTransf": null,
@@ -13331,7 +13321,7 @@
   {
    "id": "cq8jxdnsidf",
    "nombre": "Ducha de telefono",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13348,13 +13338,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 591
   },
   {
    "id": "cq8jx0ust9f",
    "nombre": "Sifa doble de desague bañadera",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": null,
@@ -13376,7 +13366,7 @@
   {
    "id": "cq8jx6baezz",
    "nombre": "Interruptor timbre",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": null,
@@ -13398,7 +13388,7 @@
   {
    "id": "cq8jxlh5qqh",
    "nombre": "Cabeza de ducha",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13415,13 +13405,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 594
   },
   {
    "id": "cq8jycyd5b1",
    "nombre": "Tridente",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13443,7 +13433,7 @@
   {
    "id": "cq8jyrrp3vb",
    "nombre": "Cepillo carpintero",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13465,7 +13455,7 @@
   {
    "id": "cq8jyb9xda9",
    "nombre": "Tijera césped",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -13481,13 +13471,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 597
   },
   {
    "id": "cq8jyuyov5q",
    "nombre": "Batidora vaso cristal",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 15000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13510,7 +13500,7 @@
   {
    "id": "cq8jy1qn30k",
    "nombre": "Olla arrocera 1.5lts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 19000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13533,7 +13523,7 @@
   {
    "id": "cq8jyckbl0l",
    "nombre": "Cajita decodificadora TV",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 20000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13556,7 +13546,7 @@
   {
    "id": "cq8jy2kvmga",
    "nombre": "Bomba de aire",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3200,
    "precioOferta": null,
    "precioTransf": null,
@@ -13579,7 +13569,7 @@
   {
    "id": "cq8jybn9bqi",
    "nombre": "Pintura spray blanco brillante",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": null,
@@ -13596,13 +13586,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 602
   },
   {
    "id": "cq8jyr1xndm",
    "nombre": "Pintura spray blanco mate",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": null,
@@ -13619,13 +13609,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 603
   },
   {
    "id": "cq8jy0a2s6v",
    "nombre": "Pintura spray barniz",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": null,
@@ -13642,13 +13632,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 604
   },
   {
    "id": "cq8jyjsms3i",
    "nombre": "Rollo lija",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13670,7 +13660,7 @@
   {
    "id": "cq8jypncco3",
    "nombre": "Cable fotovoltaico calibre 10 x metro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13692,7 +13682,7 @@
   {
    "id": "cq8jyn9e8xi",
    "nombre": "Expansor mecanico m10",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 300,
    "precioOferta": null,
    "precioTransf": null,
@@ -13714,7 +13704,7 @@
   {
    "id": "cq8jy5qqgml",
    "nombre": "Tornillo allen",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13736,7 +13726,7 @@
   {
    "id": "cq8jy5s8e9h",
    "nombre": "Ventilador recargable F60 robotico",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 32000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13752,13 +13742,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 609
   },
   {
    "id": "cq8jy7ltsy5",
    "nombre": "Plastik loka",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": null,
@@ -13774,13 +13764,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 610
   },
   {
    "id": "cq8jyq2py86",
    "nombre": "Bicicleta electrica",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 385000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13791,7 +13781,7 @@
    "fotos": [
     "img/productos/sf3ijxjayik.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
@@ -13802,7 +13792,7 @@
   {
    "id": "cq8jycnx5z4",
    "nombre": "Cubo plastico para pintar",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13825,7 +13815,7 @@
   {
    "id": "cq8jy1ajx6c",
    "nombre": "Infrarojo con sarten",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 28000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13841,13 +13831,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 613
   },
   {
    "id": "cq8jyh889u4",
    "nombre": "Alfombra antiresbalante",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2300,
    "precioOferta": null,
    "precioTransf": null,
@@ -13863,13 +13853,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 614
   },
   {
    "id": "cq8jymf5avo",
    "nombre": "Tornillo allen m8 sin tuerca",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -13891,7 +13881,7 @@
   {
    "id": "cq8jzwu90tu",
    "nombre": "Tornillo allen m6 con tuerca",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 250,
    "precioOferta": null,
    "precioTransf": null,
@@ -13907,13 +13897,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 616
   },
   {
    "id": "cq8jzrtwchi",
    "nombre": "Candado 40mm engomado negro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -13935,7 +13925,7 @@
   {
    "id": "cq8jzh5p7po",
    "nombre": "Juego llave allen estriada",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": null,
@@ -13951,13 +13941,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 618
   },
   {
    "id": "cq8jzury5ci",
    "nombre": "Pareja de terminales perrito",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": null,
@@ -13979,7 +13969,7 @@
   {
    "id": "cq8jzdh3xmd",
    "nombre": "Extension 25 fts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6500,
    "precioOferta": null,
    "precioTransf": null,
@@ -14001,7 +13991,7 @@
   {
    "id": "cq8jzdhldmw",
    "nombre": "Juego de luces led de colores",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14017,13 +14007,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 621
   },
   {
    "id": "cq8jzs80m4s",
    "nombre": "Pestillo 10\"",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": null,
@@ -14039,13 +14029,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 622
   },
   {
    "id": "cq8jzii76gk",
    "nombre": "Juego de cubo 37pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 35000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14061,13 +14051,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 623
   },
   {
    "id": "cq8jz0kb0e8",
    "nombre": "Brekera 10 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 17000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14089,7 +14079,7 @@
   {
    "id": "cq8jzhd5hc4",
    "nombre": "Sillines",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 8800,
    "precioOferta": null,
    "precioTransf": null,
@@ -14111,7 +14101,7 @@
   {
    "id": "cq8jzvq3a6b",
    "nombre": "Silla plastica",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14133,7 +14123,7 @@
   {
    "id": "cq8jzbh6lfs",
    "nombre": "Camara 26",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3400,
    "precioOferta": null,
    "precioTransf": null,
@@ -14155,7 +14145,7 @@
   {
    "id": "cq8jz19pzxs",
    "nombre": "Lampara solar cuadrada",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 20000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14171,13 +14161,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 628
   },
   {
    "id": "cq8jzbszpki",
    "nombre": "Breker 32A doble DC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 7000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14199,7 +14189,7 @@
   {
    "id": "cq8jzltw04i",
    "nombre": "Breker 40A doble DC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 9500,
    "precioOferta": null,
    "precioTransf": null,
@@ -14221,7 +14211,7 @@
   {
    "id": "cq8jz8doki2",
    "nombre": "Breker 63A sencillo AC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2900,
    "precioOferta": null,
    "precioTransf": null,
@@ -14243,7 +14233,7 @@
   {
    "id": "cq8jzdczdwk",
    "nombre": "Tornillo M8 x 30 corto",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 130,
    "precioOferta": null,
    "precioTransf": null,
@@ -14265,7 +14255,7 @@
   {
    "id": "cq8jzl13d5c",
    "nombre": "Canaleta 30x15",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -14288,7 +14278,7 @@
   {
    "id": "cq8jzixvlii",
    "nombre": "Puerta corredera plegable",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 32000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14310,7 +14300,7 @@
   {
    "id": "cq8jzd3nxlb",
    "nombre": "Manguera de lavadoras",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2600,
    "precioOferta": null,
    "precioTransf": null,
@@ -14332,7 +14322,7 @@
   {
    "id": "cq8k0g8ptd0",
    "nombre": "Set de brochas",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2400,
    "precioOferta": null,
    "precioTransf": null,
@@ -14354,7 +14344,7 @@
   {
    "id": "cq8k0qx52yw",
    "nombre": "Extension de 6mts",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4500,
    "precioOferta": null,
    "precioTransf": null,
@@ -14376,7 +14366,7 @@
   {
    "id": "cq8k0ljf03i",
    "nombre": "Kit de herramienta con cuter",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3600,
    "precioOferta": null,
    "precioTransf": null,
@@ -14398,7 +14388,7 @@
   {
    "id": "cq8k07qjw21",
    "nombre": "Cortinero mediano",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 7500,
    "precioOferta": null,
    "precioTransf": null,
@@ -14421,7 +14411,7 @@
   {
    "id": "cq8k0219adp",
    "nombre": "Flores",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 7000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14443,7 +14433,7 @@
   {
    "id": "cq8k0xraaro",
    "nombre": "Bisagra 4x4 normal",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2200,
    "precioOferta": null,
    "precioTransf": null,
@@ -14465,7 +14455,7 @@
   {
    "id": "cq8k0hf7np0",
    "nombre": "Bisagra 3.5x2.5",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": null,
@@ -14487,7 +14477,7 @@
   {
    "id": "cq8k0wm3gtx",
    "nombre": "Bisagra 2.5x1.5",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -14509,7 +14499,7 @@
   {
    "id": "cq8k02x4jsq",
    "nombre": "Bisagra 4x3 Q7 estuche",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2100,
    "precioOferta": null,
    "precioTransf": null,
@@ -14531,7 +14521,7 @@
   {
    "id": "cq8k0xrfwyt",
    "nombre": "Candado 40mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1100,
    "precioOferta": null,
    "precioTransf": null,
@@ -14553,7 +14543,7 @@
   {
    "id": "cq8k06jh4qc",
    "nombre": "Paquete de candados 30-40-50mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 12000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14575,7 +14565,7 @@
   {
    "id": "cq8k0iwuzc2",
    "nombre": "Extension 3mts regleta negra",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5200,
    "precioOferta": null,
    "precioTransf": null,
@@ -14597,7 +14587,7 @@
   {
    "id": "cq8k0f7bqbi",
    "nombre": "Cable coaxial",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 270,
    "precioOferta": null,
    "precioTransf": null,
@@ -14613,13 +14603,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 648
   },
   {
    "id": "cq8k0b3fa0a",
    "nombre": "Llavin de calle Q7 100mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14641,7 +14631,7 @@
   {
    "id": "cq8k0veyt5e",
    "nombre": "Llavin de calle Q7 120mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14663,7 +14653,7 @@
   {
    "id": "cq8k03d1wtr",
    "nombre": "Juego de cubo 40pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5500,
    "precioOferta": null,
    "precioTransf": null,
@@ -14685,7 +14675,7 @@
   {
    "id": "cq8k0cr3dck",
    "nombre": "Brekera 18 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14707,7 +14697,7 @@
   {
    "id": "cq8k0oksbr5",
    "nombre": "Brekera 6 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14729,7 +14719,7 @@
   {
    "id": "cq8k02vi2h6",
    "nombre": "Bisagra 4x3 brickell",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14751,7 +14741,7 @@
   {
    "id": "cq8k0i7cbzn",
    "nombre": "Manguera plastica rollo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 15000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14773,7 +14763,7 @@
   {
    "id": "cq8k0itvqor",
    "nombre": "Careta de soldar",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 28500,
    "precioOferta": null,
    "precioTransf": null,
@@ -14795,7 +14785,7 @@
   {
    "id": "cq8k1kw6ca2",
    "nombre": "Pvc gris en pasta",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 750,
    "precioOferta": null,
    "precioTransf": null,
@@ -14817,7 +14807,7 @@
   {
    "id": "cq8k1splejl",
    "nombre": "Pestillo 5\"",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": null,
@@ -14839,7 +14829,7 @@
   {
    "id": "cq8k1a8m2os",
    "nombre": "Canaleta 80x40",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 9800,
    "precioOferta": null,
    "precioTransf": null,
@@ -14861,7 +14851,7 @@
   {
    "id": "cq8k1ociyhw",
    "nombre": "Canaleta 50x25",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 5000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14884,7 +14874,7 @@
   {
    "id": "cq8k197wimy",
    "nombre": "Canaleta 25x15",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -14907,7 +14897,7 @@
   {
    "id": "cq8k1eb3z30",
    "nombre": "Paquetes de clavos",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": null,
@@ -14929,7 +14919,7 @@
   {
    "id": "cq8k11p215a",
    "nombre": "Tornillo m8 rosca mitad",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 50,
    "precioOferta": null,
    "precioTransf": null,
@@ -14951,7 +14941,7 @@
   {
    "id": "cq8k1jiwd35",
    "nombre": "Rollo malla pollo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": null,
@@ -14987,13 +14977,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 665
   },
   {
    "id": "s8egf0mk24o",
    "nombre": "Espansores plasticos de 80",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 80,
    "precioOferta": null,
    "precioTransf": null,
@@ -15007,7 +14997,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 666
   },
   {
@@ -15027,7 +15017,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 667
   },
   {
@@ -15047,7 +15037,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 668
   },
   {
@@ -15067,13 +15057,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 669
   },
   {
    "id": "s8eghymms70",
    "nombre": "Pestillo cuna",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 300,
    "precioOferta": null,
    "precioTransf": null,
@@ -15087,13 +15077,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 670
   },
   {
    "id": "s8egh7nmsgr",
    "nombre": "Kola loka",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 300,
    "precioOferta": null,
    "precioTransf": null,
@@ -15107,13 +15097,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 671
   },
   {
    "id": "s8egh76w2ed",
    "nombre": "Cable 14 x metros",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 350,
    "precioOferta": null,
    "precioTransf": null,
@@ -15127,7 +15117,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 672
   },
   {
@@ -15169,13 +15159,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 674
   },
   {
    "id": "s8egibrcldl",
    "nombre": "Silicona temperatura negra 650",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 650,
    "precioOferta": null,
    "precioTransf": null,
@@ -15211,7 +15201,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 676
   },
   {
@@ -15231,7 +15221,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 677
   },
   {
@@ -15251,7 +15241,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 678
   },
   {
@@ -15271,7 +15261,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 679
   },
   {
@@ -15291,13 +15281,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 680
   },
   {
    "id": "s8egj0sobgd",
    "nombre": "Brekera 1 posiciones",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": null,
@@ -15333,13 +15323,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 682
   },
   {
    "id": "s8egk3ofqye",
    "nombre": "Disco debaste 125\"mm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 900,
    "precioOferta": null,
    "precioTransf": null,
@@ -15353,13 +15343,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 683
   },
   {
    "id": "s8egktixzh4",
    "nombre": "Aldaba",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": null,
@@ -15373,7 +15363,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 684
   },
   {
@@ -15393,13 +15383,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 685
   },
   {
    "id": "s8egl7g7isf",
    "nombre": "Set de hilo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -15413,7 +15403,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 686
   },
   {
@@ -15433,13 +15423,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 687
   },
   {
    "id": "s8egl0lnb87",
    "nombre": "Tira de tubos palsticos 1/2\"",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": null,
@@ -15475,13 +15465,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 689
   },
   {
    "id": "s8egm7wvn5h",
    "nombre": "Juego de cucharon",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": null,
@@ -15495,7 +15485,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 690
   },
   {
@@ -15515,7 +15505,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 691
   },
   {
@@ -15535,7 +15525,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 692
   },
   {
@@ -15555,7 +15545,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 693
   },
   {
@@ -15575,7 +15565,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 694
   },
   {
@@ -15595,7 +15585,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 695
   },
   {
@@ -15615,13 +15605,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 696
   },
   {
    "id": "s8ego89x79v",
    "nombre": "Extensión de 4 mts sencilla",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": null,
@@ -15635,7 +15625,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 697
   },
   {
@@ -15655,7 +15645,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 698
   },
   {
@@ -15675,7 +15665,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 699
   },
   {
@@ -15695,13 +15685,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 700
   },
   {
    "id": "s8egpfggu2c",
    "nombre": "Pinza picoloro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2300,
    "precioOferta": null,
    "precioTransf": null,
@@ -15715,13 +15705,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 701
   },
   {
    "id": "s8egptnpz8s",
    "nombre": "Cacharra juego para microwave",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2400,
    "precioOferta": null,
    "precioTransf": null,
@@ -15735,13 +15725,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 702
   },
   {
    "id": "s8egpk068kh",
    "nombre": "Juego de taza 200cc sin platillo",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2400,
    "precioOferta": null,
    "precioTransf": null,
@@ -15755,13 +15745,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 703
   },
   {
    "id": "s8egqmn2gek",
    "nombre": "Colcha anti alergia",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": null,
@@ -15775,7 +15765,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 704
   },
   {
@@ -15795,7 +15785,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 705
   },
   {
@@ -15815,7 +15805,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 706
   },
   {
@@ -15835,7 +15825,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 707
   },
   {
@@ -15855,13 +15845,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 708
   },
   {
    "id": "s8egrpv6xzt",
    "nombre": "Lampara recargable 70cm",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2800,
    "precioOferta": null,
    "precioTransf": null,
@@ -15875,13 +15865,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 709
   },
   {
    "id": "s8egr41fk5r",
    "nombre": "Juego de vaso cheef club 6pcs grande",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 2800,
    "precioOferta": null,
    "precioTransf": null,
@@ -15895,13 +15885,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 710
   },
   {
    "id": "s8egr7t6ovv",
    "nombre": "Llave sueca",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": null,
@@ -15915,13 +15905,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 711
   },
   {
    "id": "s8egrbrsfuz",
    "nombre": "Cortina de baño simple",
-   "categoria": "s8egd23waat",
+   "categoria": "",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": null,
@@ -15935,13 +15925,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 712
   },
   {
    "id": "s8egsuumggs",
    "nombre": "Termo 1 lts grande",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": null,
@@ -15955,13 +15945,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 713
   },
   {
    "id": "s8egsct5ml1",
    "nombre": "Juego de jarra cristal",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3700,
    "precioOferta": null,
    "precioTransf": null,
@@ -15975,7 +15965,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 714
   },
   {
@@ -15995,13 +15985,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 715
   },
   {
    "id": "s8egsw6gxzq",
    "nombre": "Vaso whisky",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 3750,
    "precioOferta": null,
    "precioTransf": null,
@@ -16015,7 +16005,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 716
   },
   {
@@ -16035,13 +16025,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 717
   },
   {
    "id": "s8egtackudw",
    "nombre": "Pluma de jardín plástica de zapatilla x 10",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4000,
    "precioOferta": null,
    "precioTransf": null,
@@ -16055,7 +16045,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 718
   },
   {
@@ -16075,13 +16065,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 719
   },
   {
    "id": "s8egts7v7el",
    "nombre": "Pintura 1/litro verde esmeralda",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4000,
    "precioOferta": null,
    "precioTransf": null,
@@ -16095,7 +16085,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 720
   },
   {
@@ -16115,7 +16105,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 721
   },
   {
@@ -16135,7 +16125,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 722
   },
   {
@@ -16155,13 +16145,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 723
   },
   {
    "id": "s8egtd0xwng",
    "nombre": "Pintura 1/litro azul oscuro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4200,
    "precioOferta": null,
    "precioTransf": null,
@@ -16175,13 +16165,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 724
   },
   {
    "id": "s8egta7roy9",
    "nombre": "Pintura 1/litro caoba",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4200,
    "precioOferta": null,
    "precioTransf": null,
@@ -16195,13 +16185,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 725
   },
   {
    "id": "s8egtzucyre",
    "nombre": "Pintura 1/litro azul claro",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4200,
    "precioOferta": null,
    "precioTransf": null,
@@ -16215,13 +16205,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 726
   },
   {
    "id": "s8egtw11aom",
    "nombre": "Llavi de puerta calle Q7 plano",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4300,
    "precioOferta": null,
    "precioTransf": null,
@@ -16235,7 +16225,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 727
   },
   {
@@ -16255,13 +16245,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 728
   },
   {
    "id": "s8eguj1a62a",
    "nombre": "Breker 40A sencillo DC",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4500,
    "precioOferta": null,
    "precioTransf": null,
@@ -16275,7 +16265,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 729
   },
   {
@@ -16295,7 +16285,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 730
   },
   {
@@ -16315,7 +16305,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 731
   },
   {
@@ -16335,13 +16325,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 732
   },
   {
    "id": "s8egut77dns",
    "nombre": "Lampara redonda recargable 2 pila",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 4800,
    "precioOferta": null,
    "precioTransf": null,
@@ -16377,13 +16367,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 734
   },
   {
    "id": "s8egvsgyjuo",
    "nombre": "Canaleta 60x40",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": null,
@@ -16397,7 +16387,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 735
   },
   {
@@ -16417,7 +16407,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 736
   },
   {
@@ -16437,7 +16427,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 737
   },
   {
@@ -16457,7 +16447,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 738
   },
   {
@@ -16477,7 +16467,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 739
   },
   {
@@ -16497,7 +16487,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 740
   },
   {
@@ -16517,7 +16507,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 741
   },
   {
@@ -16537,7 +16527,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 742
   },
   {
@@ -16557,7 +16547,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 743
   },
   {
@@ -16577,7 +16567,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 744
   },
   {
@@ -16597,7 +16587,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 745
   },
   {
@@ -16617,7 +16607,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 746
   },
   {
@@ -16637,7 +16627,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 747
   },
   {
@@ -16657,7 +16647,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 748
   },
   {
@@ -16677,7 +16667,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 749
   },
   {
@@ -16697,7 +16687,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 750
   },
   {
@@ -16717,7 +16707,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 751
   },
   {
@@ -16737,13 +16727,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 752
   },
   {
    "id": "s8eh002huwb",
    "nombre": "Kit de construcción",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": null,
@@ -16757,13 +16747,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 753
   },
   {
    "id": "s8eh0cvr16m",
    "nombre": "Lampara solar 650w",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": null,
@@ -16777,13 +16767,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 754
   },
   {
    "id": "s8eh1f4mf0z",
    "nombre": "Ventilador f6 robotico",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 30000,
    "precioOferta": null,
    "precioTransf": null,
@@ -16805,7 +16795,7 @@
   {
    "id": "s8eh1p5zl8x",
    "nombre": "Set de cazuelas 12 pcs",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 30000,
    "precioOferta": null,
    "precioTransf": null,
@@ -16819,13 +16809,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 756
   },
   {
    "id": "s8eh1l6tgvn",
    "nombre": "Presurizador Dawan",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 32500,
    "precioOferta": null,
    "precioTransf": null,
@@ -16839,7 +16829,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 757
   },
   {
@@ -16881,13 +16871,13 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 759
   },
   {
    "id": "s8eh16yawlq",
    "nombre": "Panel solar 620w",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 170100,
    "precioOferta": null,
    "precioTransf": null,
@@ -16907,7 +16897,7 @@
   {
    "id": "s8eh2qhp6d9",
    "nombre": "Refrigerador MILEXUS 9.1pies",
-   "categoria": "s8egcakvzcx",
+   "categoria": "",
    "precio": 345000,
    "precioOferta": null,
    "precioTransf": null,
@@ -16921,7 +16911,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 761
   }
  ],
