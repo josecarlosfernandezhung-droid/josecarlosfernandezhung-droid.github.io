@@ -597,7 +597,7 @@
    "fotos": [
     "img/productos/s9ri0cjpol2.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
@@ -5870,7 +5870,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 252
   },
   {
@@ -7963,7 +7963,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 347
   },
   {
@@ -13796,7 +13796,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 611
   },
   {
