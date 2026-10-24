@@ -7963,7 +7963,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 347
   },
   {
