@@ -6361,12 +6361,12 @@
    "fotos": [
     "img/productos/sbuxm0dbaf5.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 275
   },
   {
