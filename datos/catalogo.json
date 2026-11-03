@@ -742,12 +742,12 @@
    "fotos": [
     "img/productos/s9t88qv1a31.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 20
   },
   {
@@ -1248,12 +1248,12 @@
    "fotos": [
     "img/productos/s9yw49eb09o.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 43
   },
   {
@@ -5255,12 +5255,12 @@
    "fotos": [
     "img/productos/sdtybumc0hr.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 225
   },
   {
@@ -5788,12 +5788,12 @@
    "fotos": [
     "img/productos/sbmuklwsnni.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 249
   },
   {
@@ -9094,12 +9094,12 @@
    "fotos": [
     "img/productos/scy08rwo3kn.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 399
   },
   {
@@ -9160,12 +9160,12 @@
    "fotos": [
     "img/productos/scyoq9t6ujh.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 402
   },
   {
@@ -9270,12 +9270,12 @@
    "fotos": [
     "img/productos/sd0a4xa9pfl.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 407
   },
   {
@@ -10414,12 +10414,12 @@
    "fotos": [
     "img/productos/sdjlxxuakzp.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 459
   },
   {
@@ -14840,12 +14840,12 @@
    "fotos": [
     "img/productos/sfo6rte43dl.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 659
   },
   {
@@ -16886,12 +16886,12 @@
    "descripcion": "",
    "foto": "",
    "fotos": [],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 760
   },
   {
