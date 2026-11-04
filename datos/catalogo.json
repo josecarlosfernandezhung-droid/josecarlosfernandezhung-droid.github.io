@@ -609,12 +609,12 @@
    "fotos": [
     "img/productos/s9rpvt9yax8.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 14
   },
   {
@@ -697,12 +697,12 @@
    "fotos": [
     "img/productos/s9shzb92uxb.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 18
   },
   {
@@ -874,12 +874,12 @@
    "fotos": [
     "img/productos/s9ukwzzxg4u.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 26
   },
   {
@@ -1072,12 +1072,12 @@
    "fotos": [
     "img/productos/s9wv1q1lvf0.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 35
   },
   {
@@ -1248,12 +1248,12 @@
    "fotos": [
     "img/productos/s9yw49eb09o.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 43
   },
   {
@@ -1668,12 +1668,12 @@
    "fotos": [
     "img/productos/sa50liqskmf.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 62
   },
   {
@@ -1690,12 +1690,12 @@
    "fotos": [
     "img/productos/sa59lhlfwdq.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 63
   },
   {
@@ -2152,12 +2152,12 @@
    "fotos": [
     "img/productos/saakz7hiq61.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 84
   },
   {
@@ -3296,12 +3296,12 @@
    "fotos": [
     "img/productos/salz9bwevlg.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 136
   },
   {
@@ -3506,9 +3506,9 @@
    "id": "cq8j6o6vbvb",
    "nombre": "Cemento blanco 1kg",
    "categoria": "s8egelcjjpf",
-   "precio": 1350,
+   "precio": 1750,
    "precioOferta": null,
-   "precioTransf": 2700,
+   "precioTransf": 3500,
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
@@ -3516,12 +3516,12 @@
    "fotos": [
     "img/productos/sapabalwi9d.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 146
   },
   {
@@ -4616,12 +4616,12 @@
    "fotos": [
     "img/productos/sb4vpibw6s4.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 196
   },
   {
@@ -5255,12 +5255,12 @@
    "fotos": [
     "img/productos/sdtybumc0hr.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 225
   },
   {
@@ -5788,12 +5788,12 @@
    "fotos": [
     "img/productos/sbmuklwsnni.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 249
   },
   {
@@ -6185,12 +6185,12 @@
    "fotos": [
     "img/productos/sbsf4tt3h0p.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 267
   },
   {
@@ -6713,12 +6713,12 @@
    "fotos": [
     "img/productos/sc0faua227t.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 291
   },
   {
@@ -7256,9 +7256,9 @@
    "id": "cq8jihy13oa",
    "nombre": "Pintura spray verde",
    "categoria": "s8egelcjjpf",
-   "precio": 1900,
+   "precio": 1950,
    "precioOferta": null,
-   "precioTransf": 3800,
+   "precioTransf": 3900,
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
@@ -9094,12 +9094,12 @@
    "fotos": [
     "img/productos/scy08rwo3kn.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 399
   },
   {
@@ -9160,12 +9160,12 @@
    "fotos": [
     "img/productos/scyoq9t6ujh.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 402
   },
   {
@@ -9270,12 +9270,12 @@
    "fotos": [
     "img/productos/sd0a4xa9pfl.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 407
   },
   {
@@ -9402,12 +9402,12 @@
    "fotos": [
     "img/productos/sd2v70zjp7a.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 413
   },
   {
@@ -10414,12 +10414,12 @@
    "fotos": [
     "img/productos/sdjlxxuakzp.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 459
   },
   {
@@ -10922,12 +10922,12 @@
    "fotos": [
     "img/productos/sdrwqu8lycp.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 482
   },
   {
@@ -11386,12 +11386,12 @@
     "img/productos/se53gnrxajv.webp",
     "img/productos/se5f0yezybo.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 503
   },
   {
@@ -11820,9 +11820,9 @@
    "id": "cq8jtezg9qv",
    "nombre": "Extension USB",
    "categoria": "",
-   "precio": 6500,
+   "precio": 7000,
    "precioOferta": null,
-   "precioTransf": 13000,
+   "precioTransf": 14000,
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
@@ -11830,12 +11830,12 @@
    "fotos": [
     "img/productos/se7dlrjhgid.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 523
   },
   {
@@ -11963,12 +11963,12 @@
    "fotos": [
     "img/productos/see4c6yw6lk.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 529
   },
   {
@@ -12306,9 +12306,9 @@
    "id": "cq8jvhhq14a",
    "nombre": "pintura spray amarilla",
    "categoria": "",
-   "precio": 1750,
+   "precio": 1950,
    "precioOferta": null,
-   "precioTransf": 3500,
+   "precioTransf": 3900,
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
@@ -12316,12 +12316,12 @@
    "fotos": [
     "img/productos/secxzv4s8n8.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 545
   },
   {
@@ -13489,12 +13489,12 @@
     "img/productos/seywgfrc8ps.webp",
     "img/productos/sezcewwbt77.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 598
   },
   {
@@ -13570,9 +13570,9 @@
    "id": "cq8jybn9bqi",
    "nombre": "Pintura spray blanco brillante",
    "categoria": "",
-   "precio": 1900,
+   "precio": 3900,
    "precioOferta": null,
-   "precioTransf": 3800,
+   "precioTransf": 7800,
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
@@ -13581,12 +13581,12 @@
     "img/productos/sf2dasehqae.webp",
     "img/productos/sf2oc7wwvow.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 602
   },
   {
@@ -13671,12 +13671,12 @@
    "fotos": [
     "img/productos/sf3tt0wmthj.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 606
   },
   {
@@ -14178,12 +14178,12 @@
    "fotos": [
     "img/productos/sfbcm7ctf45.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 629
   },
   {
@@ -14840,12 +14840,12 @@
    "fotos": [
     "img/productos/sfo6rte43dl.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 659
   },
   {
@@ -15350,20 +15350,20 @@
    "id": "s8egktixzh4",
    "nombre": "Aldaba",
    "categoria": "",
-   "precio": 1000,
+   "precio": 250,
    "precioOferta": null,
-   "precioTransf": 2000,
+   "precioTransf": 500,
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
    "foto": "",
    "fotos": [],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 684
   },
   {
@@ -16886,7 +16886,7 @@
    "descripcion": "",
    "foto": "",
    "fotos": [],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
