@@ -17382,8 +17382,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/nmc9vgs82lv.webp",
+   "fotos": [
+    "img/productos/nmc9vgs82lv.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 8,
@@ -17402,8 +17404,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/ntnt8fm3823.webp",
+   "fotos": [
+    "img/productos/ntnt8fm3823.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 131,
