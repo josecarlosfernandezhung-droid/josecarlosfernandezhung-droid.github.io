@@ -17271,8 +17271,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/n340ex5xfhm.webp",
+   "fotos": [
+    "img/productos/n340ex5xfhm.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 6,
@@ -17291,8 +17293,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/n4sa23rzh49.webp",
+   "fotos": [
+    "img/productos/n4sa23rzh49.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 9,
