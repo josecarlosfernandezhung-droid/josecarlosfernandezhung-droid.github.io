@@ -17008,8 +17008,11 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/ntgewnp2ghb.webp",
+   "fotos": [
+    "img/productos/ntgewnp2ghb.webp",
+    "img/productos/ntffopm5a9x.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 23,
