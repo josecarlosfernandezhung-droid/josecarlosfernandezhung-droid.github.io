@@ -17360,8 +17360,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/n8z1v566syz.webp",
+   "fotos": [
+    "img/productos/n8z1v566syz.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
