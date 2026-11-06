@@ -17051,8 +17051,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/skn0afonfui.webp",
+   "fotos": [
+    "img/productos/skn0afonfui.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
@@ -17071,8 +17073,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/mnnxa6v841g.webp",
+   "fotos": [
+    "img/productos/mnnxa6v841g.webp"
+   ],
    "agotado": true,
    "nuevo": true,
    "ventas": 6,
