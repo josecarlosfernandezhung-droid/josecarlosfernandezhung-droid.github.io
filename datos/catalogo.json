@@ -16735,7 +16735,8 @@
    "descripcion": "",
    "foto": "img/productos/t5bbwvbqeh4.webp",
    "fotos": [
-    "img/productos/t5bbwvbqeh4.webp"
+    "img/productos/t5bbwvbqeh4.webp",
+    "img/productos/e2vrsxrphce.webp"
    ],
    "agotado": false,
    "nuevo": true,
@@ -16795,9 +16796,9 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/sb2g4rsbvpn.webp",
+   "foto": "img/productos/dxqgrbzyalj.webp",
    "fotos": [
-    "img/productos/sb2g4rsbvpn.webp"
+    "img/productos/dxqgrbzyalj.webp"
    ],
    "agotado": true,
    "nuevo": true,
@@ -16877,8 +16878,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/ntcq6heo5b7.webp",
+   "fotos": [
+    "img/productos/ntcq6heo5b7.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
