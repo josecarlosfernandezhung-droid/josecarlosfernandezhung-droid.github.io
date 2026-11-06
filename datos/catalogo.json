@@ -17295,7 +17295,8 @@
    "descripcion": "",
    "foto": "img/productos/n4sa23rzh49.webp",
    "fotos": [
-    "img/productos/n4sa23rzh49.webp"
+    "img/productos/n4sa23rzh49.webp",
+    "img/productos/n4rfpslztgk.webp"
    ],
    "agotado": false,
    "nuevo": true,
@@ -17315,8 +17316,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/n657sf2sj4m.webp",
+   "fotos": [
+    "img/productos/n657sf2sj4m.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
