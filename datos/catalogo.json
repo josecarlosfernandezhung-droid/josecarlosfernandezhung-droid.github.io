@@ -17095,8 +17095,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/mpg2011ml15.webp",
+   "fotos": [
+    "img/productos/mpg2011ml15.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 3,
@@ -17115,8 +17117,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/ntqpu9c0ift.webp",
+   "fotos": [
+    "img/productos/ntqpu9c0ift.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 1,
