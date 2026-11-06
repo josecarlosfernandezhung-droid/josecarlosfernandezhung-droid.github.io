@@ -16920,8 +16920,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/nxot0ucbg70.webp",
+   "fotos": [
+    "img/productos/nxot0ucbg70.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
@@ -16940,8 +16942,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/nxplf94rkmo.webp",
+   "fotos": [
+    "img/productos/nxplf94rkmo.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 10,
