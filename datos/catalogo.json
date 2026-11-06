@@ -17338,8 +17338,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/n6pshoj2f3p.webp",
+   "fotos": [
+    "img/productos/n6pshoj2f3p.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 1,
