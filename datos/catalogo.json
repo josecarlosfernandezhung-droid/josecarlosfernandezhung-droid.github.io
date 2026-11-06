@@ -17474,7 +17474,8 @@
    "descripcion": "",
    "foto": "img/productos/qlznih2l9qz.webp",
    "fotos": [
-    "img/productos/qlznih2l9qz.webp"
+    "img/productos/qlznih2l9qz.webp",
+    "img/productos/qlysai01x5x.webp"
    ],
    "agotado": false,
    "nuevo": true,
@@ -17494,8 +17495,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/nuojob39494.webp",
+   "fotos": [
+    "img/productos/nuojob39494.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 10,
