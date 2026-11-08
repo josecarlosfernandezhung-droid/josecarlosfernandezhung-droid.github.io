@@ -3676,12 +3676,12 @@
    "fotos": [
     "img/productos/s5k4txd91gl.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 72,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 158
   },
   {
@@ -8744,12 +8744,12 @@
    "fotos": [
     "img/productos/s79sr9wdlrs.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 13,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 387
   },
   {
