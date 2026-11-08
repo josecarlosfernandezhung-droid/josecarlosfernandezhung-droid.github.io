@@ -17521,8 +17521,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/zthh6ua2ps3.webp",
+   "fotos": [
+    "img/productos/zthh6ua2ps3.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
