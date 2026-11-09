@@ -3681,12 +3681,12 @@
    "fotos": [
     "img/productos/s5k4txd91gl.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 71,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 158
   },
   {
@@ -3771,12 +3771,12 @@
    "fotos": [
     "img/productos/s5l4ddx2nwb.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 271,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 162
   },
   {
@@ -6316,12 +6316,12 @@
    "fotos": [
     "img/productos/s6beyxoex67.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 103,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 277
   },
   {
@@ -14732,12 +14732,12 @@
     "img/productos/e2w3gyzc7iv.webp",
     "img/productos/t5mbuwakjam.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 18,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 656
   },
   {
@@ -17260,7 +17260,7 @@
    "descripcion": "",
    "foto": "",
    "fotos": [],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
