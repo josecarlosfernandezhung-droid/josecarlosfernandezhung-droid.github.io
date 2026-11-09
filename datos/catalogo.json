@@ -11077,12 +11077,12 @@
     "img/productos/upyj0iifugm.webp",
     "img/productos/s8bpgzu2ngt.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 16,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 492
   },
   {
