@@ -2660,12 +2660,12 @@
     "img/productos/wev9x7lvs21.webp",
     "img/productos/s59ai59vc6x.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 127,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 112
   },
   {
@@ -3676,12 +3676,12 @@
    "fotos": [
     "img/productos/s5k4txd91gl.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 72,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 158
   },
   {
@@ -6533,12 +6533,12 @@
    "fotos": [
     "img/productos/s6dxzd9gc3i.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 182,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 287
   },
   {
@@ -8501,12 +8501,12 @@
    "fotos": [
     "img/productos/s7680j9yhe8.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 296,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 376
   },
   {
@@ -11371,12 +11371,12 @@
    "fotos": [
     "img/productos/s8jd6ta762q.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 12,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 506
   },
   {
@@ -12908,12 +12908,12 @@
    "fotos": [
     "img/productos/s96n18y3ilr.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 3,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 575
   },
   {
@@ -14796,12 +14796,12 @@
     "img/productos/e2wq19491t5.webp",
     "img/productos/e2wvlt3jnjn.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 160,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 660
   },
   {
@@ -16815,9 +16815,9 @@
    "id": "s8eh16yawlq",
    "nombre": "Panel solar 620w",
    "categoria": "",
-   "precio": 170100,
+   "precio": 153000,
    "precioOferta": null,
-   "precioTransf": 340200,
+   "precioTransf": 306000,
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
@@ -16828,7 +16828,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 760
   },
   {
