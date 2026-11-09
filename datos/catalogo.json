@@ -11077,12 +11077,12 @@
     "img/productos/upyj0iifugm.webp",
     "img/productos/s8bpgzu2ngt.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 16,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 492
   },
   {
@@ -13949,8 +13949,8 @@
    "precioOferta": null,
    "precioTransf": 10000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Juego de luces led de colores\".",
+   "descripcion": "Juego de luces led de colores\".",
    "foto": "img/productos/s9ptth6l59v.webp",
    "fotos": [
     "img/productos/s9ptth6l59v.webp"
@@ -16779,8 +16779,8 @@
    "precioOferta": null,
    "precioTransf": 280000,
    "precioOfertaTransf": null,
-   "resumen": "Llave empotrada de ducha Cuerpo y roscas: Fabricados en bronce resistente a la corrosión, ",
-   "descripcion": "Llave empotrada de ducha  \nCuerpo y roscas: Fabricados en bronce resistente a la corrosión, con conexiones roscadas hembra estándar para la instalación en tuberías de agua.  \nManilla / Manija: Manilla giratoria de acrílico transparente con corte tipo cristal y tapa central cromada, diseñada para facilitar el agarre.  \nEscudo decorativo: Placa/chapetón circular con acabado cromado brillante que cubre el empotrado en la pared para dar un acabado limpio.  \nUso principal: Control de paso de agua para empotrar en pared (duchas, baños o instalaciones sanitarias).  ",
+   "resumen": "MEDIDAS: 135 cm x 190 cm x 26 cm MUELES +ESPUMA Soporte y confort ideal ALTA CALIDAD Mater",
+   "descripcion": "MEDIDAS: 135 cm x 190 cm x 26 cm\nMUELES +ESPUMA \nSoporte y confort ideal \nALTA CALIDAD \nMateriales resistense \ny duralderos. \nSELLADO AL VACÍO \nPráctico e higiénico.",
    "foto": "img/productos/tmdbw7ekshb.webp",
    "fotos": [
     "img/productos/tmdbw7ekshb.webp",
