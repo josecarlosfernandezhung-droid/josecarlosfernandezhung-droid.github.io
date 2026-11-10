@@ -11077,12 +11077,12 @@
     "img/productos/upyj0iifugm.webp",
     "img/productos/s8bpgzu2ngt.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 16,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 492
   },
   {
@@ -13949,8 +13949,8 @@
    "precioOferta": null,
    "precioTransf": 10000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Juego de luces led de colores\".",
+   "descripcion": "Juego de luces led de colores\".",
    "foto": "img/productos/s9ptth6l59v.webp",
    "fotos": [
     "img/productos/s9ptth6l59v.webp"
