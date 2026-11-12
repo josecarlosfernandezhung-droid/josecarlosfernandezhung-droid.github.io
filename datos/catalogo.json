@@ -96,9 +96,9 @@
   ],
   "texto": "Herramientas eléctricas, manuales, discos de corte, accesorios y suministros. Calidad garantizada con atención y entrega en Santiago de Cuba.",
   "fotos": [
-   "img/marca/xt8b3ie2j78.webp"
+   "img/marca/wmkduhqkqkj.webp"
   ],
-  "sello": "Ferretería Los Hermanos! — ToTo Tools"
+  "sello": "Ferretería ToTo Tools"
  },
  "cifras": [
   {
@@ -152,10 +152,46 @@
  ],
  "testimonios": [],
  "condiciones": {
-  "pedido": "Los pedidos se confirman vía WhatsApp.",
+  "pedido": "Los pedidos se confirman vía WhatsApp o Mensajes.",
   "entrega": "Entrega en Santiago de Cuba."
  },
- "categorias": [],
+ "categorias": [
+  {
+   "id": "vpwfdm6iz7b",
+   "nombre": "Bisagras",
+   "icono": "caja"
+  },
+  {
+   "id": "vq15pjy9okg",
+   "nombre": "Candados",
+   "icono": "caja"
+  },
+  {
+   "id": "vq4a1pqpw2f",
+   "nombre": "Cables",
+   "icono": "caja"
+  },
+  {
+   "id": "vqe6fseioyj",
+   "nombre": "Electrodomésticos",
+   "icono": "caja"
+  },
+  {
+   "id": "vqoar29dzwx",
+   "nombre": "Materiales gastables",
+   "icono": "caja"
+  },
+  {
+   "id": "vy6ixzzzmc1",
+   "nombre": "Plomería",
+   "icono": "caja"
+  },
+  {
+   "id": "w7ll9f7y8ky",
+   "nombre": "Iluminación",
+   "icono": "caja"
+  }
+ ],
  "productos": [
   {
    "id": "cq8iv7c9gtj",
@@ -432,8 +468,8 @@
    "precioOferta": null,
    "precioTransf": 1200,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Toma corriente plano normal: calidad y buen precio en un solo producto. Se vende por pzs..",
+   "descripcion": "Toma corriente plano normal: calidad y buen precio en un solo producto. Se vende por pzs.. Escríbenos por WhatsApp y te lo reservamos.",
    "foto": "img/productos/s4ir0i9bx9w.webp",
    "fotos": [
     "img/productos/s4ir0i9bx9w.webp"
@@ -478,8 +514,9 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/s4j11i1e32p.webp",
+   "foto": "img/productos/xf9kj7lf9yp.webp",
    "fotos": [
+    "img/productos/xf9kj7lf9yp.webp",
     "img/productos/s4j11i1e32p.webp"
    ],
    "agotado": false,
@@ -714,7 +751,7 @@
   {
    "id": "cq8iygi5fo0",
    "nombre": "Llave empotrada de ducha",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 5000,
    "precioOferta": null,
    "precioTransf": 10000,
@@ -759,7 +796,7 @@
   {
    "id": "cq8iy7uiimf",
    "nombre": "Sifa de piso poseta",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 2300,
    "precioOferta": null,
    "precioTransf": 4600,
@@ -1048,7 +1085,7 @@
   {
    "id": "cq8izh2qlmg",
    "nombre": "Bombillo led 9watts normal",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": 1200,
@@ -1094,7 +1131,7 @@
   {
    "id": "cq8iz8urjd5",
    "nombre": "T 1\"",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": 1600,
@@ -1116,7 +1153,7 @@
   {
    "id": "cq8izixh5oy",
    "nombre": "Codo 3/4\"",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 350,
    "precioOferta": null,
    "precioTransf": 700,
@@ -1383,7 +1420,7 @@
   {
    "id": "cq8j0k0z160",
    "nombre": "Varilla de soldar 6013/3.2mm 35cm",
-   "categoria": "",
+   "categoria": "vqoar29dzwx",
    "precio": 50,
    "precioOferta": null,
    "precioTransf": 100,
@@ -1455,8 +1492,8 @@
    "precioOferta": null,
    "precioTransf": 80,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Se vende por unidades, a el precio expresado arriba. El paquete trae 50 unidades. ",
+   "descripcion": "Se vende por unidades, a el precio expresado arriba. El paquete trae 50 unidades. ",
    "foto": "img/productos/s4tlaxqkrte.webp",
    "fotos": [
     "img/productos/s4tlaxqkrte.webp"
@@ -1472,7 +1509,7 @@
   {
    "id": "cq8j0oh7wsf",
    "nombre": "Disco de corte metal 115\"mm",
-   "categoria": "",
+   "categoria": "vqoar29dzwx",
    "precio": 160,
    "precioOferta": null,
    "precioTransf": 320,
@@ -1494,7 +1531,7 @@
   {
    "id": "cq8j0p2btfh",
    "nombre": "Disco debaste 180\"mm",
-   "categoria": "",
+   "categoria": "vqoar29dzwx",
    "precio": 1700,
    "precioOferta": null,
    "precioTransf": 3400,
@@ -1588,8 +1625,8 @@
    "precioOferta": null,
    "precioTransf": 200,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Se vende por unidades, a el precio expresado arriba. El paquete trae 50 unidades. ",
+   "descripcion": "Se vende por unidades, a el precio expresado arriba. El paquete trae 50 unidades. ",
    "foto": "img/productos/s4vfouuclgn.webp",
    "fotos": [
     "img/productos/s4vfouuclgn.webp"
@@ -2205,7 +2242,7 @@
   {
    "id": "cq8j227y6u5",
    "nombre": "Cable royalcold 3vía calibre/12",
-   "categoria": "",
+   "categoria": "vq4a1pqpw2f",
    "precio": 27000,
    "precioOferta": null,
    "precioTransf": 54000,
@@ -2227,13 +2264,13 @@
   {
    "id": "cq8j3293965",
    "nombre": "Tubo led 40",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": 3200,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Tubo led 40, de nuestra categoría Iluminación: calidad y buen precio en un solo producto. ",
+   "descripcion": "Tubo led 40, de nuestra categoría Iluminación: calidad y buen precio en un solo producto. Se vende por pzs.. Consulta disponibilidad y entrega por WhatsApp.",
    "foto": "img/productos/s52s73ibtm7.webp",
    "fotos": [
     "img/productos/s52s73ibtm7.webp"
@@ -2271,7 +2308,7 @@
   {
    "id": "cq8j3w59j05",
    "nombre": "Tubo de 20 led",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 1100,
    "precioOferta": null,
    "precioTransf": 2200,
@@ -2611,8 +2648,8 @@
    "precioOferta": null,
    "precioTransf": 600,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Interruptor sencillo palanca: calidad y buen precio en un solo producto. Se vende por pzs.",
+   "descripcion": "Interruptor sencillo palanca: calidad y buen precio en un solo producto. Se vende por pzs.. Haz tu pedido desde el catálogo y coordinamos la entrega.",
    "foto": "img/productos/s55090f7xm6.webp",
    "fotos": [
     "img/productos/s55090f7xm6.webp"
@@ -2920,7 +2957,7 @@
   {
    "id": "cq8j47hf4nl",
    "nombre": "Codo 1\"",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 500,
    "precioOferta": null,
    "precioTransf": 1000,
@@ -2942,7 +2979,7 @@
   {
    "id": "cq8j5vz24zw",
    "nombre": "Codo 1/2\"",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": 400,
@@ -2964,7 +3001,7 @@
   {
    "id": "cq8j5kiq79g",
    "nombre": "Unión universal 1/2\"",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 500,
    "precioOferta": null,
    "precioTransf": 1000,
@@ -3211,8 +3248,8 @@
    "precioOferta": null,
    "precioTransf": 200,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Tornillo M9 con tuerca: calidad y buen precio en un solo producto. Se vende por pzs.. Haz ",
+   "descripcion": "Tornillo M9 con tuerca: calidad y buen precio en un solo producto. Se vende por pzs.. Haz tu pedido desde el catálogo y coordinamos la entrega.",
    "foto": "img/productos/s5e6hu9hwyc.webp",
    "fotos": [
     "img/productos/s5e6hu9hwyc.webp"
@@ -3294,7 +3331,7 @@
   {
    "id": "cq8j6s6saxe",
    "nombre": "T 1/2",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 380,
    "precioOferta": null,
    "precioTransf": 760,
@@ -3316,7 +3353,7 @@
   {
    "id": "cq8j6gyysb5",
    "nombre": "Cable 10 aluminio",
-   "categoria": "",
+   "categoria": "vq4a1pqpw2f",
    "precio": 30000,
    "precioOferta": null,
    "precioTransf": 60000,
@@ -3339,7 +3376,7 @@
   {
    "id": "cq8j6x0fe3v",
    "nombre": "Cable 12 aluminio",
-   "categoria": "",
+   "categoria": "vq4a1pqpw2f",
    "precio": 14000,
    "precioOferta": null,
    "precioTransf": 28000,
@@ -3361,7 +3398,7 @@
   {
    "id": "cq8j6z6gynu",
    "nombre": "Unión universal 1\"",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": 1600,
@@ -3627,7 +3664,7 @@
   {
    "id": "cq8j7o5pmym",
    "nombre": "Freidora de aire",
-   "categoria": "",
+   "categoria": "vqe6fseioyj",
    "precio": 38000,
    "precioOferta": null,
    "precioTransf": 76000,
@@ -3852,7 +3889,7 @@
   {
    "id": "cq8j8qsof5k",
    "nombre": "Bisagra 4x3 libro interior",
-   "categoria": "",
+   "categoria": "vpwfdm6iz7b",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": 4000,
@@ -3874,7 +3911,7 @@
   {
    "id": "cq8j89ym02s",
    "nombre": "Disco debaste 115\"mm",
-   "categoria": "",
+   "categoria": "vqoar29dzwx",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": 2600,
@@ -4029,7 +4066,7 @@
   {
    "id": "cq8j8yt1ji0",
    "nombre": "Disco mil-hoja",
-   "categoria": "",
+   "categoria": "vqoar29dzwx",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": 1600,
@@ -4095,7 +4132,7 @@
   {
    "id": "cq8j998mc3k",
    "nombre": "Disco corte metal 180mm",
-   "categoria": "",
+   "categoria": "vqoar29dzwx",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": 1600,
@@ -4140,7 +4177,7 @@
   {
    "id": "cq8j9x8jrxm",
    "nombre": "Bisagra 3x3 pareja dorada",
-   "categoria": "",
+   "categoria": "vpwfdm6iz7b",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": 3600,
@@ -4430,7 +4467,7 @@
   {
    "id": "cq8jaed7fco",
    "nombre": "Disco de corte superfuerza 125mm",
-   "categoria": "",
+   "categoria": "vqoar29dzwx",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": 400,
@@ -4673,7 +4710,7 @@
   {
    "id": "cq8jbshs3jd",
    "nombre": "Batidora Estelectric",
-   "categoria": "",
+   "categoria": "vqe6fseioyj",
    "precio": 13000,
    "precioOferta": null,
    "precioTransf": 26000,
@@ -5712,7 +5749,7 @@
   {
    "id": "cq8jemmeshp",
    "nombre": "Codo 3/4- 45 grados",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": 400,
@@ -6221,7 +6258,7 @@
   {
    "id": "cq8jfvieep0",
    "nombre": "Unión universal 3/4\"",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": 1200,
@@ -6730,7 +6767,7 @@
   {
    "id": "cq8jha353bp",
    "nombre": "Candado anti-sisalla 80mm",
-   "categoria": "",
+   "categoria": "vq15pjy9okg",
    "precio": 5500,
    "precioOferta": null,
    "precioTransf": 11000,
@@ -6974,7 +7011,7 @@
   {
    "id": "cq8jhs0g7jn",
    "nombre": "Bisagra 2x2 pareja",
-   "categoria": "",
+   "categoria": "vpwfdm6iz7b",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": 2000,
@@ -7726,7 +7763,7 @@
   {
    "id": "cq8jju4jcoi",
    "nombre": "Bombillo recargable 2 baterías/pilas",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 3300,
    "precioOferta": null,
    "precioTransf": 6600,
@@ -7750,7 +7787,7 @@
   {
    "id": "cq8jj978jso",
    "nombre": "Codo de 50",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 650,
    "precioOferta": null,
    "precioTransf": 1300,
@@ -7926,7 +7963,7 @@
   {
    "id": "cq8jjrwgpoq",
    "nombre": "Bisagra 4x3 normal",
-   "categoria": "",
+   "categoria": "vpwfdm6iz7b",
    "precio": 1950,
    "precioOferta": null,
    "precioTransf": 3900,
@@ -8197,8 +8234,8 @@
    "precioOferta": null,
    "precioTransf": 20,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Tornillo tira-fondo pladur 1 1/2\"/35mm x caja 420: una opción práctica y confiable. Se ven",
+   "descripcion": "Tornillo tira-fondo pladur 1 1/2\"/35mm x caja 420: una opción práctica y confiable. Se vende por pzs.. Escríbenos por WhatsApp y te lo reservamos.",
    "foto": "img/productos/uq2gwi3wr2y.webp",
    "fotos": [
     "img/productos/uq2gwi3wr2y.webp",
@@ -8371,7 +8408,7 @@
   {
    "id": "cq8jk0fnpej",
    "nombre": "Candado 50mm",
-   "categoria": "",
+   "categoria": "vq15pjy9okg",
    "precio": 1350,
    "precioOferta": null,
    "precioTransf": 2700,
@@ -8510,8 +8547,8 @@
    "precioOferta": null,
    "precioTransf": 20,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Tornillo tira-fondo pladur 1\"3/4\"/45mm x caja 360: una opción práctica y confiable. Se ven",
+   "descripcion": "Tornillo tira-fondo pladur 1\"3/4\"/45mm x caja 360: una opción práctica y confiable. Se vende por pzs.. Escríbenos por WhatsApp y te lo reservamos.",
    "foto": "img/productos/s7680j9yhe8.webp",
    "fotos": [
     "img/productos/s7680j9yhe8.webp"
@@ -9190,7 +9227,7 @@
   {
    "id": "cq8jnev1mtd",
    "nombre": "Batidora EKO",
-   "categoria": "",
+   "categoria": "vqe6fseioyj",
    "precio": 14000,
    "precioOferta": null,
    "precioTransf": 28000,
@@ -10446,7 +10483,7 @@
   {
    "id": "cq8jq68uxd9",
    "nombre": "Candado anti-sisalla 90mm",
-   "categoria": "",
+   "categoria": "vq15pjy9okg",
    "precio": 5500,
    "precioOferta": null,
    "precioTransf": 11000,
@@ -10847,7 +10884,7 @@
   {
    "id": "cq8jr70tbsg",
    "nombre": "Candado de alarma",
-   "categoria": "",
+   "categoria": "vq15pjy9okg",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": 12000,
@@ -10982,7 +11019,7 @@
   {
    "id": "cq8jrobstyf",
    "nombre": "Infrarojo",
-   "categoria": "",
+   "categoria": "vqe6fseioyj",
    "precio": 28000,
    "precioOferta": null,
    "precioTransf": 56000,
@@ -11182,7 +11219,7 @@
   },
   {
    "id": "cq8jr0wmc4z",
-   "nombre": "Escobillón 1400",
+   "nombre": "Escobillón",
    "categoria": "",
    "precio": 1700,
    "precioOferta": null,
@@ -12418,8 +12455,8 @@
    "precioOferta": null,
    "precioTransf": 120,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Tornillo M5 2\" con tuerca: una opción práctica y confiable. Se vende por pzs.. Escríbenos ",
+   "descripcion": "Tornillo M5 2\" con tuerca: una opción práctica y confiable. Se vende por pzs.. Escríbenos por WhatsApp y te lo reservamos.",
    "foto": "img/productos/s900l2tsh31.webp",
    "fotos": [
     "img/productos/s900l2tsh31.webp"
@@ -12901,7 +12938,7 @@
   {
    "id": "cq8jxx2vkw7",
    "nombre": "Cable 8 aluminio",
-   "categoria": "",
+   "categoria": "vq4a1pqpw2f",
    "precio": 35000,
    "precioOferta": null,
    "precioTransf": 70000,
@@ -13127,8 +13164,8 @@
    "precioOferta": null,
    "precioTransf": 10,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Conoce Tornillo tira-fondo cabeza plana, pensado para el uso diario. Se vende por pzs.. Ha",
+   "descripcion": "Conoce Tornillo tira-fondo cabeza plana, pensado para el uso diario. Se vende por pzs.. Haz tu pedido desde el catálogo y coordinamos la entrega.",
    "foto": "img/productos/s9bscz71qp0.webp",
    "fotos": [
     "img/productos/s9bscz71qp0.webp"
@@ -13619,7 +13656,7 @@
   {
    "id": "cq8jypncco3",
    "nombre": "Cable fotovoltaico calibre 10 x metro",
-   "categoria": "",
+   "categoria": "vq4a1pqpw2f",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": 4000,
@@ -13668,8 +13705,8 @@
    "precioOferta": null,
    "precioTransf": 1000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Conoce Tornillo allen, pensado para el uso diario. Se vende por pzs.. Haz tu pedido desde ",
+   "descripcion": "Conoce Tornillo allen, pensado para el uso diario. Se vende por pzs.. Haz tu pedido desde el catálogo y coordinamos la entrega.",
    "foto": "img/productos/s9lyn5inoa5.webp",
    "fotos": [
     "img/productos/s9lyn5inoa5.webp"
@@ -14199,8 +14236,8 @@
    "precioOferta": null,
    "precioTransf": 260,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Conoce Tornillo M8 x 30 corto, pensado para el uso diario. Se vende por pzs.. Escríbenos p",
+   "descripcion": "Conoce Tornillo M8 x 30 corto, pensado para el uso diario. Se vende por pzs.. Escríbenos por WhatsApp y te lo reservamos.",
    "foto": "img/productos/t5vpg8tvums.webp",
    "fotos": [
     "img/productos/t5vpg8tvums.webp"
@@ -14394,7 +14431,7 @@
   {
    "id": "cq8k0xraaro",
    "nombre": "Bisagra 4x4 normal",
-   "categoria": "",
+   "categoria": "vpwfdm6iz7b",
    "precio": 2200,
    "precioOferta": null,
    "precioTransf": 4400,
@@ -14416,7 +14453,7 @@
   {
    "id": "cq8k0hf7np0",
    "nombre": "Bisagra 3.5x2.5",
-   "categoria": "",
+   "categoria": "vpwfdm6iz7b",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": 3200,
@@ -14438,7 +14475,7 @@
   {
    "id": "cq8k0wm3gtx",
    "nombre": "Bisagra 2.5x1.5",
-   "categoria": "",
+   "categoria": "vpwfdm6iz7b",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": 2400,
@@ -14460,7 +14497,7 @@
   {
    "id": "cq8k02x4jsq",
    "nombre": "Bisagra 4x3 Q7 estuche",
-   "categoria": "",
+   "categoria": "vpwfdm6iz7b",
    "precio": 2100,
    "precioOferta": null,
    "precioTransf": 4200,
@@ -14482,7 +14519,7 @@
   {
    "id": "cq8k0xrfwyt",
    "nombre": "Candado 40mm",
-   "categoria": "",
+   "categoria": "vq15pjy9okg",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": 2400,
@@ -14504,7 +14541,7 @@
   {
    "id": "cq8k06jh4qc",
    "nombre": "Paquete de candados 30-40-50mm",
-   "categoria": "",
+   "categoria": "vq15pjy9okg",
    "precio": 12500,
    "precioOferta": null,
    "precioTransf": 25000,
@@ -14682,7 +14719,7 @@
   {
    "id": "cq8k02vi2h6",
    "nombre": "Bisagra 4x3 brickell",
-   "categoria": "",
+   "categoria": "vpwfdm6iz7b",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": 4000,
@@ -14888,8 +14925,8 @@
    "precioOferta": null,
    "precioTransf": 120,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Conoce Tornillo m8 rosca mitad, pensado para el uso diario. Se vende por pzs.. Consulta di",
+   "descripcion": "Conoce Tornillo m8 rosca mitad, pensado para el uso diario. Se vende por pzs.. Consulta disponibilidad y entrega por WhatsApp.",
    "foto": "img/productos/t5n9wyicz14.webp",
    "fotos": [
     "img/productos/t5n9wyicz14.webp"
@@ -16376,8 +16413,8 @@
    "precioOferta": null,
    "precioTransf": 306000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Paneles Solares marca RONMA de 620W ,45.55v a 15A",
+   "descripcion": "Paneles Solares marca RONMA de 620W ,45.55v a 15A",
    "foto": "img/productos/o24w4y2w75q.webp",
    "fotos": [
     "img/productos/o24w4y2w75q.webp"
@@ -16455,7 +16492,7 @@
   {
    "id": "9s1k1142vwd",
    "nombre": "Cable 6 cobre",
-   "categoria": "",
+   "categoria": "vq4a1pqpw2f",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": 3600,
@@ -16762,7 +16799,7 @@
   {
    "id": "mct6qgg2pc3",
    "nombre": "Candado engomado 80mm",
-   "categoria": "",
+   "categoria": "vq15pjy9okg",
    "precio": 6300,
    "precioOferta": null,
    "precioTransf": 12600,
@@ -16965,13 +17002,13 @@
   {
    "id": "mct6uph5nqo",
    "nombre": "Tuberia roja 1\" 4mts",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": 20000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Tubos originales de PVC para agua fría y agua caliente, miden 4m",
+   "descripcion": "Tubos originales de PVC para agua fría y agua caliente, miden 4m",
    "foto": "img/productos/qlwhn27fl7j.webp",
    "fotos": [
     "img/productos/qlwhn27fl7j.webp",
@@ -16988,13 +17025,13 @@
   {
    "id": "mct6u82y3ip",
    "nombre": "Tuberia roja 1/2\" 4mts",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 5000,
    "precioOferta": null,
    "precioTransf": 10000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Tubos originales de PVC para agua fría y agua caliente, miden 4m",
+   "descripcion": "Tubos originales de PVC para agua fría y agua caliente, miden 4m",
    "foto": "img/productos/qly0uzc2ovp.webp",
    "fotos": [
     "img/productos/qly0uzc2ovp.webp",
@@ -17011,13 +17048,13 @@
   {
    "id": "mct6udad9f6",
    "nombre": "Tuberia roja 3/4\" 4mts",
-   "categoria": "",
+   "categoria": "vy6ixzzzmc1",
    "precio": 7000,
    "precioOferta": null,
    "precioTransf": 14000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Tubos originales de PVC para agua fría y agua caliente, miden 4m",
+   "descripcion": "Tubos originales de PVC para agua fría y agua caliente, miden 4m",
    "foto": "img/productos/qlznih2l9qz.webp",
    "fotos": [
     "img/productos/qlznih2l9qz.webp",
@@ -17034,7 +17071,7 @@
   {
    "id": "mct6ue1nca1",
    "nombre": "Varilla de soldar 6013/4mm 35cm",
-   "categoria": "",
+   "categoria": "vqoar29dzwx",
    "precio": 60,
    "precioOferta": null,
    "precioTransf": 120,
@@ -17057,7 +17094,7 @@
   {
    "id": "zsjhr7wsff0",
    "nombre": "Cable royalcold 3via calibre 12 cobre",
-   "categoria": "",
+   "categoria": "vq4a1pqpw2f",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": 2600,
