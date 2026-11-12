@@ -96,7 +96,7 @@
   ],
   "texto": "Herramientas eléctricas, manuales, discos de corte, accesorios y suministros. Calidad garantizada con atención y entrega en Santiago de Cuba.",
   "fotos": [
-   "img/marca/wmkduhqkqkj.webp"
+   "img/marca/j5l2wz9wpwd.webp"
   ],
   "sello": "Ferretería ToTo Tools"
  },
@@ -2008,12 +2008,12 @@
    "fotos": [
     "img/productos/s4yzt02u272.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 21,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 81
   },
   {
@@ -7683,8 +7683,9 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/s6sj747tjdx.webp",
+   "foto": "img/productos/lrxygzqvef3.webp",
    "fotos": [
+    "img/productos/lrxygzqvef3.webp",
     "img/productos/s6sj747tjdx.webp"
    ],
    "agotado": false,
