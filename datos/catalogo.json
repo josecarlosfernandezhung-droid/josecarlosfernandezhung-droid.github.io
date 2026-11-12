@@ -17723,12 +17723,12 @@
     "img/productos/f4mzm7xw842.webp",
     "img/productos/ojtpc9kv1eo.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 9,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 797
   },
   {
