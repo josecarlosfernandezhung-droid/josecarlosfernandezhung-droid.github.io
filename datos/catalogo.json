@@ -3727,7 +3727,7 @@
    "nuevo": true,
    "ventas": 69,
    "masVendido": false,
-   "destacado": true,
+   "destacado": false,
    "visible": true,
    "orden": 158
   },
