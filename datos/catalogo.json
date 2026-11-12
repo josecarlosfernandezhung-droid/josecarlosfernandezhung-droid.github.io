@@ -190,6 +190,11 @@
    "id": "w7ll9f7y8ky",
    "nombre": "Iluminación",
    "icono": "caja"
+  },
+  {
+   "id": "tbpszxndl7m",
+   "nombre": "Pinturas y Spray",
+   "icono": "caja"
   }
  ],
  "productos": [
@@ -3509,7 +3514,7 @@
   {
    "id": "cq8j6845cd5",
    "nombre": "Pintura spray negro brillante",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": 3200,
@@ -3531,7 +3536,7 @@
   {
    "id": "cq8j6tp75wu",
    "nombre": "Pintura spray negro mate",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": 3200,
@@ -4266,7 +4271,7 @@
   {
    "id": "cq8j9jdah56",
    "nombre": "Pintura galón 3.785lts blanco",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 26000,
    "precioOferta": null,
    "precioTransf": 52000,
@@ -5285,7 +5290,7 @@
   {
    "id": "cq8jc5ytqcz",
    "nombre": "Pintura 1/litro blanco",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 5500,
    "precioOferta": null,
    "precioTransf": 11000,
@@ -5396,7 +5401,7 @@
   {
    "id": "cq8jd3bn6al",
    "nombre": "Pintura spray azul diamond brillante proefix",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": 2000,
@@ -6215,7 +6220,7 @@
   {
    "id": "cq8jfmdr5so",
    "nombre": "Pintura 1/litro negro",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 4500,
    "precioOferta": null,
    "precioTransf": 9000,
@@ -6237,7 +6242,7 @@
   {
    "id": "cq8jforbbei",
    "nombre": "Pintura 1/litro barniz",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": 12000,
@@ -7191,7 +7196,7 @@
   {
    "id": "cq8jimk65q8",
    "nombre": "Pintura spray cromado",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1950,
    "precioOferta": null,
    "precioTransf": 3900,
@@ -7213,7 +7218,7 @@
   {
    "id": "cq8jihy13oa",
    "nombre": "Pintura spray verde",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1950,
    "precioOferta": null,
    "precioTransf": 3900,
@@ -8592,8 +8597,8 @@
    "precioOferta": null,
    "precioTransf": 77000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": " MODEL CF-QB003 Voltaje 110-127V FREQUENCY 60Hz POWER INPUT 3.2A(0.37KW) NO LOAD SPEED 345",
+   "descripcion": "\nMODEL CF-QB003\nVoltaje 110-127V\nFREQUENCY 60Hz\nPOWER INPUT 3.2A(0.37KW)\nNO LOAD SPEED 3450r/min\nMAX. FLOW 30 L/min\nMAX.HEIGHT 35m\nMAX. SUCT 8m\n",
    "foto": "img/productos/oih7dwpztcf.webp",
    "fotos": [
     "img/productos/oih7dwpztcf.webp",
@@ -11131,7 +11136,7 @@
   {
    "id": "cq8jr91oktb",
    "nombre": "Pintura spray dorado",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1950,
    "precioOferta": null,
    "precioTransf": 3900,
@@ -12142,7 +12147,7 @@
   {
    "id": "cq8jv9j86wr",
    "nombre": "Pintura spray rojo",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1750,
    "precioOferta": null,
    "precioTransf": 3500,
@@ -12275,7 +12280,7 @@
   {
    "id": "cq8jvj9oulc",
    "nombre": "Pintura spray anticorrosivo",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1600,
    "precioOferta": null,
    "precioTransf": 3200,
@@ -12297,7 +12302,7 @@
   {
    "id": "cq8jvhhq14a",
    "nombre": "pintura spray amarilla",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1950,
    "precioOferta": null,
    "precioTransf": 3900,
@@ -12873,7 +12878,7 @@
   {
    "id": "cq8jw51amth",
    "nombre": "Pintura galón 3.785lts dorado",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 20000,
    "precioOferta": null,
    "precioTransf": 40000,
@@ -13566,7 +13571,7 @@
   {
    "id": "cq8jybn9bqi",
    "nombre": "Pintura spray blanco brillante",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 3900,
    "precioOferta": null,
    "precioTransf": 7800,
@@ -13590,7 +13595,7 @@
   {
    "id": "cq8jyr1xndm",
    "nombre": "Pintura spray blanco mate",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": 3600,
@@ -13613,7 +13618,7 @@
   {
    "id": "cq8jy0a2s6v",
    "nombre": "Pintura spray barniz",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": 3800,
@@ -15662,7 +15667,7 @@
   {
    "id": "s8egtp4ip92",
    "nombre": "Pintura 1/litro óxido rojo",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 7800,
    "precioOferta": null,
    "precioTransf": 15600,
@@ -15724,7 +15729,7 @@
   {
    "id": "s8egtzucyre",
    "nombre": "Pintura 1/litro azul claro",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 7800,
    "precioOferta": null,
    "precioTransf": 15600,
@@ -17729,7 +17734,7 @@
   {
    "id": "kr9ebybjbsi",
    "nombre": "Pintura 1/litro amarillo",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 7800,
    "precioOferta": null,
    "precioTransf": 15600,
