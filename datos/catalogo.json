@@ -6,8 +6,8 @@
   "logo": "img/marca/xso7th6i6ko.webp"
  },
  "contacto": {
-  "whatsapp": "5358127001",
-  "whatsappPedidos": "5358127001",
+  "whatsapp": "5356950485",
+  "whatsappPedidos": "5356950485",
   "telefono2": "5358127001",
   "correo": "tototools.stgo@gmail.com",
   "direccion": "Calle 9 de Veguita de Galo #204 ",
@@ -20,9 +20,9 @@
   "instagram": "",
   "youtube": "",
   "whatsapps": [
-   "5358127001",
+   "5356950485",
    "5355127996",
-   "5356950485"
+   "5358127001"
   ],
   "pedidoA": "mis",
   "domicilio": false,
@@ -9902,8 +9902,9 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/s7pnn0mnu01.webp",
+   "foto": "img/productos/3u90x0joeg1.webp",
    "fotos": [
+    "img/productos/3u90x0joeg1.webp",
     "img/productos/s7pnn0mnu01.webp"
    ],
    "agotado": false,
@@ -17763,8 +17764,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/3tzb1y1i7o0.webp",
+   "fotos": [
+    "img/productos/3tzb1y1i7o0.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
