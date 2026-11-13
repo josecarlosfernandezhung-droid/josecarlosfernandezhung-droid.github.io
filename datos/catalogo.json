@@ -3728,12 +3728,12 @@
    "fotos": [
     "img/productos/s5k4txd91gl.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 64,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 158
   },
   {
