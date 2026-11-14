@@ -2013,12 +2013,12 @@
    "fotos": [
     "img/productos/s4yzt02u272.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 21,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 81
   },
   {
@@ -13107,9 +13107,9 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/t57j3fsbvsu.webp",
+   "foto": "img/productos/q8mdxoutzpu.webp",
    "fotos": [
-    "img/productos/t57j3fsbvsu.webp",
+    "img/productos/q8mdxoutzpu.webp",
     "img/productos/s9bem2cqrcb.webp"
    ],
    "agotado": false,
