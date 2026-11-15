@@ -73,7 +73,7 @@
     "codigo": "USD",
     "nombre": "Dólar",
     "simbolo": "$",
-    "tasa": 0.0011111111,
+    "tasa": 0.0011363636,
     "activa": true
    }
   ],
@@ -195,6 +195,36 @@
    "id": "tbpszxndl7m",
    "nombre": "Pinturas y Spray",
    "icono": "caja"
+  },
+  {
+   "id": "7uh90qd09je",
+   "nombre": "Protección y Cajas Eléctricas",
+   "icono": "caja"
+  },
+  {
+   "id": "7zhtgv90dny",
+   "nombre": "Herramientas Eléctricas",
+   "icono": "caja"
+  },
+  {
+   "id": "7zolkxq57oo",
+   "nombre": "Herramientas Manuales",
+   "icono": "caja"
+  },
+  {
+   "id": "859lmsl7k6u",
+   "nombre": "Grifos",
+   "icono": "caja"
+  },
+  {
+   "id": "87e3wwdnpsi",
+   "nombre": "Brochas",
+   "icono": "caja"
+  },
+  {
+   "id": "87s50bcrcxx",
+   "nombre": "Tomacorrientes y Interruptores",
+   "icono": "caja"
   }
  ],
  "productos": [
@@ -223,7 +253,7 @@
   {
    "id": "cq8ivflzxqa",
    "nombre": "Juego de cubo proefix de 46pcs rojo",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 5500,
    "precioOferta": null,
    "precioTransf": 11000,
@@ -468,7 +498,7 @@
   {
    "id": "cq8ix3kodo2",
    "nombre": "Toma corriente plano normal",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": 1200,
@@ -490,7 +520,7 @@
   {
    "id": "cq8ix9nz9bg",
    "nombre": "Toma corriente universal",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 550,
    "precioOferta": null,
    "precioTransf": 1100,
@@ -511,8 +541,8 @@
   },
   {
    "id": "cq8ix34uk1o",
-   "nombre": "Breker 16A sencillo AC",
-   "categoria": "",
+   "nombre": "Breaker 16A sencillo AC",
+   "categoria": "7uh90qd09je",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": 3600,
@@ -535,7 +565,7 @@
   {
    "id": "cq8ixnpc22s",
    "nombre": "Espiga",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 850,
    "precioOferta": null,
    "precioTransf": 1700,
@@ -558,7 +588,7 @@
   {
    "id": "cq8ixo4w0x2",
    "nombre": "Toma de superficie plano",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 550,
    "precioOferta": null,
    "precioTransf": 1100,
@@ -580,7 +610,7 @@
   {
    "id": "cq8ix3f2lpl",
    "nombre": "Toma de superficie universal",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": 2000,
@@ -646,7 +676,7 @@
   {
    "id": "cq8ix1dgbxr",
    "nombre": "Reflector led 50watts",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": 7000,
@@ -734,7 +764,7 @@
   {
    "id": "cq8ix7hv0pr",
    "nombre": "Pluma recta de derrame zapatilla",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": 6000,
@@ -756,7 +786,7 @@
   {
    "id": "cq8iygi5fo0",
    "nombre": "Llave empotrada de ducha",
-   "categoria": "vy6ixzzzmc1",
+   "categoria": "859lmsl7k6u",
    "precio": 5000,
    "precioOferta": null,
    "precioTransf": 10000,
@@ -825,7 +855,7 @@
   {
    "id": "cq8iymr31v5",
    "nombre": "Pluma cuello de ganso a la pared",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 2900,
    "precioOferta": null,
    "precioTransf": 5800,
@@ -847,7 +877,7 @@
   {
    "id": "cq8iyngmtap",
    "nombre": "Pluma cuello de ganso por debajo",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 3200,
    "precioOferta": null,
    "precioTransf": 6400,
@@ -869,7 +899,7 @@
   {
    "id": "cq8iy9sgsrs",
    "nombre": "Pluma plástica de jardín 1/2 zapatilla",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 450,
    "precioOferta": null,
    "precioTransf": 900,
@@ -891,7 +921,7 @@
   {
    "id": "cq8iykku8jz",
    "nombre": "Pluma plástica de jardín 1/2 tiro rápido",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 500,
    "precioOferta": null,
    "precioTransf": 1000,
@@ -936,7 +966,7 @@
   {
    "id": "cq8iyhmgdma",
    "nombre": "Llave de paso 1\" plástica",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": 2000,
@@ -1046,7 +1076,7 @@
   {
    "id": "cq8iy22ekb7",
    "nombre": "Bombillo recargable 9w",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": 3800,
@@ -1403,7 +1433,7 @@
   {
    "id": "cq8j0i9skzy",
    "nombre": "Cajita 4x4",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 100,
    "precioOferta": null,
    "precioTransf": 200,
@@ -1447,7 +1477,7 @@
   {
    "id": "cq8j0kh3zv1",
    "nombre": "Brocha 6\"",
-   "categoria": "",
+   "categoria": "87e3wwdnpsi",
    "precio": 1500,
    "precioOferta": null,
    "precioTransf": 3000,
@@ -1470,7 +1500,7 @@
   {
    "id": "cq8j0jouhc8",
    "nombre": "Brocha 5\"",
-   "categoria": "",
+   "categoria": "87e3wwdnpsi",
    "precio": 1250,
    "precioOferta": null,
    "precioTransf": 2500,
@@ -1691,7 +1721,7 @@
   {
    "id": "cq8j1n1hsxv",
    "nombre": "Brocha 4\"",
-   "categoria": "",
+   "categoria": "87e3wwdnpsi",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": 2400,
@@ -1713,7 +1743,7 @@
   {
    "id": "cq8j10n05h7",
    "nombre": "Brocha 2\"",
-   "categoria": "",
+   "categoria": "87e3wwdnpsi",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": 1200,
@@ -1735,7 +1765,7 @@
   {
    "id": "cq8j1q1g2xx",
    "nombre": "Brocha 1.5\"",
-   "categoria": "",
+   "categoria": "87e3wwdnpsi",
    "precio": 350,
    "precioOferta": null,
    "precioTransf": 700,
@@ -1757,7 +1787,7 @@
   {
    "id": "cq8j1gu9dti",
    "nombre": "Brocha 1\"",
-   "categoria": "",
+   "categoria": "87e3wwdnpsi",
    "precio": 400,
    "precioOferta": null,
    "precioTransf": 800,
@@ -1779,7 +1809,7 @@
   {
    "id": "cq8j1qi4zdc",
    "nombre": "Juego de cubo 94pcs",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 24000,
    "precioOferta": null,
    "precioTransf": 48000,
@@ -1936,7 +1966,7 @@
   {
    "id": "cq8j23lzut5",
    "nombre": "Juego set de llave española proefix",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 3600,
    "precioOferta": null,
    "precioTransf": 7200,
@@ -1958,7 +1988,7 @@
   {
    "id": "cq8j20363l9",
    "nombre": "Juego de cubo 12pcs chicharra",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 7500,
    "precioOferta": null,
    "precioTransf": 15000,
@@ -2047,7 +2077,7 @@
   {
    "id": "cq8j27gnviy",
    "nombre": "Sócalo de bombillo normal",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 350,
    "precioOferta": null,
    "precioTransf": 700,
@@ -2069,7 +2099,7 @@
   {
    "id": "cq8j2pv83i1",
    "nombre": "Set de destornillador USA",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": 1200,
@@ -2091,7 +2121,7 @@
   {
    "id": "cq8j2afao3x",
    "nombre": "Set de destornillador golpe",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 3800,
    "precioOferta": null,
    "precioTransf": 7600,
@@ -2136,7 +2166,7 @@
   {
    "id": "cq8j2o5eamw",
    "nombre": "Llave tyson/tubo 10\"",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": 5000,
@@ -2180,7 +2210,7 @@
   {
    "id": "cq8j2ttfobt",
    "nombre": "Pinza 8\"",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2600,
    "precioOferta": null,
    "precioTransf": 5200,
@@ -2203,7 +2233,7 @@
   {
    "id": "cq8j2k8mi5y",
    "nombre": "Spray afloja-todo",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 950,
    "precioOferta": null,
    "precioTransf": 1900,
@@ -2225,7 +2255,7 @@
   {
    "id": "cq8j2glq9l1",
    "nombre": "Juego de llave allen 9pcs corto",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": 5000,
@@ -2469,7 +2499,7 @@
   {
    "id": "cq8j3s13v35",
    "nombre": "Pelo de cegueta Q7 12\"x24T",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 380,
    "precioOferta": null,
    "precioTransf": 760,
@@ -2537,7 +2567,7 @@
   {
    "id": "cq8j3h46wy7",
    "nombre": "Cegueta marco con pelo",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2700,
    "precioOferta": null,
    "precioTransf": 5400,
@@ -2648,7 +2678,7 @@
   {
    "id": "cq8j43uk15k",
    "nombre": "Interruptor sencillo palanca",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 300,
    "precioOferta": null,
    "precioTransf": 600,
@@ -2670,7 +2700,7 @@
   {
    "id": "cq8j4017une",
    "nombre": "Interruptor doble",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": 1600,
@@ -2895,7 +2925,7 @@
   {
    "id": "cq8j4y98zgw",
    "nombre": "Bombillo 12w normal",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 680,
    "precioOferta": null,
    "precioTransf": 1360,
@@ -3028,7 +3058,7 @@
   {
    "id": "cq8j5vomvto",
    "nombre": "Juego de cubo 108 pcs",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 33000,
    "precioOferta": null,
    "precioTransf": 66000,
@@ -3138,7 +3168,7 @@
   {
    "id": "cq8j5stl1ml",
    "nombre": "Mazorca 13mm para taladros",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": 4000,
@@ -3226,7 +3256,7 @@
   {
    "id": "cq8j5cxcext",
    "nombre": "Silicona de spray",
-   "categoria": "",
+   "categoria": "tbpszxndl7m",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": 3800,
@@ -3717,7 +3747,7 @@
   {
    "id": "cq8j7vvsjpe",
    "nombre": "Pulidora Coofix 750watts",
-   "categoria": "",
+   "categoria": "7zhtgv90dny",
    "precio": 24000,
    "precioOferta": null,
    "precioTransf": 48000,
@@ -3762,7 +3792,7 @@
   {
    "id": "cq8j8t9wq0h",
    "nombre": "Cajita 4x2",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 130,
    "precioOferta": null,
    "precioTransf": 260,
@@ -3829,7 +3859,7 @@
   {
    "id": "cq8j8xrt9ia",
    "nombre": "Set de pinza Q7",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 4950,
    "precioOferta": null,
    "precioTransf": 9900,
@@ -3983,7 +4013,7 @@
   {
    "id": "cq8j8ur4r15",
    "nombre": "Llave paso 1/2 métalica",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 1700,
    "precioOferta": null,
    "precioTransf": 3400,
@@ -4027,7 +4057,7 @@
   {
    "id": "cq8j86ww0d0",
    "nombre": "Toma corriente combinado mixto",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": 2600,
@@ -4049,7 +4079,7 @@
   {
    "id": "cq8j89asg20",
    "nombre": "Toma corriente plano original",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": 2400,
@@ -4474,9 +4504,9 @@
    "id": "cq8jaed7fco",
    "nombre": "Disco de corte superfuerza 125mm",
    "categoria": "vqoar29dzwx",
-   "precio": 200,
+   "precio": 250,
    "precioOferta": null,
-   "precioTransf": 400,
+   "precioTransf": 500,
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
@@ -4517,7 +4547,7 @@
   {
    "id": "cq8ja4015zf",
    "nombre": "Set de destornilladores SEAL pareja",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": 2600,
@@ -4826,7 +4856,7 @@
   {
    "id": "cq8jbc1g1oz",
    "nombre": "Toma criollo baquelita",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 280,
    "precioOferta": null,
    "precioTransf": 560,
@@ -5025,7 +5055,7 @@
   {
    "id": "cq8jc7u8p4k",
    "nombre": "Llave de paso 1/2\" plástica",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": 1200,
@@ -5777,7 +5807,7 @@
   {
    "id": "cq8je4zqual",
    "nombre": "Taladro Coofix",
-   "categoria": "",
+   "categoria": "7zhtgv90dny",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": 50000,
@@ -5978,7 +6008,7 @@
   {
    "id": "cq8jejo02q0",
    "nombre": "Martillo 25mm",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2900,
    "precioOferta": null,
    "precioTransf": 5800,
@@ -6066,7 +6096,7 @@
   {
    "id": "cq8jed12522",
    "nombre": "Juego de cubo 40 pcs",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 3900,
    "precioOferta": null,
    "precioTransf": 7800,
@@ -6641,7 +6671,7 @@
   {
    "id": "cq8jgv7xd1z",
    "nombre": "Set de destornilladores MAXI pareja",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": 2400,
@@ -6729,7 +6759,7 @@
   {
    "id": "cq8jhfev6ej",
    "nombre": "Pinza presión",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2900,
    "precioOferta": null,
    "precioTransf": 5800,
@@ -6863,7 +6893,7 @@
   {
    "id": "cq8jh8l0m5w",
    "nombre": "Pulidora Total 750/watts",
-   "categoria": "",
+   "categoria": "7zhtgv90dny",
    "precio": 19500,
    "precioOferta": null,
    "precioTransf": 39000,
@@ -6885,7 +6915,7 @@
   {
    "id": "cq8jh0cuci9",
    "nombre": "Taladro Total",
-   "categoria": "",
+   "categoria": "7zhtgv90dny",
    "precio": 20000,
    "precioOferta": null,
    "precioTransf": 40000,
@@ -6995,7 +7025,7 @@
   {
    "id": "cq8jh3i6t1r",
    "nombre": "Cegueta jadever",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": 6000,
@@ -7039,7 +7069,7 @@
   {
    "id": "cq8jhbe0ven",
    "nombre": "Llave de regulación 10\"",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2700,
    "precioOferta": null,
    "precioTransf": 5400,
@@ -7061,7 +7091,7 @@
   {
    "id": "cq8jhm0x40s",
    "nombre": "Llave tyson/tubo 18\"",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 5000,
    "precioOferta": null,
    "precioTransf": 10000,
@@ -7947,7 +7977,7 @@
   {
    "id": "cq8jjkcrx0d",
    "nombre": "Llave de ángulo 1/2 macho",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 1100,
    "precioOferta": null,
    "precioTransf": 2200,
@@ -8058,7 +8088,7 @@
   {
    "id": "cq8jkvugszn",
    "nombre": "Llave lavamano zapatilla",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 3200,
    "precioOferta": null,
    "precioTransf": 6400,
@@ -8151,8 +8181,8 @@
    "precioOferta": null,
    "precioTransf": 41000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "• Marca: EKO • Capacidad: 1.8L / 10 tazas • Recipiente interior de aluminio con revestimie",
+   "descripcion": "• Marca: EKO\n\n• Capacidad: 1.8L / 10 tazas\n\n• Recipiente interior de aluminio con revestimiento antiadherente\n\n• Tapa de vidrio templado\n\n• Potencia: 700W\n\n• Voltaje: 110V / 60Hz\n\n• Incluye: paleta plástica y taza para medir\n• Garantía: 7 días",
    "foto": "img/productos/s9fb3rw682u.webp",
    "fotos": [
     "img/productos/s9fb3rw682u.webp",
@@ -8241,7 +8271,7 @@
    "precioTransf": 20,
    "precioOfertaTransf": null,
    "resumen": "Tornillo tira-fondo pladur 1 1/2\"/35mm x caja 420: una opción práctica y confiable. Se ven",
-   "descripcion": "Tornillo tira-fondo pladur 1 1/2\"/35mm x caja 420: una opción práctica y confiable. Se vende por pzs.. Escríbenos por WhatsApp y te lo reservamos.",
+   "descripcion": "Tornillo tira-fondo pladur 1 1/2\"/35mm x caja 420: una opción práctica y confiable. Se vende por unidades. O por cajas de 420 tornillos ",
    "foto": "img/productos/uq2gwi3wr2y.webp",
    "fotos": [
     "img/productos/uq2gwi3wr2y.webp",
@@ -8325,7 +8355,7 @@
   {
    "id": "cq8jk1yetfl",
    "nombre": "Pluma de jardín metálica 1/2",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": 2600,
@@ -8391,7 +8421,7 @@
   {
    "id": "cq8jkh37620",
    "nombre": "Interruptor sencillo original",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": 1600,
@@ -8559,18 +8589,18 @@
    "fotos": [
     "img/productos/s7680j9yhe8.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 266,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 376
   },
   {
    "id": "cq8jlpzpfgt",
    "nombre": "Brocha 3\"",
-   "categoria": "",
+   "categoria": "87e3wwdnpsi",
    "precio": 750,
    "precioOferta": null,
    "precioTransf": 1500,
@@ -8880,7 +8910,7 @@
   {
    "id": "cq8jmif9b23",
    "nombre": "Juego de llave allen 9pcs largo",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2600,
    "precioOferta": null,
    "precioTransf": 5200,
@@ -8968,7 +8998,7 @@
   {
    "id": "cq8jm4l6jmt",
    "nombre": "Breke 32A triple AC",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 4000,
    "precioOferta": null,
    "precioTransf": 8000,
@@ -9278,7 +9308,7 @@
   {
    "id": "cq8jn82lu77",
    "nombre": "Set de herrmaientas mixto",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 6500,
    "precioOferta": null,
    "precioTransf": 13000,
@@ -9962,7 +9992,7 @@
   {
    "id": "cq8jpv149hn",
    "nombre": "llave ajustable plástica",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 700,
    "precioOferta": null,
    "precioTransf": 1400,
@@ -10006,7 +10036,7 @@
   {
    "id": "cq8jp70k737",
    "nombre": "Lija taladro",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": 3800,
@@ -10028,7 +10058,7 @@
   {
    "id": "cq8jpazkps4",
    "nombre": "Plato goma taladro",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 850,
    "precioOferta": null,
    "precioTransf": 1700,
@@ -10072,7 +10102,7 @@
   {
    "id": "cq8jpuskkis",
    "nombre": "Juego 6 gubias",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": 2600,
@@ -10182,7 +10212,7 @@
   {
    "id": "cq8jpbqk059",
    "nombre": "Herramienta recogida magnetica",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 900,
    "precioOferta": null,
    "precioTransf": 1800,
@@ -10336,7 +10366,7 @@
   {
    "id": "cq8jpjkv2s5",
    "nombre": "Juego 8 minigubias",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1400,
    "precioOferta": null,
    "precioTransf": 2800,
@@ -10402,7 +10432,7 @@
   {
    "id": "cq8jq34lmtd",
    "nombre": "Trincha 25mm",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1350,
    "precioOferta": null,
    "precioTransf": 2700,
@@ -10424,7 +10454,7 @@
   {
    "id": "cq8jqle2tgs",
    "nombre": "Trincha 38mm",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1800,
    "precioOferta": null,
    "precioTransf": 3600,
@@ -10446,7 +10476,7 @@
   {
    "id": "cq8jqehx7pc",
    "nombre": "Trincha 32mm",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1450,
    "precioOferta": null,
    "precioTransf": 2900,
@@ -10468,7 +10498,7 @@
   {
    "id": "cq8jqtb73ga",
    "nombre": "Trincha 8mm",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": 2400,
@@ -10513,7 +10543,7 @@
   {
    "id": "cq8jqrp5fhd",
    "nombre": "Set juego de pinza",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 7900,
    "precioOferta": null,
    "precioTransf": 15800,
@@ -10536,7 +10566,7 @@
   {
    "id": "cq8jq02e25o",
    "nombre": "Cajita 4x4 original",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 1200,
    "precioOferta": null,
    "precioTransf": 2400,
@@ -10735,7 +10765,7 @@
   {
    "id": "cq8jqracc6w",
    "nombre": "Llave española 8 pcs",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 5800,
    "precioOferta": null,
    "precioTransf": 11600,
@@ -10757,7 +10787,7 @@
   {
    "id": "cq8jqes8yo1",
    "nombre": "Llave española 14 pcs",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 9500,
    "precioOferta": null,
    "precioTransf": 19000,
@@ -11114,7 +11144,7 @@
   {
    "id": "cq8jr4ktexd",
    "nombre": "Reflector led 100watts",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 7000,
    "precioOferta": null,
    "precioTransf": 14000,
@@ -11203,7 +11233,7 @@
   {
    "id": "cq8jr8k6kld",
    "nombre": "Brekera 2 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 2600,
    "precioOferta": null,
    "precioTransf": 5200,
@@ -11251,7 +11281,7 @@
   {
    "id": "cq8jrt6a4ui",
    "nombre": "Brekera 24 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 38000,
    "precioOferta": null,
    "precioTransf": 76000,
@@ -11272,8 +11302,8 @@
   },
   {
    "id": "cq8jsxvpk7y",
-   "nombre": "Breker 25A triple AC",
-   "categoria": "",
+   "nombre": "Breaker 25A triple AC",
+   "categoria": "7uh90qd09je",
    "precio": 3800,
    "precioOferta": null,
    "precioTransf": 7600,
@@ -11294,8 +11324,8 @@
   },
   {
    "id": "cq8js7326ph",
-   "nombre": "Breker 32A doble AC",
-   "categoria": "",
+   "nombre": "Breaker 32A doble AC",
+   "categoria": "7uh90qd09je",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": 12000,
@@ -11316,8 +11346,8 @@
   },
   {
    "id": "cq8js3i1x6c",
-   "nombre": "Breker 25A doble AC",
-   "categoria": "",
+   "nombre": "Breaker 25A doble AC",
+   "categoria": "7uh90qd09je",
    "precio": 5600,
    "precioOferta": null,
    "precioTransf": 11200,
@@ -11406,7 +11436,7 @@
   {
    "id": "cq8jsdof6iz",
    "nombre": "Brekera 12 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 19000,
    "precioOferta": null,
    "precioTransf": 38000,
@@ -11429,7 +11459,7 @@
   {
    "id": "cq8jsdtop7l",
    "nombre": "Brekera 8 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 15000,
    "precioOferta": null,
    "precioTransf": 30000,
@@ -11451,7 +11481,7 @@
   {
    "id": "cq8jsyrgp2j",
    "nombre": "Brekera 15 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 23000,
    "precioOferta": null,
    "precioTransf": 46000,
@@ -11497,7 +11527,7 @@
   {
    "id": "cq8jsn3icpw",
    "nombre": "Breker cuchilla 63A doble tiro",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 11000,
    "precioOferta": null,
    "precioTransf": 22000,
@@ -11519,7 +11549,7 @@
   {
    "id": "cq8jskj2xf5",
    "nombre": "Brekera combinada 600v/32A",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 65000,
    "precioOferta": null,
    "precioTransf": 130000,
@@ -11542,7 +11572,7 @@
   {
    "id": "cq8jsi56htu",
    "nombre": "Brekera combinada 600v/25A",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 65000,
    "precioOferta": null,
    "precioTransf": 130000,
@@ -11609,8 +11639,8 @@
   },
   {
    "id": "cq8jsgr8t2o",
-   "nombre": "Breker 63A doble DC",
-   "categoria": "",
+   "nombre": "Breaker 63A doble DC",
+   "categoria": "7uh90qd09je",
    "precio": 9500,
    "precioOferta": null,
    "precioTransf": 19000,
@@ -11655,7 +11685,7 @@
   {
    "id": "cq8jspa8ihj",
    "nombre": "Breker SACO 32A DC",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": 20000,
@@ -11676,8 +11706,8 @@
   },
   {
    "id": "cq8jshwjfnv",
-   "nombre": "Breker SACO 125A triple AC",
-   "categoria": "",
+   "nombre": "Breaker SACO 125A triple AC",
+   "categoria": "7uh90qd09je",
    "precio": 20000,
    "precioOferta": null,
    "precioTransf": 40000,
@@ -11698,8 +11728,8 @@
   },
   {
    "id": "cq8jsf15bxz",
-   "nombre": "Breker Q7 125A doble DC",
-   "categoria": "",
+   "nombre": "Breaker Q7 125A doble DC",
+   "categoria": "7uh90qd09je",
    "precio": 10500,
    "precioOferta": null,
    "precioTransf": 21000,
@@ -11742,8 +11772,8 @@
   },
   {
    "id": "cq8jsre719x",
-   "nombre": "Breker 40A sencillo AC",
-   "categoria": "",
+   "nombre": "Breaker 40A sencillo AC",
+   "categoria": "7uh90qd09je",
    "precio": 2900,
    "precioOferta": null,
    "precioTransf": 5800,
@@ -11764,8 +11794,8 @@
   },
   {
    "id": "cq8jsnsjn77",
-   "nombre": "Breker 63A doble AC",
-   "categoria": "",
+   "nombre": "Breaker 63A doble AC",
+   "categoria": "7uh90qd09je",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": 12000,
@@ -11905,7 +11935,7 @@
   {
    "id": "cq8jtjbe9mu",
    "nombre": "Brekera 9 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 16000,
    "precioOferta": null,
    "precioTransf": 32000,
@@ -11927,7 +11957,7 @@
   {
    "id": "cq8jtc8lehy",
    "nombre": "Brekera 13 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 21000,
    "precioOferta": null,
    "precioTransf": 42000,
@@ -11994,7 +12024,7 @@
   {
    "id": "cq8jtf5p9i6",
    "nombre": "Maleta de herramienta",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 33000,
    "precioOferta": null,
    "precioTransf": 66000,
@@ -12016,7 +12046,7 @@
   {
    "id": "cq8jtw9xxq3",
    "nombre": "Pluma mezcladora fregadero",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 10500,
    "precioOferta": null,
    "precioTransf": 21000,
@@ -12059,8 +12089,8 @@
   },
   {
    "id": "cq8jti43ibo",
-   "nombre": "Breker 40A doble AC",
-   "categoria": "",
+   "nombre": "Breaker 40A doble AC",
+   "categoria": "7uh90qd09je",
    "precio": 6000,
    "precioOferta": null,
    "precioTransf": 12000,
@@ -12348,7 +12378,7 @@
   {
    "id": "cq8jvh158q3",
    "nombre": "Pulidora SACO 900watts",
-   "categoria": "",
+   "categoria": "7zhtgv90dny",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": 50000,
@@ -12392,7 +12422,7 @@
   {
    "id": "cq8jvjetbm2",
    "nombre": "Llave española combinada 5pcs",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2000,
    "precioOferta": null,
    "precioTransf": 4000,
@@ -12591,7 +12621,7 @@
   {
    "id": "cq8jw2p7rlm",
    "nombre": "Toma corriente sencillo 20A",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 900,
    "precioOferta": null,
    "precioTransf": 1800,
@@ -12613,7 +12643,7 @@
   {
    "id": "cq8jwfpkjid",
    "nombre": "Interruptor triple",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 950,
    "precioOferta": null,
    "precioTransf": 1900,
@@ -12636,7 +12666,7 @@
   {
    "id": "cq8jwn0yve0",
    "nombre": "Toma corriente mixto palanca",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 1000,
    "precioOferta": null,
    "precioTransf": 2000,
@@ -12658,7 +12688,7 @@
   {
    "id": "cq8jwnau688",
    "nombre": "Interruptor LIOA",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 750,
    "precioOferta": null,
    "precioTransf": 1500,
@@ -12680,7 +12710,7 @@
   {
    "id": "cq8jwwk6kgt",
    "nombre": "Bombillo recargable 12w",
-   "categoria": "",
+   "categoria": "w7ll9f7y8ky",
    "precio": 2100,
    "precioOferta": null,
    "precioTransf": 4200,
@@ -12747,7 +12777,7 @@
   {
    "id": "cq8jwtc4oki",
    "nombre": "Brekera 16 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": 50000,
@@ -13077,8 +13107,8 @@
   },
   {
    "id": "cq8jxske5gj",
-   "nombre": "Breker 16A doble AC",
-   "categoria": "",
+   "nombre": "Breaker 16A doble AC",
+   "categoria": "7uh90qd09je",
    "precio": 3200,
    "precioOferta": null,
    "precioTransf": 6400,
@@ -13100,7 +13130,7 @@
   {
    "id": "cq8jx3p87mh",
    "nombre": "Toma corriente doble 20A",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 2200,
    "precioOferta": null,
    "precioTransf": 4400,
@@ -13367,7 +13397,7 @@
   {
    "id": "cq8jx6baezz",
    "nombre": "Interruptor timbre",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 200,
    "precioOferta": null,
    "precioTransf": 400,
@@ -13434,7 +13464,7 @@
   {
    "id": "cq8jyrrp3vb",
    "nombre": "Cepillo carpintero",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 3500,
    "precioOferta": null,
    "precioTransf": 7000,
@@ -13929,7 +13959,7 @@
   {
    "id": "cq8jzh5p7po",
    "nombre": "Juego llave allen estriada",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": 6000,
@@ -14039,7 +14069,7 @@
   {
    "id": "cq8jzii76gk",
    "nombre": "Juego de cubo 37pcs",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 35000,
    "precioOferta": null,
    "precioTransf": 70000,
@@ -14061,7 +14091,7 @@
   {
    "id": "cq8jz0kb0e8",
    "nombre": "Brekera 10 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 17000,
    "precioOferta": null,
    "precioTransf": 34000,
@@ -14172,8 +14202,8 @@
   },
   {
    "id": "cq8jzbszpki",
-   "nombre": "Breker 32A doble DC",
-   "categoria": "",
+   "nombre": "Breaker 32A doble DC",
+   "categoria": "7uh90qd09je",
    "precio": 7000,
    "precioOferta": null,
    "precioTransf": 14000,
@@ -14195,7 +14225,7 @@
   {
    "id": "cq8jzltw04i",
    "nombre": "Breker 40A doble DC",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 9500,
    "precioOferta": null,
    "precioTransf": 19000,
@@ -14216,8 +14246,8 @@
   },
   {
    "id": "cq8jz8doki2",
-   "nombre": "Breker 63A sencillo AC",
-   "categoria": "",
+   "nombre": "Breaker 63A sencillo AC",
+   "categoria": "7uh90qd09je",
    "precio": 2900,
    "precioOferta": null,
    "precioTransf": 5800,
@@ -14328,7 +14358,7 @@
   {
    "id": "cq8k0g8ptd0",
    "nombre": "Set de brochas",
-   "categoria": "",
+   "categoria": "87e3wwdnpsi",
    "precio": 2500,
    "precioOferta": null,
    "precioTransf": 5000,
@@ -14372,7 +14402,7 @@
   {
    "id": "cq8k0ljf03i",
    "nombre": "Kit de herramienta con cuter",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 3600,
    "precioOferta": null,
    "precioTransf": 7200,
@@ -14662,7 +14692,7 @@
   {
    "id": "cq8k03d1wtr",
    "nombre": "Juego de cubo 40pcs",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 5500,
    "precioOferta": null,
    "precioTransf": 11000,
@@ -14685,7 +14715,7 @@
   {
    "id": "cq8k0cr3dck",
    "nombre": "Brekera 18 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 25000,
    "precioOferta": null,
    "precioTransf": 50000,
@@ -14707,7 +14737,7 @@
   {
    "id": "cq8k0oksbr5",
    "nombre": "Brekera 6 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": 20000,
@@ -15018,7 +15048,7 @@
   {
    "id": "s8egj0sobgd",
    "nombre": "Brekera 1 posiciones",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 800,
    "precioOferta": null,
    "precioTransf": 1600,
@@ -15106,7 +15136,7 @@
   {
    "id": "s8ego33f25i",
    "nombre": "Martillo de goma",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1900,
    "precioOferta": null,
    "precioTransf": 3800,
@@ -15186,7 +15216,7 @@
   {
    "id": "s8egp7wzev1",
    "nombre": "Llave de lavamano tiro rápido",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 2300,
    "precioOferta": null,
    "precioTransf": 4600,
@@ -15226,7 +15256,7 @@
   {
    "id": "s8egpfggu2c",
    "nombre": "Pinza picoloro",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2300,
    "precioOferta": null,
    "precioTransf": 4600,
@@ -15346,7 +15376,7 @@
   {
    "id": "s8egq4cu7zh",
    "nombre": "Destornillador jadever 6pcs",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 2700,
    "precioOferta": null,
    "precioTransf": 5400,
@@ -15426,7 +15456,7 @@
   {
    "id": "s8egr7t6ovv",
    "nombre": "Llave sueca",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 3000,
    "precioOferta": null,
    "precioTransf": 6000,
@@ -15566,7 +15596,7 @@
   {
    "id": "s8egtackudw",
    "nombre": "Pluma de jardín plástica de zapatilla x 10",
-   "categoria": "",
+   "categoria": "859lmsl7k6u",
    "precio": 4000,
    "precioOferta": null,
    "precioTransf": 8000,
@@ -15791,8 +15821,8 @@
   },
   {
    "id": "s8eguj1a62a",
-   "nombre": "Breker 40A sencillo DC",
-   "categoria": "",
+   "nombre": "Breaker 40A sencillo DC",
+   "categoria": "7uh90qd09je",
    "precio": 4500,
    "precioOferta": null,
    "precioTransf": 9000,
@@ -16054,7 +16084,7 @@
   {
    "id": "s8egw93svrj",
    "nombre": "Pistola de pintar",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 12500,
    "precioOferta": null,
    "precioTransf": 25000,
@@ -16214,7 +16244,7 @@
   {
    "id": "s8eh0mslix3",
    "nombre": "Taladro Saco",
-   "categoria": "",
+   "categoria": "7zhtgv90dny",
    "precio": 18000,
    "precioOferta": null,
    "precioTransf": 36000,
@@ -16319,8 +16349,8 @@
    "precioOferta": null,
    "precioTransf": 66000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "• Modelo: F6 • 4 velocidades • Batería de 20.000mAh • Tiene 3 niveles de luces LED y ganch",
+   "descripcion": "• Modelo: F6\n\n• 4 velocidades\n\n• Batería de 20.000mAh\n\n• Tiene 3 niveles de luces LED y gancho para colgar\n\n• Tiempo de funcionamiento: 12 a 60 horas (dependiendo la velocidad y si se usa girando)\n\n• Giran de 45° a 90°\n\n• Salida tipo C para cargar dispositivos (5V - 3Ah)\n\n• Tiempo de carga: 9 a 10 horas\n\n• Incluye: control remoto y cable para cargar\n\n• Dimensiones (cm): 27 alto x 10 ancho x 21 profundidad\n\n• Color: Negro ⚫️",
    "foto": "img/productos/t5bbwvbqeh4.webp",
    "fotos": [
     "img/productos/t5bbwvbqeh4.webp"
@@ -16419,9 +16449,9 @@
    "id": "s8eh16yawlq",
    "nombre": "Panel solar 620w",
    "categoria": "",
-   "precio": 153000,
+   "precio": 149600,
    "precioOferta": null,
-   "precioTransf": 306000,
+   "precioTransf": 299200,
    "precioOfertaTransf": null,
    "resumen": "Paneles Solares marca RONMA de 620W ,45.55v a 15A",
    "descripcion": "Paneles Solares marca RONMA de 620W ,45.55v a 15A",
@@ -16459,8 +16489,8 @@
   },
   {
    "id": "9s1k0smh01n",
-   "nombre": "Breker 63A doble AC/DC",
-   "categoria": "",
+   "nombre": "Breaker 63A doble AC/DC",
+   "categoria": "7uh90qd09je",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": 20000,
@@ -16482,7 +16512,7 @@
   {
    "id": "9s1k01cpkv7",
    "nombre": "Breker 80A doble DC",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 10000,
    "precioOferta": null,
    "precioTransf": 20000,
@@ -16546,7 +16576,7 @@
   {
    "id": "9s1k1j8pm8b",
    "nombre": "Cajita 4x2 original",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 600,
    "precioOferta": null,
    "precioTransf": 1200,
@@ -16590,7 +16620,7 @@
   {
    "id": "9s1k314ed6n",
    "nombre": "Interruptor palanca baquelita",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 500,
    "precioOferta": null,
    "precioTransf": 1000,
@@ -16613,7 +16643,7 @@
   {
    "id": "abkaajcbjx7",
    "nombre": "Breke 50A triple AC",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 3800,
    "precioOferta": null,
    "precioTransf": 7600,
@@ -16787,7 +16817,7 @@
   {
    "id": "mct6p8zlc1n",
    "nombre": "Cajita 4x2 blanca",
-   "categoria": "",
+   "categoria": "7uh90qd09je",
    "precio": 150,
    "precioOferta": null,
    "precioTransf": 300,
@@ -16995,8 +17025,8 @@
    "precioOferta": null,
    "precioTransf": 120,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": " Tornillo rosca chapa 45mm, se vende por unidades o cajitas de 100 tornillos ",
+   "descripcion": " Tornillo rosca chapa 45mm, se vende por unidades o cajitas de 100 tornillos ",
    "foto": "img/productos/ntnt8fm3823.webp",
    "fotos": [
     "img/productos/ntnt8fm3823.webp"
@@ -17308,7 +17338,7 @@
   {
    "id": "g3wt05ujddh",
    "nombre": "Interruptor LIOA triple",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 950,
    "precioOferta": null,
    "precioTransf": 1900,
@@ -17330,7 +17360,7 @@
   {
    "id": "g3wt0i2y314",
    "nombre": "Interruptor palanca doble",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 0,
    "precioOferta": null,
    "precioTransf": 0,
@@ -17570,7 +17600,7 @@
   {
    "id": "g3wt5m526nw",
    "nombre": "Set de destornillador pequeño",
-   "categoria": "",
+   "categoria": "7zolkxq57oo",
    "precio": 1300,
    "precioOferta": null,
    "precioTransf": 2600,
@@ -17610,7 +17640,7 @@
   {
    "id": "g3wt6zk7c17",
    "nombre": "Toma de superficie triple",
-   "categoria": "",
+   "categoria": "87s50bcrcxx",
    "precio": 750,
    "precioOferta": null,
    "precioTransf": 1500,
