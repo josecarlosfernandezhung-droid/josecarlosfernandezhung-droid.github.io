@@ -13476,12 +13476,12 @@
     "img/productos/upxu3c3vksq.webp",
     "img/productos/s9c4juk2k18.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 596
   },
   {
