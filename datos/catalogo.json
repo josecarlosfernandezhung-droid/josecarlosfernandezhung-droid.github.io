@@ -17689,8 +17689,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/zuep2v0tbxz.webp",
+   "fotos": [
+    "img/productos/zuep2v0tbxz.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
