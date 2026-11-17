@@ -30,6 +30,8 @@ jobs:
           npx cap add android
           sed -i 's/<application/<application android:usesCleartextTraffic="true"/' android/app/src/main/AndroidManifest.xml || true
       - name: Icono y firma
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           for d in mdpi:48 hdpi:72 xhdpi:96 xxhdpi:144 xxxhdpi:192; do
             n=${d%%:*}; s=${d##*:}
@@ -40,6 +42,11 @@ jobs:
           done
           rm -rf android/app/src/main/res/mipmap-anydpi-v26 || true
           mkdir -p ~/.android
+          gh release download llave-apk -p debug.keystore -D . 2>/dev/null || true
+          if [ ! -f debug.keystore ]; then
+            keytool -genkeypair -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+            gh release create llave-apk debug.keystore --title "Llave de firma" --notes "Llave para que cada version de la app se instale sobre la anterior" --prerelease --latest=false || true
+          fi
           cp -f debug.keystore ~/.android/debug.keystore
           cp -f debug.keystore android/app/debug.keystore
           if [ -f android/app/build.gradle ] && ! grep -q signingConfigs android/app/build.gradle; then
