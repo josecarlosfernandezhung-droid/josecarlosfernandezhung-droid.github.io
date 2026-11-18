@@ -17854,6 +17854,26 @@
    "destacado": false,
    "visible": true,
    "orden": 801
+  },
+  {
+   "id": "rwols5t3krb",
+   "nombre": "Conector XT60I",
+   "categoria": "",
+   "precio": 0,
+   "precioOferta": null,
+   "precioTransf": 0,
+   "precioOfertaTransf": null,
+   "resumen": "",
+   "descripcion": "",
+   "foto": "",
+   "fotos": [],
+   "agotado": true,
+   "nuevo": true,
+   "ventas": 0,
+   "masVendido": false,
+   "destacado": false,
+   "visible": false,
+   "orden": 802
   }
  ],
  "especialidades": {
