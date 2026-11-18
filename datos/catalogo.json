@@ -11283,12 +11283,12 @@
     "img/productos/oiorxn9w37z.webp",
     "img/productos/s8eex6xz4ng.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 53,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 497
   },
   {
