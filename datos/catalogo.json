@@ -17867,12 +17867,12 @@
    "descripcion": "",
    "foto": "",
    "fotos": [],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 802
   }
  ],
