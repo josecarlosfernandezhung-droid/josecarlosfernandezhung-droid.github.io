@@ -2044,12 +2044,12 @@
    "fotos": [
     "img/productos/s4yzt02u272.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 20,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 81
   },
   {
