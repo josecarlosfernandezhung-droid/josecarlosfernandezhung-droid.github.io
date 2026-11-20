@@ -14925,8 +14925,9 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/e2wq19491t5.webp",
+   "foto": "img/productos/0xnz1dzsneq.webp",
    "fotos": [
+    "img/productos/0xnz1dzsneq.webp",
     "img/productos/e2wq19491t5.webp",
     "img/productos/e2wvlt3jnjn.webp"
    ],
@@ -18115,8 +18116,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/3uyy790wa73.webp",
+   "fotos": [
+    "img/productos/3uyy790wa73.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
