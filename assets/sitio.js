@@ -17,6 +17,8 @@ async function cargarCatalogo() {
     const res = await fetch("datos/catalogo.json?v=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     CATALOGO = await res.json();
+    /* El panel marca visible:false a los ocultos y (con el interruptor «Ocultar agotados») a los agotados */
+    CATALOGO.productos = (CATALOGO.productos || []).filter(p => p.visible !== false);
     calcularFotosRepetidas();
     calcularTextosRepetidos();
     if (CATALOGO.monedas?.porDefecto) {

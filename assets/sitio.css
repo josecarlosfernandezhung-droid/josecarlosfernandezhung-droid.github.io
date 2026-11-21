@@ -619,3 +619,12 @@ details.pregunta summary::after{content:none!important}
 
 /* precio por transferencia */
 .precio .p-transf,.ficha-precio .p-transf{display:block;font-size:12px;font-weight:600;opacity:.7;margin-top:2px}
+
+/* botón «+» siempre dentro de la tarjeta, aunque el precio sea largo */
+.producto-pie{align-items:flex-end}
+.precio{flex:1 1 0;min-width:0;overflow-wrap:anywhere}
+.agregar{flex:0 0 auto}
+@media (max-width:560px){
+  .precio{font-size:14px}
+  .precio .p-transf{font-size:11px;line-height:1.25}
+}
