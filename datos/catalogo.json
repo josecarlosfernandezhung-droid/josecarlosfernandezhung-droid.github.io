@@ -245,7 +245,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 0
   },
   {
@@ -333,7 +333,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 4
   },
   {
@@ -355,7 +355,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 5
   },
   {
@@ -399,7 +399,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 7
   },
   {
@@ -422,7 +422,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 8
   },
   {
@@ -444,7 +444,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 9
   },
   {
@@ -466,7 +466,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 10
   },
   {
@@ -488,7 +488,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 11
   },
   {
@@ -532,7 +532,7 @@
    "ventas": 6,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 13
   },
   {
@@ -598,7 +598,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 16
   },
   {
@@ -620,7 +620,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 17
   },
   {
@@ -642,7 +642,7 @@
    "ventas": 30,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 18
   },
   {
@@ -686,7 +686,7 @@
    "ventas": 6,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 20
   },
   {
@@ -708,7 +708,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 21
   },
   {
@@ -752,7 +752,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 23
   },
   {
@@ -774,7 +774,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 24
   },
   {
@@ -865,7 +865,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 28
   },
   {
@@ -910,7 +910,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 30
   },
   {
@@ -999,7 +999,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 34
   },
   {
@@ -1021,7 +1021,7 @@
    "ventas": 34,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 35
   },
   {
@@ -1043,7 +1043,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 36
   },
   {
@@ -1087,7 +1087,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 38
   },
   {
@@ -1109,7 +1109,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 39
   },
   {
@@ -1221,7 +1221,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 44
   },
   {
@@ -1243,7 +1243,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 45
   },
   {
@@ -1268,7 +1268,7 @@
    "ventas": 3,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 46
   },
   {
@@ -1290,7 +1290,7 @@
    "ventas": 12,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 47
   },
   {
@@ -1337,7 +1337,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 49
   },
   {
@@ -1359,7 +1359,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 50
   },
   {
@@ -1381,7 +1381,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 51
   },
   {
@@ -1403,7 +1403,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 52
   },
   {
@@ -1425,7 +1425,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 53
   },
   {
@@ -1492,7 +1492,7 @@
    "ventas": 11,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 56
   },
   {
@@ -1514,7 +1514,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 57
   },
   {
@@ -1602,7 +1602,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 61
   },
   {
@@ -1712,7 +1712,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 66
   },
   {
@@ -1734,7 +1734,7 @@
    "ventas": 71,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 67
   },
   {
@@ -1778,7 +1778,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 69
   },
   {
@@ -1822,7 +1822,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 71
   },
   {
@@ -1866,7 +1866,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 73
   },
   {
@@ -1976,7 +1976,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 78
   },
   {
@@ -1998,7 +1998,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 79
   },
   {
@@ -2020,7 +2020,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 80
   },
   {
@@ -2042,7 +2042,7 @@
    "ventas": 14,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 81
   },
   {
@@ -2065,7 +2065,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 82
   },
   {
@@ -2109,7 +2109,7 @@
    "ventas": 7,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 84
   },
   {
@@ -2131,7 +2131,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 85
   },
   {
@@ -2175,7 +2175,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 87
   },
   {
@@ -2197,7 +2197,7 @@
    "ventas": 2,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 88
   },
   {
@@ -2241,7 +2241,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 90
   },
   {
@@ -2329,7 +2329,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 94
   },
   {
@@ -2527,7 +2527,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 103
   },
   {
@@ -2593,7 +2593,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 106
   },
   {
@@ -2615,7 +2615,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 107
   },
   {
@@ -2637,7 +2637,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 108
   },
   {
@@ -2726,7 +2726,7 @@
    "ventas": 82,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 112
   },
   {
@@ -2748,7 +2748,7 @@
    "ventas": 44,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 113
   },
   {
@@ -2815,7 +2815,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 116
   },
   {
@@ -2882,7 +2882,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 119
   },
   {
@@ -2904,7 +2904,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 120
   },
   {
@@ -2926,7 +2926,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 121
   },
   {
@@ -2948,7 +2948,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 122
   },
   {
@@ -3058,7 +3058,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 127
   },
   {
@@ -3103,7 +3103,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 129
   },
   {
@@ -3257,7 +3257,7 @@
    "ventas": 48,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 136
   },
   {
@@ -3301,7 +3301,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 138
   },
   {
@@ -3323,7 +3323,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 139
   },
   {
@@ -3478,7 +3478,7 @@
    "ventas": 51,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 146
   },
   {
@@ -3500,7 +3500,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 147
   },
   {
@@ -3544,7 +3544,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 149
   },
   {
@@ -3566,7 +3566,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 150
   },
   {
@@ -3588,7 +3588,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 151
   },
   {
@@ -3632,7 +3632,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 153
   },
   {
@@ -3654,7 +3654,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 154
   },
   {
@@ -3677,7 +3677,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 155
   },
   {
@@ -3809,7 +3809,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 161
   },
   {
@@ -3853,7 +3853,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 163
   },
   {
@@ -3875,7 +3875,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 164
   },
   {
@@ -3897,7 +3897,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 165
   },
   {
@@ -3963,7 +3963,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 168
   },
   {
@@ -3985,7 +3985,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 169
   },
   {
@@ -4007,7 +4007,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 170
   },
   {
@@ -4077,7 +4077,7 @@
    "ventas": 200,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 173
   },
   {
@@ -4187,7 +4187,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 178
   },
   {
@@ -4231,7 +4231,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 180
   },
   {
@@ -4253,7 +4253,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 181
   },
   {
@@ -4275,7 +4275,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 182
   },
   {
@@ -4297,7 +4297,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 183
   },
   {
@@ -4319,7 +4319,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 184
   },
   {
@@ -4345,7 +4345,7 @@
    "ventas": 71,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 185
   },
   {
@@ -4367,7 +4367,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 186
   },
   {
@@ -4389,7 +4389,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 187
   },
   {
@@ -4411,7 +4411,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 188
   },
   {
@@ -4433,7 +4433,7 @@
    "ventas": 100,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 189
   },
   {
@@ -4477,7 +4477,7 @@
    "ventas": 967,
    "masVendido": true,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 191
   },
   {
@@ -4543,7 +4543,7 @@
    "ventas": 2,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 194
   },
   {
@@ -4565,7 +4565,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 195
   },
   {
@@ -4609,7 +4609,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 197
   },
   {
@@ -4632,7 +4632,7 @@
    "ventas": 18,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 198
   },
   {
@@ -4654,7 +4654,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 199
   },
   {
@@ -4676,7 +4676,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 200
   },
   {
@@ -4720,7 +4720,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 202
   },
   {
@@ -4764,7 +4764,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 204
   },
   {
@@ -4808,7 +4808,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 206
   },
   {
@@ -4830,7 +4830,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 207
   },
   {
@@ -4852,7 +4852,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 208
   },
   {
@@ -4897,7 +4897,7 @@
    "ventas": 322,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 210
   },
   {
@@ -4919,7 +4919,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 211
   },
   {
@@ -4941,7 +4941,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 212
   },
   {
@@ -4963,7 +4963,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 213
   },
   {
@@ -4985,7 +4985,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 214
   },
   {
@@ -5007,7 +5007,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 215
   },
   {
@@ -5029,7 +5029,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 216
   },
   {
@@ -5141,7 +5141,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 221
   },
   {
@@ -5185,7 +5185,7 @@
    "ventas": 7,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 223
   },
   {
@@ -5207,7 +5207,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 224
   },
   {
@@ -5251,7 +5251,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 226
   },
   {
@@ -5273,7 +5273,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 227
   },
   {
@@ -5295,7 +5295,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 228
   },
   {
@@ -5318,7 +5318,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 229
   },
   {
@@ -5340,7 +5340,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 230
   },
   {
@@ -5362,7 +5362,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 231
   },
   {
@@ -5406,7 +5406,7 @@
    "ventas": 5,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 233
   },
   {
@@ -5428,7 +5428,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 234
   },
   {
@@ -5451,7 +5451,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 235
   },
   {
@@ -5473,7 +5473,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 236
   },
   {
@@ -5495,7 +5495,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 237
   },
   {
@@ -5539,7 +5539,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 239
   },
   {
@@ -5561,7 +5561,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 240
   },
   {
@@ -5583,7 +5583,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 241
   },
   {
@@ -5605,7 +5605,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 242
   },
   {
@@ -5627,7 +5627,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 243
   },
   {
@@ -5649,7 +5649,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 244
   },
   {
@@ -5671,7 +5671,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 245
   },
   {
@@ -5693,7 +5693,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 246
   },
   {
@@ -5738,7 +5738,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 248
   },
   {
@@ -5804,7 +5804,7 @@
    "ventas": 20,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 251
   },
   {
@@ -5848,7 +5848,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 253
   },
   {
@@ -5917,7 +5917,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 256
   },
   {
@@ -5962,7 +5962,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 258
   },
   {
@@ -5984,7 +5984,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 259
   },
   {
@@ -6006,7 +6006,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 260
   },
   {
@@ -6072,7 +6072,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 263
   },
   {
@@ -6094,7 +6094,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 264
   },
   {
@@ -6116,7 +6116,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 265
   },
   {
@@ -6160,7 +6160,7 @@
    "ventas": 7750,
    "masVendido": true,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 267
   },
   {
@@ -6182,7 +6182,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 268
   },
   {
@@ -6226,7 +6226,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 270
   },
   {
@@ -6248,7 +6248,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 271
   },
   {
@@ -6270,7 +6270,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 272
   },
   {
@@ -6336,7 +6336,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 275
   },
   {
@@ -6428,7 +6428,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 279
   },
   {
@@ -6450,7 +6450,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 280
   },
   {
@@ -6472,7 +6472,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 281
   },
   {
@@ -6516,7 +6516,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 283
   },
   {
@@ -6560,7 +6560,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 285
   },
   {
@@ -6582,7 +6582,7 @@
    "ventas": 11,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 286
   },
   {
@@ -6604,7 +6604,7 @@
    "ventas": 67,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 287
   },
   {
@@ -6626,7 +6626,7 @@
    "ventas": 10765,
    "masVendido": true,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 288
   },
   {
@@ -6648,7 +6648,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 289
   },
   {
@@ -6692,7 +6692,7 @@
    "ventas": 3,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 291
   },
   {
@@ -6714,7 +6714,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 292
   },
   {
@@ -6736,7 +6736,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 293
   },
   {
@@ -6758,7 +6758,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 294
   },
   {
@@ -6780,7 +6780,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 295
   },
   {
@@ -6826,7 +6826,7 @@
    "ventas": 7,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 297
   },
   {
@@ -6870,7 +6870,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 299
   },
   {
@@ -6892,7 +6892,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 300
   },
   {
@@ -6914,7 +6914,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 301
   },
   {
@@ -6958,7 +6958,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 303
   },
   {
@@ -6980,7 +6980,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 304
   },
   {
@@ -6997,7 +6997,7 @@
    "fotos": [
     "img/productos/s6i6mn3845q.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 14,
    "masVendido": false,
@@ -7024,7 +7024,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 306
   },
   {
@@ -7068,7 +7068,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 308
   },
   {
@@ -7090,7 +7090,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 309
   },
   {
@@ -7112,7 +7112,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 310
   },
   {
@@ -7134,7 +7134,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 311
   },
   {
@@ -7181,7 +7181,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 313
   },
   {
@@ -7225,7 +7225,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 315
   },
   {
@@ -7269,7 +7269,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 317
   },
   {
@@ -7313,7 +7313,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 319
   },
   {
@@ -7380,7 +7380,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 322
   },
   {
@@ -7402,7 +7402,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 323
   },
   {
@@ -7424,7 +7424,7 @@
    "ventas": 74,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 324
   },
   {
@@ -7446,7 +7446,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 325
   },
   {
@@ -7468,7 +7468,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 326
   },
   {
@@ -7490,7 +7490,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 327
   },
   {
@@ -7513,7 +7513,7 @@
    "ventas": 9,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 328
   },
   {
@@ -7536,7 +7536,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 329
   },
   {
@@ -7558,7 +7558,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 330
   },
   {
@@ -7580,7 +7580,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 331
   },
   {
@@ -7602,7 +7602,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 332
   },
   {
@@ -7624,7 +7624,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 333
   },
   {
@@ -7690,7 +7690,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 336
   },
   {
@@ -7756,7 +7756,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 339
   },
   {
@@ -7778,7 +7778,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 340
   },
   {
@@ -7868,7 +7868,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 344
   },
   {
@@ -7890,7 +7890,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 345
   },
   {
@@ -7912,7 +7912,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 346
   },
   {
@@ -7957,7 +7957,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 348
   },
   {
@@ -7979,7 +7979,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 349
   },
   {
@@ -8024,7 +8024,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 351
   },
   {
@@ -8046,7 +8046,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 352
   },
   {
@@ -8068,7 +8068,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 353
   },
   {
@@ -8112,7 +8112,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 355
   },
   {
@@ -8134,7 +8134,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 356
   },
   {
@@ -8156,7 +8156,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 357
   },
   {
@@ -8201,7 +8201,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 359
   },
   {
@@ -8223,7 +8223,7 @@
    "ventas": 5,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 360
   },
   {
@@ -8245,7 +8245,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 361
   },
   {
@@ -8291,7 +8291,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 363
   },
   {
@@ -8313,7 +8313,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 364
   },
   {
@@ -8335,7 +8335,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 365
   },
   {
@@ -8357,7 +8357,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 366
   },
   {
@@ -8379,7 +8379,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 367
   },
   {
@@ -8401,7 +8401,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 368
   },
   {
@@ -8447,7 +8447,7 @@
    "ventas": 56,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 370
   },
   {
@@ -8491,7 +8491,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 372
   },
   {
@@ -8513,7 +8513,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 373
   },
   {
@@ -8535,7 +8535,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 374
   },
   {
@@ -8558,7 +8558,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 375
   },
   {
@@ -8648,7 +8648,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 379
   },
   {
@@ -8692,7 +8692,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 381
   },
   {
@@ -8714,7 +8714,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 382
   },
   {
@@ -8736,7 +8736,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 383
   },
   {
@@ -8780,7 +8780,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 385
   },
   {
@@ -8802,7 +8802,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 386
   },
   {
@@ -8869,7 +8869,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 389
   },
   {
@@ -8891,7 +8891,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 390
   },
   {
@@ -8913,7 +8913,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 391
   },
   {
@@ -8935,7 +8935,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 392
   },
   {
@@ -9001,7 +9001,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 395
   },
   {
@@ -9045,7 +9045,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 397
   },
   {
@@ -9067,7 +9067,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 398
   },
   {
@@ -9134,7 +9134,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 401
   },
   {
@@ -9178,7 +9178,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 403
   },
   {
@@ -9245,7 +9245,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 406
   },
   {
@@ -9290,7 +9290,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 408
   },
   {
@@ -9334,7 +9334,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 410
   },
   {
@@ -9378,7 +9378,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 412
   },
   {
@@ -9446,7 +9446,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 415
   },
   {
@@ -9468,7 +9468,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 416
   },
   {
@@ -9512,7 +9512,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 418
   },
   {
@@ -9534,7 +9534,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 419
   },
   {
@@ -9556,7 +9556,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 420
   },
   {
@@ -9578,7 +9578,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 421
   },
   {
@@ -9600,7 +9600,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 422
   },
   {
@@ -9622,7 +9622,7 @@
    "ventas": 715,
    "masVendido": true,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 423
   },
   {
@@ -9666,7 +9666,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 425
   },
   {
@@ -9689,7 +9689,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 426
   },
   {
@@ -9711,7 +9711,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 427
   },
   {
@@ -9755,7 +9755,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 429
   },
   {
@@ -9777,7 +9777,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 430
   },
   {
@@ -9799,7 +9799,7 @@
    "ventas": 5,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 431
   },
   {
@@ -9821,7 +9821,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 432
   },
   {
@@ -9843,7 +9843,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 433
   },
   {
@@ -9865,7 +9865,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 434
   },
   {
@@ -9909,7 +9909,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 436
   },
   {
@@ -9954,7 +9954,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 438
   },
   {
@@ -9998,7 +9998,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 440
   },
   {
@@ -10042,7 +10042,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 442
   },
   {
@@ -10064,7 +10064,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 443
   },
   {
@@ -10086,7 +10086,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 444
   },
   {
@@ -10108,7 +10108,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 445
   },
   {
@@ -10130,7 +10130,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 446
   },
   {
@@ -10152,7 +10152,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 447
   },
   {
@@ -10174,7 +10174,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 448
   },
   {
@@ -10196,7 +10196,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 449
   },
   {
@@ -10218,7 +10218,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 450
   },
   {
@@ -10240,7 +10240,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 451
   },
   {
@@ -10262,7 +10262,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 452
   },
   {
@@ -10284,7 +10284,7 @@
    "ventas": 2,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 453
   },
   {
@@ -10306,7 +10306,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 454
   },
   {
@@ -10328,7 +10328,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 455
   },
   {
@@ -10350,7 +10350,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 456
   },
   {
@@ -10372,7 +10372,7 @@
    "ventas": 2,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 457
   },
   {
@@ -10394,7 +10394,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 458
   },
   {
@@ -10416,7 +10416,7 @@
    "ventas": 3,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 459
   },
   {
@@ -10438,7 +10438,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 460
   },
   {
@@ -10460,7 +10460,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 461
   },
   {
@@ -10482,7 +10482,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 462
   },
   {
@@ -10572,7 +10572,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 466
   },
   {
@@ -10594,7 +10594,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 467
   },
   {
@@ -10617,7 +10617,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 468
   },
   {
@@ -10639,7 +10639,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 469
   },
   {
@@ -10683,7 +10683,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 471
   },
   {
@@ -10750,7 +10750,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 474
   },
   {
@@ -10772,7 +10772,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 475
   },
   {
@@ -10794,7 +10794,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 476
   },
   {
@@ -10838,7 +10838,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 478
   },
   {
@@ -10860,7 +10860,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 479
   },
   {
@@ -10883,7 +10883,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 480
   },
   {
@@ -10906,7 +10906,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 481
   },
   {
@@ -10975,7 +10975,7 @@
    "ventas": 2,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 484
   },
   {
@@ -11019,7 +11019,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 486
   },
   {
@@ -11041,7 +11041,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 487
   },
   {
@@ -11086,7 +11086,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 489
   },
   {
@@ -11108,7 +11108,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 490
   },
   {
@@ -11130,7 +11130,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 491
   },
   {
@@ -11153,7 +11153,7 @@
    "ventas": 10,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 492
   },
   {
@@ -11175,7 +11175,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 493
   },
   {
@@ -11197,7 +11197,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 494
   },
   {
@@ -11267,7 +11267,7 @@
    "ventas": 103,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 497
   },
   {
@@ -11289,7 +11289,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 498
   },
   {
@@ -11355,7 +11355,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 501
   },
   {
@@ -11377,7 +11377,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 502
   },
   {
@@ -11400,7 +11400,7 @@
    "ventas": 15,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 503
   },
   {
@@ -11422,7 +11422,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 504
   },
   {
@@ -11445,7 +11445,7 @@
    "ventas": 27,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 505
   },
   {
@@ -11467,7 +11467,7 @@
    "ventas": 13,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 506
   },
   {
@@ -11513,7 +11513,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 508
   },
   {
@@ -11535,7 +11535,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 509
   },
   {
@@ -11558,7 +11558,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 510
   },
   {
@@ -11581,7 +11581,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 511
   },
   {
@@ -11626,7 +11626,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 513
   },
   {
@@ -11649,7 +11649,7 @@
    "ventas": 2,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 514
   },
   {
@@ -11671,7 +11671,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 515
   },
   {
@@ -11693,7 +11693,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 516
   },
   {
@@ -11715,7 +11715,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 517
   },
   {
@@ -11737,7 +11737,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 518
   },
   {
@@ -11759,7 +11759,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 519
   },
   {
@@ -11781,7 +11781,7 @@
    "ventas": 15,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 520
   },
   {
@@ -11827,7 +11827,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 522
   },
   {
@@ -11853,7 +11853,7 @@
    "ventas": 10,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 523
   },
   {
@@ -11899,7 +11899,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 525
   },
   {
@@ -11921,7 +11921,7 @@
    "ventas": 1110,
    "masVendido": true,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 526
   },
   {
@@ -11988,7 +11988,7 @@
    "ventas": 72,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 529
   },
   {
@@ -12010,7 +12010,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 530
   },
   {
@@ -12032,7 +12032,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 531
   },
   {
@@ -12076,7 +12076,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 533
   },
   {
@@ -12120,7 +12120,7 @@
    "ventas": 27,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 535
   },
   {
@@ -12142,7 +12142,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 536
   },
   {
@@ -12164,7 +12164,7 @@
    "ventas": 43,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 537
   },
   {
@@ -12187,7 +12187,7 @@
    "ventas": 12,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 538
   },
   {
@@ -12253,7 +12253,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 541
   },
   {
@@ -12297,7 +12297,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 543
   },
   {
@@ -12319,7 +12319,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 544
   },
   {
@@ -12364,7 +12364,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 546
   },
   {
@@ -12386,7 +12386,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 547
   },
   {
@@ -12408,7 +12408,7 @@
    "ventas": 10,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 548
   },
   {
@@ -12430,7 +12430,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 549
   },
   {
@@ -12474,7 +12474,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 551
   },
   {
@@ -12540,7 +12540,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 554
   },
   {
@@ -12562,7 +12562,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 555
   },
   {
@@ -12607,7 +12607,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 557
   },
   {
@@ -12718,7 +12718,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 562
   },
   {
@@ -12740,7 +12740,7 @@
    "ventas": 25,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 563
   },
   {
@@ -12763,7 +12763,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 564
   },
   {
@@ -12785,7 +12785,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 565
   },
   {
@@ -12807,7 +12807,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 566
   },
   {
@@ -12851,7 +12851,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 568
   },
   {
@@ -12873,7 +12873,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 569
   },
   {
@@ -12895,7 +12895,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 570
   },
   {
@@ -12917,7 +12917,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 571
   },
   {
@@ -12939,7 +12939,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 572
   },
   {
@@ -12962,7 +12962,7 @@
    "ventas": 2,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 573
   },
   {
@@ -12984,7 +12984,7 @@
    "ventas": 5,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 574
   },
   {
@@ -13006,7 +13006,7 @@
    "ventas": 3,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 575
   },
   {
@@ -13028,7 +13028,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 576
   },
   {
@@ -13050,7 +13050,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 577
   },
   {
@@ -13072,7 +13072,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 578
   },
   {
@@ -13116,7 +13116,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 580
   },
   {
@@ -13182,7 +13182,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 583
   },
   {
@@ -13271,7 +13271,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 587
   },
   {
@@ -13293,7 +13293,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 588
   },
   {
@@ -13360,7 +13360,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 591
   },
   {
@@ -13427,7 +13427,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 594
   },
   {
@@ -13495,7 +13495,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 597
   },
   {
@@ -13518,7 +13518,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 598
   },
   {
@@ -13564,7 +13564,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 600
   },
   {
@@ -13587,7 +13587,7 @@
    "ventas": 15,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 601
   },
   {
@@ -13611,7 +13611,7 @@
    "ventas": 24,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 602
   },
   {
@@ -13634,7 +13634,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 603
   },
   {
@@ -13657,7 +13657,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 604
   },
   {
@@ -13701,7 +13701,7 @@
    "ventas": 1099,
    "masVendido": true,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 606
   },
   {
@@ -13723,7 +13723,7 @@
    "ventas": 70,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 607
   },
   {
@@ -13767,7 +13767,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 609
   },
   {
@@ -13789,7 +13789,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 610
   },
   {
@@ -13811,7 +13811,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 611
   },
   {
@@ -13834,7 +13834,7 @@
    "ventas": 18,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 612
   },
   {
@@ -13856,7 +13856,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 613
   },
   {
@@ -13878,7 +13878,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 614
   },
   {
@@ -13900,7 +13900,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 615
   },
   {
@@ -13922,7 +13922,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 616
   },
   {
@@ -13944,7 +13944,7 @@
    "ventas": 6,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 617
   },
   {
@@ -13966,7 +13966,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 618
   },
   {
@@ -13988,7 +13988,7 @@
    "ventas": 7,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 619
   },
   {
@@ -14054,7 +14054,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 622
   },
   {
@@ -14076,7 +14076,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 623
   },
   {
@@ -14142,7 +14142,7 @@
    "ventas": 5,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 626
   },
   {
@@ -14341,7 +14341,7 @@
    "ventas": 5,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 635
   },
   {
@@ -14430,7 +14430,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 639
   },
   {
@@ -14585,7 +14585,7 @@
    "ventas": 24,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 646
   },
   {
@@ -14630,7 +14630,7 @@
    "ventas": 295,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 648
   },
   {
@@ -14674,7 +14674,7 @@
    "ventas": 18,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 650
   },
   {
@@ -14718,7 +14718,7 @@
    "ventas": 13,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 652
   },
   {
@@ -14851,7 +14851,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 658
   },
   {
@@ -14873,7 +14873,7 @@
    "ventas": 8,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 659
   },
   {
@@ -14918,7 +14918,7 @@
    "ventas": 106,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 661
   },
   {
@@ -14940,7 +14940,7 @@
    "ventas": 23,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 662
   },
   {
@@ -14984,7 +14984,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 664
   },
   {
@@ -15006,7 +15006,7 @@
    "ventas": 300,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 665
   },
   {
@@ -15028,7 +15028,7 @@
    "ventas": 143,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 666
   },
   {
@@ -15094,7 +15094,7 @@
    "ventas": 5,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 669
   },
   {
@@ -15660,7 +15660,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 697
   },
   {
@@ -15702,7 +15702,7 @@
    "ventas": 10,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 699
   },
   {
@@ -16348,7 +16348,7 @@
    "ventas": 41,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 731
   },
   {
@@ -16410,7 +16410,7 @@
    "ventas": 3,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 734
   },
   {
@@ -16494,7 +16494,7 @@
    "ventas": 1,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 738
   },
   {
@@ -16558,7 +16558,7 @@
    "ventas": 20,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 741
   },
   {
@@ -16580,7 +16580,7 @@
    "ventas": 50,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 742
   },
   {
@@ -16667,7 +16667,7 @@
    "ventas": 6,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 746
   },
   {
@@ -16689,7 +16689,7 @@
    "ventas": 6,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 747
   },
   {
@@ -16711,7 +16711,7 @@
    "ventas": 51,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 748
   },
   {
@@ -16865,7 +16865,7 @@
    "ventas": 2,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 755
   },
   {
@@ -16910,7 +16910,7 @@
    "ventas": 10,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 757
   },
   {
@@ -16998,7 +16998,7 @@
    "ventas": 10,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 761
   },
   {
@@ -17812,7 +17812,7 @@
    "ventas": 4,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 800
   },
   {
@@ -17855,7 +17855,7 @@
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 802
   },
   {
