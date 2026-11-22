@@ -685,3 +685,19 @@ details.pregunta{background:#162027;border-color:#25343d}
 .tira-h{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x proximity;padding:2px 2px 12px;scrollbar-width:none}
 .tira-h::-webkit-scrollbar{display:none}
 .tira-h .producto{flex:0 0 clamp(168px,44vw,236px);scroll-snap-align:start}
+
+/* precio grande y botón «+» compacto: el precio ocupa su fila y la transferencia va debajo */
+.producto-pie{display:flex;flex-direction:column;align-items:stretch;gap:2px;padding:12px 14px 14px}
+.pie-fila{display:flex;align-items:center;justify-content:space-between;gap:8px;min-width:0}
+.pie-fila .precio{flex:1 1 auto;min-width:0;font:800 clamp(17px,5vw,20px)/1.15 var(--f-texto);white-space:nowrap}
+.pie-fila .precio s{display:block;font-size:12px;font-weight:500}
+.producto-pie .p-transf{display:block;font:600 12px/1.3 var(--f-texto);color:#93a4ae;opacity:1;margin:0;white-space:nowrap}
+.agregar{width:38px!important;height:38px!important;border-radius:12px!important;flex:0 0 auto}
+.agregar svg{width:18px;height:18px}
+@media (max-width:560px){.producto-pie{padding:10px 12px 12px}.producto-pie .p-transf{font-size:11.5px}}
+
+.pie-fila .precio{font-size:clamp(16px,4.7vw,19px)}
+.precio .mu{font-size:.62em;font-weight:700;opacity:.85;letter-spacing:.02em}
+.agregar{width:36px!important;height:36px!important}
+.pie-fila{gap:6px}
+.pie-fila .precio{display:block}

@@ -318,9 +318,10 @@ function tarjetaProducto(p) {
     const card = document.createElement("article");
     card.className = `producto ${p.agotado ? "agotado" : ""}`;
 
+    const mu = t => t.replace(/\u00a0([A-Za-z]{3})$/, '\u00a0<span class="mu">$1</span>');
     const precioHTML = (p.precioOferta
-      ? `<s>${formatearPrecio(p.precio)}</s> ${formatearPrecio(p.precioOferta)}`
-      : `${formatearPrecio(p.precio)}`) + lineaTransf(p);
+      ? `<s>${formatearPrecio(p.precio)}</s> ${mu(formatearPrecio(p.precioOferta))}`
+      : `${mu(formatearPrecio(p.precio))}`);
 
     let selloHTML = "";
     if (p.agotado) selloHTML = `<span class="sello agotado" style="background:#4c5566; color:#fff; padding:4px 8px; border-radius:6px; font-size:10px; font-weight:700;">Agotado</span>`;
@@ -342,10 +343,13 @@ function tarjetaProducto(p) {
         </div>
       </button>
       <div class="producto-pie">
-        <div class="precio">${precioHTML}</div>
-        <button type="button" class="agregar" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}')" aria-label="Agregar">
-          <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
-        </button>
+        <div class="pie-fila">
+          <div class="precio">${precioHTML}</div>
+          <button type="button" class="agregar" ${p.agotado ? "disabled" : ""} onclick="agregarAlPedido('${p.id}')" aria-label="Agregar">
+            <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+        </div>
+        ${lineaTransf(p)}
       </div>
     `;
     return card;
