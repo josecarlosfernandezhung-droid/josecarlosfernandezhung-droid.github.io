@@ -231,14 +231,15 @@ function lineaTransf(p) {
 }
 function formatearPrecio(precioBase) {
   const infoMoneda = CATALOGO.monedas?.lista?.find(m => m.codigo === MONEDA_ACTUAL);
-  if (!infoMoneda) return `${precioBase} CUP`;
+  if (!infoMoneda) return `${String(precioBase).replace(/\B(?=(\d{3})+(?!\d))/g, "\u00a0")}\u00a0CUP`;
 
   let valor = precioBase;
   if (CATALOGO.monedas.base === "CUP" && MONEDA_ACTUAL === "USD") {
     valor = precioBase * infoMoneda.tasa;
   }
-  const simbolo = infoMoneda.simbolo || "$";
-  return `${simbolo}${valor.toLocaleString('es-CU', {minimumFractionDigits: 0, maximumFractionDigits: 2})} ${MONEDA_ACTUAL}`;
+  const partes = (Math.round(valor * 100) / 100).toString().split(".");
+  partes[0] = partes[0].replace(/\B(?=(\d{3})+(?!\d))/g, "\u00a0");
+  return `${partes.join(",")}\u00a0${MONEDA_ACTUAL}`;
 }
 
 function renderizarProductos() {
@@ -267,6 +268,7 @@ function renderizarProductos() {
   if (ord === "desc") prods.sort((a, b) => b.precio - a.precio);
   if (ord === "ventas" || (fr === "masvendidos" && ord === "rel")) prods.sort((a, b) => (b.ventas || 0) - (a.ventas || 0));
   if (ord === "az") prods.sort((a, b) => a.nombre.localeCompare(b.nombre));
+  if (ord === "rel" && fr !== "masvendidos") prods.sort((a, b) => ((b.nuevo ? 1 : 0) - (a.nuevo ? 1 : 0)));
 
   container.innerHTML = "";
   if (resInfo) resInfo.innerText = `${prods.length} ${prods.length === 1 ? 'producto encontrado' : 'productos encontrados'}`;
@@ -277,7 +279,42 @@ function renderizarProductos() {
   }
   vacio.hidden = true;
 
-  prods.forEach(p => {
+  /* Vista normal: tiras «Nuevo» y «Más vendidos» arriba y luego todo el catálogo (como en el catálogo compartido) */
+  const normal = CATEGORIA_SELECCIONADA === "todas" && fr === "todos" && !q && (ord === "rel");
+  let resto = prods;
+  if (normal) {
+    const disp = p => !p.agotado;
+    const nuevos = prods.filter(p => p.nuevo && disp(p)).slice(0, 30);
+    const vend = prods.filter(p => p.masVendido && disp(p)).sort((a, b) => (b.ventas || 0) - (a.ventas || 0)).slice(0, 10);
+    const ya = new Set(nuevos.concat(vend).map(p => p.id));
+    resto = prods.filter(p => !ya.has(p.id));
+    const tira = (titulo, lista) => {
+      if (!lista.length) return;
+      const sec = document.createElement("div");
+      sec.className = "tira-sec";
+      sec.innerHTML = `<h3>${titulo}</h3>`;
+      const fila = document.createElement("div");
+      fila.className = "tira-h";
+      lista.forEach(p => fila.appendChild(tarjetaProducto(p)));
+      sec.appendChild(fila);
+      container.appendChild(sec);
+    };
+    tira("🆕 Nuevo en " + (CATALOGO.marca?.nombre || "ToTo Tools"), nuevos);
+    tira("🔥 Más vendidos", vend);
+    if ((nuevos.length || vend.length) && resto.length) {
+      const t = document.createElement("h3");
+      t.className = "tira-tit";
+      t.textContent = "Todos los productos";
+      container.appendChild(t);
+    }
+  }
+  const grid = document.createElement("div");
+  grid.className = "catalogo-grid";
+  resto.forEach(p => grid.appendChild(tarjetaProducto(p)));
+  container.appendChild(grid);
+}
+
+function tarjetaProducto(p) {
     const card = document.createElement("article");
     card.className = `producto ${p.agotado ? "agotado" : ""}`;
 
@@ -311,10 +348,8 @@ function renderizarProductos() {
         </button>
       </div>
     `;
-    container.appendChild(card);
-  });
+    return card;
 }
-
 window.abrirFichaProducto = function(id) {
   const p = CATALOGO.productos.find(item => item.id === id);
   if (!p) return;

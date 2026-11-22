@@ -628,3 +628,60 @@ details.pregunta summary::after{content:none!important}
   .precio{font-size:14px}
   .precio .p-transf{font-size:11px;line-height:1.25}
 }
+
+/* ======= Tienda con el mismo aspecto del catálogo compartido (oscuro) ======= */
+.papel,dialog{
+  --papel:#0e1519; --blanco:#162027; --tinta:#e8eff2; --tinta-2:#93a4ae; --borde:#25343d; --azul-suave:#1b2b31;
+  color-scheme:dark;
+}
+.papel{background:#0e1519;color:#e8eff2}
+dialog{background:#162027;color:#e8eff2}
+.herramientas{background:rgba(14,21,25,.92)}
+.buscar,.filtros select,.orden select,.chip,.campo input,.campo select,.pedido .campo input,.pedido .campo select,.pedido .campo input[type=tel]{background:#162027;color:#e8eff2;border-color:#25343d}
+.buscar input{color:#e8eff2}
+.buscar input::placeholder{color:#93a4ae}
+.buscar svg{stroke:#93a4ae}
+.chip small{background:#0e1519;color:#93a4ae}
+.chip[aria-selected="true"]{background:var(--azul);border-color:var(--azul);color:#fff}
+.chip[aria-selected="true"] small{background:rgba(255,255,255,.2);color:#fff}
+.producto{background:#162027;border-color:#25343d}
+.producto:hover{border-color:#34505c}
+.producto-pie{border-top:1px dashed #2c3d47}
+.producto-foto{background:#fff;border-bottom:0}
+.producto-foto img.placeholder,.producto-foto img[src*="icono.svg"]{background:#eef4fb}
+.agregar{background:var(--azul);color:#fff;width:46px;height:46px;border-radius:14px}
+.agregar:hover{background:#4a92ff}
+.agregar:disabled{background:#2a3942;color:#6b7c87}
+.btn-tinta{background:var(--azul);color:#fff}
+.pedido-flotante{background:#162027;border:1px solid #25343d}
+.tostada{background:#162027;border:1px solid #25343d}
+.cantidad,.linea .cantidad{background:#0e1519;border-color:#25343d}
+.cantidad button,.linea .cantidad button{color:#e8eff2}
+.pedido-pie{background:#162027;box-shadow:none}
+.pedido-cab .cerrar,.cerrar{background:#fff}
+.linea img{background:#fff;border-color:#25343d}
+.modal-ficha .ficha-foto{background:#fff}
+details.pregunta{background:#162027;border-color:#25343d}
+.vacio{border-color:#25343d}
+#pasosLista li{background:#162027!important;border-color:#25343d!important}
+.chips{mask-image:linear-gradient(90deg,#000 92%,transparent)}
+
+/* precio en una sola línea: «750 CUP» */
+.precio{font:700 17px/1.1 var(--f-texto);white-space:nowrap}
+.precio s{font-weight:500}
+.precio .p-transf{white-space:normal;font-weight:600}
+@media (max-width:560px){.precio{font-size:clamp(13px,4.4vw,16px)}.precio .p-transf{font-size:11px}}
+.producto-pie{align-items:flex-end}
+.precio{flex:1 1 0;min-width:0}
+.agregar{flex:0 0 auto}
+
+/* lista de productos: tiras horizontales + cuadrícula */
+.catalogo{display:block}
+.catalogo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));gap:18px}
+@media (max-width:560px){.catalogo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+.tira-sec{margin:0 0 26px}
+.tira-sec h3,.tira-tit{font:800 22px/1.2 var(--f-texto);letter-spacing:0;margin:0 0 12px;color:#e8eff2}
+.tira-tit{margin:8px 0 14px}
+.tira-h{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x proximity;padding:2px 2px 12px;scrollbar-width:none}
+.tira-h::-webkit-scrollbar{display:none}
+.tira-h .producto{flex:0 0 clamp(168px,44vw,236px);scroll-snap-align:start}
