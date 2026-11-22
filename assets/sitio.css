@@ -680,7 +680,7 @@ details.pregunta{background:#162027;border-color:#25343d}
 .catalogo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));gap:18px}
 @media (max-width:560px){.catalogo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
 .tira-sec{margin:0 0 26px}
-.tira-sec h3,.tira-tit{font:800 22px/1.2 var(--f-texto);letter-spacing:0;margin:0 0 12px;color:#e8eff2}
+.tira-sec>h3,.tira-tit{font:800 22px/1.2 var(--f-texto);letter-spacing:0;margin:0 0 12px;color:#e8eff2}
 .tira-tit{margin:8px 0 14px}
 .tira-h{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x proximity;padding:2px 2px 12px;scrollbar-width:none}
 .tira-h::-webkit-scrollbar{display:none}
@@ -701,3 +701,16 @@ details.pregunta{background:#162027;border-color:#25343d}
 .agregar{width:36px!important;height:36px!important}
 .pie-fila{gap:6px}
 .pie-fila .precio{display:block}
+
+/* nombres de las tarjetas de las tiras con el mismo tamaño que en la cuadrícula */
+.tira-h .producto-txt h3{font:700 15px/1.25 var(--f-texto);letter-spacing:0}
+.tira-h .producto-cat{font-size:10.5px}
+/* precio más grande */
+.pie-fila .precio{font-size:clamp(20px,5.8vw,24px);letter-spacing:-.01em}
+.precio .mu{font-size:.56em}
+.agregar{width:40px!important;height:40px!important}
+.producto-pie .p-transf{font-size:12px}
+.pie-fila .precio{font-size:clamp(18px,5.4vw,22px)}
+.pie-fila{gap:4px}
+.agregar{width:38px!important;height:38px!important}
+@media (max-width:420px){.producto-pie{padding-left:10px;padding-right:10px}}
