@@ -5069,12 +5069,12 @@
    "fotos": [
     "img/productos/s5x8jujdvv0.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 371,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 218
   },
   {
@@ -18052,12 +18052,12 @@
     "img/productos/ac7os3k8cah.webp",
     "img/productos/yoqh19ghac7.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 231,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 811
   },
   {
