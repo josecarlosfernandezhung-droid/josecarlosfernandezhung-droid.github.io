@@ -9262,12 +9262,12 @@
    "fotos": [
     "img/productos/s7exgt0t70f.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 13,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 407
   },
   {
@@ -10656,12 +10656,12 @@
    "fotos": [
     "img/productos/s860kro1bbf.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 470
   },
   {
@@ -14270,12 +14270,12 @@
    "fotos": [
     "img/productos/t5vpg8tvums.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 739,
    "masVendido": true,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 632
   },
   {
