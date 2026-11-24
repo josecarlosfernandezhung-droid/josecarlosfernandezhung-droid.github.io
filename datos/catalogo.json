@@ -565,8 +565,8 @@
    "precioOferta": null,
    "precioTransf": 1700,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Son de 15 amperios ",
+   "descripcion": "Son de 15 amperios ",
    "foto": "img/productos/ofq7742oi2h.webp",
    "fotos": [
     "img/productos/ofq7742oi2h.webp"
@@ -816,7 +816,7 @@
    ],
    "agotado": false,
    "nuevo": true,
-   "ventas": 38,
+   "ventas": 39,
    "masVendido": false,
    "destacado": false,
    "visible": true,
@@ -921,8 +921,8 @@
    "precioOferta": null,
    "precioTransf": 1000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Son de tiro rápido ",
+   "descripcion": "Son de tiro rápido ",
    "foto": "img/productos/ciykigjvb44.webp",
    "fotos": [
     "img/productos/ciykigjvb44.webp",
@@ -1312,7 +1312,7 @@
    ],
    "agotado": false,
    "nuevo": true,
-   "ventas": 84,
+   "ventas": 85,
    "masVendido": false,
    "destacado": false,
    "visible": true,
@@ -1458,8 +1458,8 @@
    "precioOferta": null,
    "precioTransf": 100,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "La caja trae 153 varillas ",
+   "descripcion": "La caja trae 153 varillas ",
    "foto": "img/productos/s4sop0vcv3y.webp",
    "fotos": [
     "img/productos/s4sop0vcv3y.webp"
@@ -1921,8 +1921,8 @@
    "precioOferta": null,
    "precioTransf": 200,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Las cajas vienen de 50 unidades ",
+   "descripcion": "Las cajas vienen de 50 unidades ",
    "foto": "img/productos/t5aaqjve7aw.webp",
    "fotos": [
     "img/productos/t5aaqjve7aw.webp"
@@ -2348,7 +2348,7 @@
    ],
    "agotado": false,
    "nuevo": true,
-   "ventas": 798,
+   "ventas": 799,
    "masVendido": true,
    "destacado": false,
    "visible": true,
@@ -3738,7 +3738,7 @@
    "fotos": [
     "img/productos/s5k4txd91gl.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 34,
    "masVendido": false,
@@ -8161,7 +8161,7 @@
   },
   {
    "id": "cq8jk6356kr",
-   "nombre": "Olla arrocera 1.8 EKO",
+   "nombre": "Olla arrocera 1.8 Estelectric",
    "categoria": "",
    "precio": 20500,
    "precioOferta": null,
@@ -9078,8 +9078,8 @@
    "precioOferta": null,
    "precioTransf": 3200,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Permiten conectar los paneles solares de forma rápida y segura Garantizan una conexión elé",
+   "descripcion": "Permiten conectar los paneles solares de forma rápida y segura \nGarantizan una conexión eléctrica firme y sin pérdida de energía. \nCierre de seguridad para evitar desconexiones accidentales. \nSon resistentes al agua, al polvo y a los rayos UV. \nIdeales para instalaciones fotovoltaicas",
    "foto": "img/productos/s7d8gq28o78.webp",
    "fotos": [
     "img/productos/s7d8gq28o78.webp"
@@ -9633,8 +9633,8 @@
    "precioOferta": null,
    "precioTransf": 200,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Los paquetes traen 10 esponjas los cuales salen en $1000 en efectivo ",
+   "descripcion": "Los paquetes traen 10 esponjas los cuales salen en $1000 en efectivo ",
    "foto": "img/productos/s7lia37j5p8.webp",
    "fotos": [
     "img/productos/s7lia37j5p8.webp"
@@ -9878,9 +9878,9 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/s7oquhibl7g.webp",
+   "foto": "img/productos/d3yyj3xxzm9.webp",
    "fotos": [
-    "img/productos/s7oquhibl7g.webp"
+    "img/productos/d3yyj3xxzm9.webp"
    ],
    "agotado": false,
    "nuevo": true,
@@ -11873,7 +11873,7 @@
    ],
    "agotado": false,
    "nuevo": true,
-   "ventas": 44,
+   "ventas": 46,
    "masVendido": false,
    "destacado": false,
    "visible": true,
@@ -11887,8 +11887,8 @@
    "precioOferta": null,
    "precioTransf": 380000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Especial para sistemas de energía solar. Conducción eléctrica eficiente y segura. Resisten",
+   "descripcion": "Especial para sistemas de energía solar.  Conducción eléctrica eficiente y segura. \nResistente a rayos UV, humedad y altas temperaturas. \nApto para uso en exteriores. \nIdeal para conectar paneles solares e inversores. \nTensión:1000/2000V \nCable de cobre con recubrimiento estañado",
    "foto": "img/productos/skqfutmwb4c.webp",
    "fotos": [
     "img/productos/skqfutmwb4c.webp",
@@ -12567,18 +12567,17 @@
   },
   {
    "id": "cq8jw1pi91s",
-   "nombre": "Maquina de afeitar",
+   "nombre": "Paquetes de máquinas de afeitar",
    "categoria": "",
-   "precio": 120,
+   "precio": 1200,
    "precioOferta": null,
-   "precioTransf": 240,
+   "precioTransf": 2400,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Los paquetes son de 10 unidades ",
+   "descripcion": "Los paquetes son de 10 unidades ",
    "foto": "img/productos/ntutbfl40bw.webp",
    "fotos": [
-    "img/productos/ntutbfl40bw.webp",
-    "img/productos/vxn66684qw4.webp"
+    "img/productos/ntutbfl40bw.webp"
    ],
    "agotado": false,
    "nuevo": true,
@@ -13538,7 +13537,7 @@
    ],
    "agotado": false,
    "nuevo": true,
-   "ventas": 13,
+   "ventas": 14,
    "masVendido": false,
    "destacado": false,
    "visible": true,
@@ -14198,8 +14197,8 @@
    "precioOferta": null,
    "precioTransf": 14000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Protege de forma segura instalaciones de corriente directa contra sobrecargas y cortocircu",
+   "descripcion": "Protege de forma segura instalaciones de corriente directa contra sobrecargas y cortocircuitos. Uso habitual en sistemas fotovoltaicos.",
    "foto": "img/productos/e2qofxvfsb4.webp",
    "fotos": [
     "img/productos/e2qofxvfsb4.webp"
@@ -14220,8 +14219,8 @@
    "precioOferta": null,
    "precioTransf": 19000,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Protege de forma segura instalaciones de corriente directa contra sobrecargas y cortocircu",
+   "descripcion": "Protege de forma segura instalaciones de corriente directa contra sobrecargas y cortocircuitos. Uso habitual en sistemas fotovoltaicos.",
    "foto": "img/productos/whwgodwdyob.webp",
    "fotos": [
     "img/productos/whwgodwdyob.webp"
@@ -17735,8 +17734,8 @@
    "precioOferta": null,
    "precioTransf": 1800,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Son pomos de 1L",
+   "descripcion": "Son pomos de 1L",
    "foto": "img/productos/f4mzm7xw842.webp",
    "fotos": [
     "img/productos/f4mzm7xw842.webp"
