@@ -13089,12 +13089,12 @@
    "fotos": [
     "img/productos/s99a2r2m1qo.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 31,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 579
   },
   {
