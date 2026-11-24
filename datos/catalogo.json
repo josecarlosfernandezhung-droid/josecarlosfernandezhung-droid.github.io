@@ -2788,12 +2788,12 @@
     "img/productos/uq4wnr4avgo.webp",
     "img/productos/s5a2t1pvdwk.webp"
    ],
-   "agotado": true,
+   "agotado": false,
    "nuevo": true,
    "ventas": 0,
    "masVendido": false,
    "destacado": false,
-   "visible": false,
+   "visible": true,
    "orden": 115
   },
   {
