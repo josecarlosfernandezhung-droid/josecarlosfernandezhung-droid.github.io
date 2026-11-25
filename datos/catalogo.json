@@ -1307,7 +1307,6 @@
    "fotos": [
     "img/productos/8wufltz7q1n.webp",
     "img/productos/cix8ecc4p4v.webp",
-    "img/productos/t5obi6yw6fl.webp",
     "img/productos/s4r5h9wojtr.webp"
    ],
    "agotado": false,
@@ -2759,8 +2758,8 @@
    "precioOferta": null,
    "precioTransf": 3600,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": " Control Remoto KT1440 Televisores 001 Haier 21' CRT 002 Haier 29· CRT 003 Panda 21' CRT 0",
+   "descripcion": "\nControl Remoto KT1440 \nTelevisores \n001 Haier 21' CRT \n002 Haier 29· CRT \n003 Panda 21' CRT \n004 Todos los TV Konka  \nHibridos \n005 Todos los TV Konka \nAnalógicos \n006 ATEC Hibrido \n007 Parker 21 TV2195 \n008 Parker. 14 TC14F5 \n009 ATEC DTV \n010 SOYEA DTV \nCajas Decodificadoras \n101 Todas las cajas \nKonka \n102 Mico DT46-N03 \n103 Mico DT25-2080 \n104 RealTV HMA 1 \n105 Haier \nHDMB-2000T/M \n106 Gelect HD 125 \nSoyea SDP160 \n107 Gelect SD-HL-215G \n108 Gelect HD-HL 1209 \n109 Todas las cajas \nRunch \nDVD \n201 Wentai 3031/3032 \n202 AV Link LW 109A\nComo introducir el codigo en el TV \nTelevisores\n1. Presions el botón \"TV' durante 3 segundos \nel indicador luminico se enciende .\n2. introdurca el codigo del modelo: por \nejemplo presione 001 para el TV Haier 21 CRT. Si el codigo es correcto se apagara el indicador luminico. Si el codigo no es correcto el indicador luminico no se apagara. \n3. Si no se presiona el botón TV o no se introduce un codigo durante un tiempo aproximado de 20 segs, Se apagara el indicador luminico \nPara Cajitas Decodificadoras\n1. Presione el botón CAJA/DVD\" durante 2 \nsegundos el indicador luminico se enciende \n2. introdurca el codigo del modelo, por \nejemplo presione. 201 para la caja KONKA KHDT875. Si el código es correcto se apaga el indicador luminico. Si el código es correcto. Si no es correcto el indicador luminico no se apagara \n\nEn el Control Remoto solamente se pueden programar dos (2) equipos al mismo tiempo Un Televisor \nUna Caja Decodificadora o un DVD",
    "foto": "img/productos/s59m2vcj5cc.webp",
    "fotos": [
     "img/productos/s59m2vcj5cc.webp"
@@ -7147,8 +7146,9 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/s6kf45ntf4j.webp",
+   "foto": "img/productos/ve4dy3f6elk.webp",
    "fotos": [
+    "img/productos/ve4dy3f6elk.webp",
     "img/productos/s6kf45ntf4j.webp",
     "img/productos/s6klc7xavd6.webp",
     "img/productos/s6ksivmxjim.webp",
@@ -17724,12 +17724,12 @@
    "ventas": 9,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 796
   },
   {
    "id": "kr9eabtggyo",
-   "nombre": "Detergente",
+   "nombre": "Detergente Liquido",
    "categoria": "",
    "precio": 900,
    "precioOferta": null,
