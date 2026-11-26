@@ -71,7 +71,7 @@
     "codigo": "USD",
     "nombre": "Dólar",
     "simbolo": "$",
-    "tasa": 0.0010526316,
+    "tasa": 0.0010416667,
     "activa": true
    }
   ],
@@ -4644,7 +4644,7 @@
   },
   {
    "id": "cq8jatnhd4v",
-   "nombre": "Pasta Dental",
+   "nombre": "Pasta dental",
    "categoria": "",
    "precio": 650,
    "precioOferta": null,
@@ -4652,8 +4652,9 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "img/productos/s5sld57iii2.webp",
+   "foto": "img/productos/wngdf0dry35.webp",
    "fotos": [
+    "img/productos/wngdf0dry35.webp",
     "img/productos/s5sld57iii2.webp"
    ],
    "agotado": false,
@@ -5526,7 +5527,7 @@
    "ventas": 20,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 238
   },
   {
@@ -6681,7 +6682,7 @@
    "ventas": 38,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 290
   },
   {
@@ -8596,7 +8597,7 @@
    "ventas": 306,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 376
   },
   {
@@ -8669,7 +8670,7 @@
   },
   {
    "id": "cq8jlp1kzn9",
-   "nombre": "Lima 900",
+   "nombre": "Lima",
    "categoria": "",
    "precio": 1000,
    "precioOferta": null,
@@ -9506,7 +9507,7 @@
    "ventas": 108,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 417
   },
   {
@@ -11476,8 +11477,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/vpbbwoy4yn8.webp",
+   "fotos": [
+    "img/productos/vpbbwoy4yn8.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 12,
@@ -12581,7 +12584,7 @@
   },
   {
    "id": "cq8jw1pi91s",
-   "nombre": "Paquetes de máquinas de afeitar",
+   "nombre": "Máquinas de Afeitar",
    "categoria": "",
    "precio": 120,
    "precioOferta": null,
@@ -13228,8 +13231,8 @@
    "precioOferta": null,
    "precioTransf": 560,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Rojo y verde solamente ",
+   "descripcion": "Rojo y verde solamente ",
    "foto": "img/productos/s98qq46ln7u.webp",
    "fotos": [
     "img/productos/s98qq46ln7u.webp"
@@ -14046,7 +14049,7 @@
    "ventas": 13,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 621
   },
   {
@@ -15922,7 +15925,7 @@
    "ventas": 55,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 709
   },
   {
@@ -16453,9 +16456,9 @@
    "id": "s8eh16yawlq",
    "nombre": "Panel solar 620w",
    "categoria": "",
-   "precio": 161500,
+   "precio": 163200,
    "precioOferta": null,
-   "precioTransf": 323000,
+   "precioTransf": 326400,
    "precioOfertaTransf": null,
    "resumen": "Paneles Solares marca RONMA de 620W ,45.55v a 15A",
    "descripcion": "Paneles Solares marca RONMA de 620W ,45.55v a 15A",
