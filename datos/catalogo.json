@@ -4644,7 +4644,7 @@
   },
   {
    "id": "cq8jatnhd4v",
-   "nombre": "Pasta dental",
+   "nombre": "Pasta Dental",
    "categoria": "",
    "precio": 650,
    "precioOferta": null,
@@ -5287,7 +5287,7 @@
   },
   {
    "id": "cq8jcjlaynl",
-   "nombre": "Juego De Cazuela De Inducción 7 Pcs",
+   "nombre": "Juego De Cazuelas 7 Pcs",
    "categoria": "",
    "precio": 22500,
    "precioOferta": null,
@@ -18153,8 +18153,8 @@
    "precioOferta": null,
    "precioTransf": 4800,
    "precioOfertaTransf": null,
-   "resumen": "",
-   "descripcion": "",
+   "resumen": "Es solo de 1 Taza de Café ",
+   "descripcion": "Es solo de 1 Taza de Café ",
    "foto": "img/productos/u099bense6p.webp",
    "fotos": [
     "img/productos/u099bense6p.webp"
