@@ -18152,8 +18152,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/u099bense6p.webp",
+   "fotos": [
+    "img/productos/u099bense6p.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
@@ -18172,8 +18174,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/u0jibnq7vp2.webp",
+   "fotos": [
+    "img/productos/u0jibnq7vp2.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
