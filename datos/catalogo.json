@@ -18196,8 +18196,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/u12l0s1h8jp.webp",
+   "fotos": [
+    "img/productos/u12l0s1h8jp.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
@@ -18216,8 +18218,10 @@
    "precioOfertaTransf": null,
    "resumen": "",
    "descripcion": "",
-   "foto": "",
-   "fotos": [],
+   "foto": "img/productos/u1bndht6ak6.webp",
+   "fotos": [
+    "img/productos/u1bndht6ak6.webp"
+   ],
    "agotado": false,
    "nuevo": true,
    "ventas": 0,
