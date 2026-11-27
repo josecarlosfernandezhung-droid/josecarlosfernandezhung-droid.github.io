@@ -4663,7 +4663,7 @@
    "ventas": 49,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 199
   },
   {
