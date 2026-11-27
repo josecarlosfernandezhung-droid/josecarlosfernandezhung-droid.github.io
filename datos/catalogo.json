@@ -11417,12 +11417,12 @@
     "img/productos/tq4e0cywydw.webp",
     "img/productos/s8oaojsbruc.webp"
    ],
-   "agotado": false,
+   "agotado": true,
    "nuevo": true,
    "ventas": 10,
    "masVendido": false,
    "destacado": false,
-   "visible": true,
+   "visible": false,
    "orden": 503
   },
   {
